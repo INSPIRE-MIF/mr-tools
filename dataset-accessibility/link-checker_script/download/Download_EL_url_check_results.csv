@@ -1,0 +1,4 @@
+uuid,url,url_status
+c515f9aa-4e9d-4ec9-9b7e-07dfd37a0868,http://geoportal.ypen.gr/geoserver/am_wfd_protected_polygons/ows?service=wfs,0
+GR.HellenicCadastre_FFAC7752-D8BB-43CE-B45D-B5F4F5A6C253,https://gis.ktimanet.gr/inspire/rest/services/cadastralparcels/CadastralParcel/MapServer/exts/InspireFeatureDownload/service?SERVICE=WFS&REQUEST=GetCapabilities,1
+9483c21a-6673-4c84-9e4f-52b2d5361d31,http://geoportal.ypen.gr/atom/wfd/wfd_ef.xml,1

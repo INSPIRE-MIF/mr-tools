@@ -1,0 +1,2 @@
+UUID 6aee6e40-4c4d-4734-8bbc-298960a0c1be: URL http://inspire.fomi.hu/inspire/atom/DLS_Bio-geographicalRegion.xml failed - HTTPConnectionPool(host='ps-isp-usr.cec.eu.int', port=8012): Read timed out. (read timeout=10)
+UUID 6aee6e40-4c4d-4734-8bbc-298960a0c1be: URL http://inspire.fomi.hu/inspire/atom/data/br-schema_hu_v5-v1.zip failed - HTTPConnectionPool(host='ps-isp-usr.cec.eu.int', port=8012): Read timed out. (read timeout=10)

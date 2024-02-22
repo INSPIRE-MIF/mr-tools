@@ -1,0 +1,10 @@
+UUID {DA0D592E-3296-48DC-A169-821728ED4F6B}: URL https://gis.lmi.is/geoserver/INSPIRE/wfs?service failed - URL responded with status code: 400
+UUID {CC77E50C-A326-4E75-A893-9BCAF125B911}: URL http://gis.ust.is/geoserver/wms?SERVICE=WFS failed - URL responded with status code: 400
+UUID {CA9E0748-7B39-4651-9B5F-157792F019D8}: URL https://gis.is/geoserver/skograektin/wfs?service=wfs&request=getcapabilities failed - URL responded with status code: 404
+UUID {5AF2B0EC-47E7-4D88-8821-BF2462674862}: URL https://gis.is/geoserver/skograektin/wfs?service=wfs&request=getcapabilities failed - URL responded with status code: 404
+UUID d65dadd7-1a0d-42e6-99b0-edf98ac4da3e: URL https://gis.is/geoserver/Minjastofnun/wfs failed - URL responded with status code: 400
+UUID c1d16d3d-2af2-4896-8f66-4680c0eadf9b: URL https://gis.is/geoserver/Minjastofnun/wfs failed - URL responded with status code: 400
+UUID f214cce2-3009-4ff7-8c00-6d0749bea0bd: URL https://gis.is/geoserver/embaetti_landlaeknis/wfs failed - URL responded with status code: 400
+UUID 7f7f78af-01ae-4769-b759-47930a390922: URL https://gis.is/geoserver/embaetti_landlaeknis/wfs failed - URL responded with status code: 400
+UUID dad22b92-0b6c-457f-b7d2-e290a19ba2dc: URL https://gis.is/geoserver/embaetti_landlaeknis/wfs failed - URL responded with status code: 400
+UUID {B4EFCAC5-BB9B-42E2-998A-7808758E9D83}: URL https://gis.is/geoserver/orkustofnun/wfs failed - URL responded with status code: 400

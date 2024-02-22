@@ -1,0 +1,12 @@
+uuid,url,url_status
+F43D230B-34AD-4608-A378-F79DECDA37BB,https://wms.inspire.geoportail.lu/geoserver/private/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=private%3AStables,1
+6cd6100c-3bc9-4b63-9e3d-9be43180f19a,https://wms.inspire.geoportail.lu/geoserver/ge/wcs?,0
+54c72c19-854f-46ef-8ea6-b7de95d97904,https://wms.inspire.geoportail.lu/geoserver/ge/wcs?,0
+3bb1dc3e-d9a1-477a-866a-064fb9074541,https://wms.inspire.geoportail.lu/geoserver/el/wcs?,0
+2842beaa-3aed-458c-bc5b-33d7956ee0d5,https://wms.inspire.geoportail.lu/geoserver/ge/wcs?,0
+24f0fba1-4258-41b4-9582-a1e276da4db8,https://wms.inspire.geoportail.lu/geoserver/ge/wcs?,0
+b7949b39-d586-4be5-b1e5-54baeaa9e797,https://wms.inspire.geoportail.lu/geoserver/ge/wcs?,0
+9ccca279-8f6a-4135-a8fa-6b2f8fd91d3c,https://wms.inspire.geoportail.lu/geoserver/ge/wcs?,0
+3f097c56-73f7-46be-969f-2f2b1a8bbade,https://wms.inspire.geoportail.lu/geoserver/el/wcs?,0
+215742e3-c73c-4ee1-acfe-8b4c4d6cf967,https://wms.inspire.geoportail.lu/geoserver/el/wcs?,0
+df9319a2-f1ec-4167-9fcf-a90ef3a13889,https://wms.inspire.geoportail.lu/geoserver/ge/wcs?,0

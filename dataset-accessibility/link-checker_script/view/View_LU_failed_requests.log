@@ -1,0 +1,15 @@
+UUID f649bca1-3948-440d-9154-dd5a6f0fec25: URL https://wms.inspire.geoportail.lu/geoserver/mf/wms?SERVICE=WMS&service=WMS&version=1.3.0&request=GetCapabilities failed - HTTPSConnectionPool(host='wms.inspire.geoportail.lu', port=443): Read timed out. (read timeout=5)
+UUID 6cd6100c-3bc9-4b63-9e3d-9be43180f19a: URL https://wms.inspire.geoportail.lu/geoserver/ge/wcs? failed - URL responded with status code: 400
+UUID 54c72c19-854f-46ef-8ea6-b7de95d97904: URL https://wms.inspire.geoportail.lu/geoserver/ge/wcs? failed - URL responded with status code: 400
+UUID 3bb1dc3e-d9a1-477a-866a-064fb9074541: URL https://wms.inspire.geoportail.lu/geoserver/el/wcs? failed - URL responded with status code: 400
+UUID 322BEA95-4512-4BFF-83EA-5348F59B672E: URL http://wmts1.geoportail.lu/asis/service?service=WMS&request=getCapabilities&version=1.3.0 failed - HTTPConnectionPool(host='ps-isp-usr.cec.eu.int', port=8012): Read timed out. (read timeout=5)
+UUID 2842beaa-3aed-458c-bc5b-33d7956ee0d5: URL https://wms.inspire.geoportail.lu/geoserver/ge/wcs? failed - URL responded with status code: 400
+UUID 24f0fba1-4258-41b4-9582-a1e276da4db8: URL https://wms.inspire.geoportail.lu/geoserver/ge/wcs? failed - URL responded with status code: 400
+UUID 3ac6ac41-8bc9-47c1-bc23-23b6a1693eec: URL https://wms.inspire.geoportail.lu/geoserver/oi/wms?SERVICE=WMS&service=WMS&version=1.3.0&request=GetCapabilities failed - HTTPSConnectionPool(host='wms.inspire.geoportail.lu', port=443): Read timed out. (read timeout=5)
+UUID 42cce2f2-2e7a-40a1-834d-fc83e72adaab: URL https://wms.inspire.geoportail.lu/geoserver/hh/wms?SERVICE=WMS&service=WMS&version=1.3.0&request=GetCapabilities failed - HTTPSConnectionPool(host='wms.inspire.geoportail.lu', port=443): Read timed out. (read timeout=5)
+UUID b7949b39-d586-4be5-b1e5-54baeaa9e797: URL https://wms.inspire.geoportail.lu/geoserver/ge/wcs? failed - URL responded with status code: 400
+UUID 9ccca279-8f6a-4135-a8fa-6b2f8fd91d3c: URL https://wms.inspire.geoportail.lu/geoserver/ge/wcs? failed - URL responded with status code: 400
+UUID 8b0f7704-7b24-48c3-9675-a47f0f33a77f: URL https://wms.inspire.geoportail.lu/geoserver/oi/wms? failed - HTTPSConnectionPool(host='wms.inspire.geoportail.lu', port=443): Read timed out. (read timeout=5)
+UUID 3f097c56-73f7-46be-969f-2f2b1a8bbade: URL https://wms.inspire.geoportail.lu/geoserver/el/wcs? failed - URL responded with status code: 400
+UUID 215742e3-c73c-4ee1-acfe-8b4c4d6cf967: URL https://wms.inspire.geoportail.lu/geoserver/el/wcs? failed - URL responded with status code: 400
+UUID 5a9e105b-b8a7-4fb8-ba79-ec3822211237: URL https://wms.inspire.geoportail.lu/geoserver/ps/wms?SERVICE=WMS&service=WMS&version=1.3.0&request=GetCapabilities failed - HTTPSConnectionPool(host='wms.inspire.geoportail.lu', port=443): Read timed out. (read timeout=5)
