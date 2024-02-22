@@ -1,0 +1,1532 @@
+-- M&R 2023 DOWNLOADABLE DATASET METADATA EVALUATION VIA SQL
+-- This SQL statements were used to evaluate the potential accessibility of datasets through Download services through the './gmd:MD_DigitalTransferOptions/gmd:online/gmd:CI_OnlineResource' metadata element (in application of the Data-Service Linking Simplification INSPIRE Good Practice approach), without testing if the URL links reported in this element were operational.
+-- The data was used as background information for testing the Python script used for evaluating the final Accessibility indicators.
+
+-- 07041901-432c-4c25-9f0a-2313871b32e9	BE-GEO
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '07041901-432c-4c25-9f0a-2313871b32e9') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   
+-- 	   )
+-- 	  );
+-- Returns 81
+
+
+-- fcbd6e24-8a3c-480b-a1c5-7c0eb3f1b86c	BE-GEOBRU
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'fcbd6e24-8a3c-480b-a1c5-7c0eb3f1b86c') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   			   
+-- 	   )
+-- 	  );
+-- Returns 39
+
+
+-- 46372588-232e-41d9-8404-118e547f9cd6	BE-WALLONIE
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '46372588-232e-41d9-8404-118e547f9cd6') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   			   
+-- 	   )
+-- 	  );
+-- Returns 171
+
+
+-- 16ef7cb3-b144-4d16-bf6b-1d99ac4df143	BE-VLAANDEREN
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '16ef7cb3-b144-4d16-bf6b-1d99ac4df143') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   			   
+-- 	   )
+-- 	  );
+-- Returns 254
+
+
+-- b50f8b12-5b04-4648-be93-ee103002e4f3	HR
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'b50f8b12-5b04-4648-be93-ee103002e4f3') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 99
+
+
+-- 8b722540-763d-4ea2-985e-9bcf6bfe82ca	CZ
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '8b722540-763d-4ea2-985e-9bcf6bfe82ca') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   			   
+-- 	   )
+-- 	  );
+-- Returns 87
+
+
+-- e44416c9-082c-4ffe-9b43-e776960f1fa2	FR
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'e44416c9-082c-4ffe-9b43-e776960f1fa2') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   			   
+-- 	   )
+-- 	  );
+-- Returns 129
+
+
+-- 8e9f6f41-12a5-4c7b-a75e-d0faa7974d4c	NL
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '8e9f6f41-12a5-4c7b-a75e-d0faa7974d4c') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 192
+
+
+-- 917ecef2-030d-4f61-a874-a8fa45dbb1e5	ES
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '917ecef2-030d-4f61-a874-a8fa45dbb1e5') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   			   
+-- 	   )
+-- 	  );
+-- Returns 248
+
+
+-- 02c2748f-82ca-4ceb-92de-70e1d620d496	EE
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '02c2748f-82ca-4ceb-92de-70e1d620d496') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   
+-- 	   )
+-- 	  );
+-- Returns 70
+
+
+-- 0513916a-d442-4974-afd1-47d9ccc27b23	BG
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '0513916a-d442-4974-afd1-47d9ccc27b23') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				      
+-- 	   )
+-- 	  );
+-- Returns 117
+
+
+-- d6c7bb79-beb4-4efc-8e99-b2b386004de7	EL
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'd6c7bb79-beb4-4efc-8e99-b2b386004de7') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 45
+
+
+-- 470a8afd-bd30-4bc6-a044-cbbc46c89c68	LT
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '470a8afd-bd30-4bc6-a044-cbbc46c89c68') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   	   
+-- 	   )
+-- 	  );
+-- Returns 95
+
+
+-- cad4f63a-2868-4116-b140-e2b324133207	NO
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'cad4f63a-2868-4116-b140-e2b324133207') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   				   
+-- 	   )
+-- 	  );
+-- Returns 88
+
+
+-- e5584907-90de-424d-8d40-7f7a418e569b	PT
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'e5584907-90de-424d-8d40-7f7a418e569b') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   			   
+-- 	   )
+-- 	  );
+-- Returns 392
+
+
+-- 7447eb94-46a8-4995-9fc0-635ff0d2f5c2	LV
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '7447eb94-46a8-4995-9fc0-635ff0d2f5c2') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   
+-- 	   )
+-- 	  );
+-- Returns 29
+
+
+-- 85a23ec3-62d5-4c15-875d-b6802485b629	PL
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '85a23ec3-62d5-4c15-875d-b6802485b629') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   
+-- 	   )
+-- 	  );
+-- Returns 129
+
+
+-- 864dd8d5-5e47-47b4-8115-9675d62d316e	CH
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '864dd8d5-5e47-47b4-8115-9675d62d316e') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   	   
+-- 	   )
+-- 	  );
+-- Returns 10
+
+
+-- 16a10f8c-5931-49b9-b9b2-923b69d36f15	IE
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '16a10f8c-5931-49b9-b9b2-923b69d36f15') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				      
+-- 	   )
+-- 	  );
+-- Returns 63
+
+
+-- 8d8e666a-de4f-49ad-808b-01ba51b62d7d	AT
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '8d8e666a-de4f-49ad-808b-01ba51b62d7d') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   	   
+-- 	   )
+-- 	  );
+-- Returns 948
+
+
+-- 29f5dbeb-474e-42a3-94bc-1b76952299ad	LU
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '29f5dbeb-474e-42a3-94bc-1b76952299ad') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 286
+
+
+-- 76edce98-d5a3-44bb-9ff5-2c29b422c5a2	DK
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '76edce98-d5a3-44bb-9ff5-2c29b422c5a2') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   	   
+-- 	   )
+-- 	  );
+-- Returns 192
+
+
+-- 71c96a8f-fb74-4bc6-9a15-2f798f62a7d4	LI
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '71c96a8f-fb74-4bc6-9a15-2f798f62a7d4') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   	   
+-- 	   )
+-- 	  );
+-- Returns 0
+
+
+-- 0f15a1d5-3ae5-4169-8cd0-1e9f14cf8baf	IS
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '0f15a1d5-3ae5-4169-8cd0-1e9f14cf8baf') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 68
+
+
+-- f2e04512-5b00-4fd6-986f-7be30c75eb35	RO
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'f2e04512-5b00-4fd6-986f-7be30c75eb35') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   	   
+-- 	   ) 
+-- 	  );
+-- Returns 11
+
+
+-- 1f8aac63-304d-4618-b18e-1ff28627e051	SK
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '1f8aac63-304d-4618-b18e-1ff28627e051') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 132
+
+
+-- deea5672-2d32-46ae-be07-aec9e4c58849	SE
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'deea5672-2d32-46ae-be07-aec9e4c58849') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   	   
+-- 	   )
+-- 	  );
+-- Returns 233
+
+
+-- 7ca98445-49f7-4e1a-9365-627650113b6d	SI
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '7ca98445-49f7-4e1a-9365-627650113b6d') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   
+-- 	   )
+-- 	  );
+-- Returns 26
+
+
+-- 38126778-f198-4fe3-a71f-81f994ea7401	HU
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '38126778-f198-4fe3-a71f-81f994ea7401') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 62
+
+
+-- 0ebf78d5-7b65-40cf-9ac7-e5b2cb3771ea	CY
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '0ebf78d5-7b65-40cf-9ac7-e5b2cb3771ea') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 43
+
+
+-- b9545f06-11ac-4a81-8079-9d63cd625f58	MT
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'b9545f06-11ac-4a81-8079-9d63cd625f58') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 150
+
+
+-- b0259e81-cd1c-4354-bfa2-5cad4c3c7308	FI
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = 'b0259e81-cd1c-4354-bfa2-5cad4c3c7308') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 249
+
+
+-- 1bae6e77-8e8e-480c-be6b-d9f47f31371b	IT
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '1bae6e77-8e8e-480c-be6b-d9f47f31371b') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   		   
+-- 	   )
+-- 	  );
+-- Returns 3155
+
+
+-- 711a39f4-880f-4704-b005-51798adb4a3d	DE
+-- Looks for WFS, ATOM, API Feat, WCS, SOS, SensorThings (dataset metadata count)
+-- SELECT count(m.uuid) FROM metadata m 
+-- WHERE ((m.harvestuuid = '711a39f4-880f-4704-b005-51798adb4a3d') AND ((LOWER(m.data) LIKE '%codelistvalue="dataset"%') OR (LOWER(m.data) LIKE '%codelistvalue="series"%')) AND 
+-- 	   (
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wfs%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%feature%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wfs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%atom%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%atom%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%api%features%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%api%features%')
+-- 		   OR		   
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:api%features%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%wcs%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%web%coverage%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:wcs%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sos%</gmd:url>%')		   
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%observation%service%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%ogc:sos%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensor%things%</gmd:url>%')
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<gmd:linkage%<gmd:url%sensorthings%</gmd:url>%')			  
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensor%things%')	
+-- 		   OR
+-- 		   (LOWER(m.data) LIKE '%<gmd:md_digitaltransferoptions%<gmd:online%<gmd:ci_onlineresource%<%gmd:protocol%sensorthings%')				   			   
+-- 	   )
+-- 	  );
+-- Returns 78049
