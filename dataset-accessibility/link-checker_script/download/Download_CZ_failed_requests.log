@@ -1,0 +1,2 @@
+UUID a8b1c110-34df-486d-83cb-587f196a7223: URL https://geoportal.mzcr.cz/server/services/VerejneAplikace/KoupaciVody/MapServer/WFSServer?request=GetCapabilities&service=WFS failed - URL responded with status code: 404
+UUID CZ-00025712-CUZK_SERIES-MD_CPX_test: URL http://services.cuzk.cz/wfs/inspire-cpx-wfs.asp? failed - URL responded with status code: 400

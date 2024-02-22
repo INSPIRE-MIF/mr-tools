@@ -1,0 +1,3 @@
+UUID muinsuskaitseamet_muinas: URL https://gsavalik.envir.ee/geoserver/muinsuskaitse/wfs?service=WFS&request=Getcapabilities. failed - URL responded with status code: 400
+UUID maanteeamet_teeregister: URL https://teeregister.mnt.ee/290424/wfs?&service=WFS&version=1.1.0&request=Getcapabilities failed - HTTPSConnectionPool(host='teeregister.mnt.ee', port=443): Read timed out. (read timeout=10)
+UUID maanteeamet_teeregister: URL https://teeregister.mnt.ee/reet/docs/Teeregistri_avalik_WFS_teenus.docx failed - HTTPSConnectionPool(host='teeregister.mnt.ee', port=443): Read timed out. (read timeout=10)

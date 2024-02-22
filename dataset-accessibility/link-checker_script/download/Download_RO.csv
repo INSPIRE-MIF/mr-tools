@@ -1,0 +1,12 @@
+uuid,data
+1686205543361r5190780700490629,https://inspire.mmap.ro/server/rest/services/INSPIRE/PS_download/MapServer/exts/InspireFeatureDownload/service?VERSION=2.0.0&SERVICE=WFS&REQUEST=getCapabilities
+1603273567504r832912130215991,https://gis.apia.org.ro/server/rest/directories/arcgisforinspire/INSPIRE/OI_Download_MapServer/Main_ATOM_OI.xml
+1603266462118r5529200772640291,https://gis.apia.org.ro/server/rest/directories/arcgisforinspire/INSPIRE/AF_Download_MapServer/Main_ATOM_AF.xml
+b7e35875-272e-416e-bf85-8f3789c48198,https://inspire.meteoromania.ro/WIGOS/WFS?service=WFS&version=2.0.0&request=GetFeature&typeNames=ef%3AEnvironmentalMonitoringNetwork&outputFormat=gml32
+1686209893927r10050934302934,https://inspire.mmap.ro/server/rest/services/INSPIRE/SD_art12_distribution_download/MapServer/exts/InspireFeatureDownload/service?VERSION=2.0.0&SERVICE=WFS&REQUEST=getCapabilities
+1686211248844r3066339459820855,https://inspire.mmap.ro/server/rest/services/INSPIRE/BR_download/MapServer/exts/InspireFeatureDownload/service?VERSION=2.0.0&SERVICE=WFS&REQUEST=getCapabilities
+{DFB2E605-0AC9-4364-B4A7-C8624B57FE06},http://geodata.rosa.ro/arcgis/services/Lccs03/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetCapabilities
+{58A5960D-901A-47E4-9CEA-FB6F29D15E64},http://geoportal.ancpi.ro/inspiredownload/rest/directories/arcgisforinspire/AU/AU_Download_MapServer/Main_ATOM_AU.xml
+{1A7DA612-B279-432C-8F46-BD6DB4E5FF66},http://gis.anpm.ro/services/services/AQD/AQD_Zones_Agglomerations/MapServer/WFSServer?request=GetCapabilities&service=WFS
+{2DFBA335-5730-43E5-8DE4-FD25A5420DEB},https://geoportal.igr.ro/ATOM_service_download_GE/RO_IGR_GE.xml
+{3E996DE5-8B66-4EDB-B3F8-E00EB97CCDD1},http://www.transgaz.ro/Downloads/inspire/transgazdownloadservice.atom.en.xml

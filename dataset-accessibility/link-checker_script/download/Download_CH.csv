@@ -1,0 +1,9 @@
+uuid,data
+e81d4df0-52c8-4258-a38b-96f6761c976b,https://atom.geo.admin.ch/inspire/service.xml
+05d72e74-ecb8-4fe5-b122-ec883312a033,https://atom.geo.admin.ch/inspire/service.xml
+419833d1-4c97-47d3-a3de-3598378b75a2,https://atom.geo.admin.ch/inspire/service.xml
+7234896a-842c-4524-8710-5d900953cb1d,https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geodaesie-isostatische_anomalien
+7234896a-842c-4524-8710-5d900953cb1d,https://data.geo.admin.ch/ch.swisstopo.geologie-geodaesie-isostatische_anomalien
+7234896a-842c-4524-8710-5d900953cb1d,https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geodaesie-isostatische_anomalien
+fc2c80e5-fc87-415a-ac05-b2520957d155,https://atom.geo.admin.ch/inspire/service.xml
+fc2c80e5-fc87-415a-ac05-b2520957d155,https://deegree-cd.wetransform.to/services/user.1.b85436c3-05b3-4d0b-8b7f-ae6064c63d9b_wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0

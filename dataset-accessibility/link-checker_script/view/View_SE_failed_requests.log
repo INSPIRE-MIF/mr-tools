@@ -1,0 +1,4 @@
+UUID d816d488-9d73-4261-93b9-1ddcd2715dab: URL https://gis.swedgeo.se/geoserver/inspire2022/wms? failed - URL responded with status code: 404
+UUID d816d488-9d73-4261-93b9-1ddcd2715dab: URL https://gis.swedgeo.se/geoserver/inspire2022/wms? failed - URL responded with status code: 404
+UUID bb6a68cc-35a4-4b53-902e-142cd18826fb: URL https://api.lantmateriet.se/distribution/geodatakatalog/visning/v1/detaljplan/v1/wms?request=GetCapabilities&version=1.1.1&service=WMS failed - URL responded with status code: 401
+UUID bb6a68cc-35a4-4b53-902e-142cd18826fb: URL https://api.lantmateriet.se/distribution/geodatakatalog/visning/v1/detaljplan/v1/wms?request=GetCapabilities&version=1.1.1&service=WMS failed - URL responded with status code: 401
