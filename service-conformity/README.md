@@ -6,7 +6,7 @@ The SQL queries extracts the self-declared conformity to Regulation (EC) No 976/
 
 A different filter may be applied each time to select only Discovery, View, Download or Transformation services as part of the evaluation.
 
-It result are either: 
+The result is either: 
 
 * the **Total of Service** (All services or the Total of services corresponding to an specific service type - Depending on the filter applied).
 * the **Total of Conformant Datasets** (Depending on the filter applied).
