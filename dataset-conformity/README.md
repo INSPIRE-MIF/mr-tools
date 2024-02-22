@@ -1,6 +1,6 @@
 # INSPIRE Monitoring and Reporting 2023 - Dataset conformity evaluation
 
-This folder contains a set of SQL queries to automatically check the conformity of datasets reported by each Member State / EFTA Country as part of the Monitoring and Reporting (M&R) 2023 process.
+This folder contains a set of SQL queries to automatically check the conformity of datasets reported by each Member State / EFTA Country as part of the Monitoring and Reporting (M&R) 2023 process. The metadata records are exploited directly from the INSPIRE Geoportal GeoNetwork Postgres database.
 
 The SQL queries extracts the self-declared conformity to Commission Regulation (EU) No 1089/2010 on interoperability of spatial data sets, reported under the '/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/' path of the datasets metadata records.
 
