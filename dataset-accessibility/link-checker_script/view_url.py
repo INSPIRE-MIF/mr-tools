@@ -1,6 +1,7 @@
 import csv
 import requests
 import view
+from datetime import datetime
 
 # Define a custom timeout (in seconds) for the requests
 request_timeout = 5  # Adjust the timeout as needed
@@ -53,18 +54,19 @@ with open(input_csv, mode='r', newline='', encoding='utf-8') as infile, \
 
         # Check the URL and record the status and error message
         url_status, error_message = check_url(url)
+        timestamp = datetime.now().isoformat()  # Get the current date and time in ISO format
 
         # If the URL check is successful, add the UUID to successful_uuids set
         if url_status:
             successful_uuids.add(uuid)
         else:
             # Log the failed request, associated UUID, and the error message
-            log_file.write(f"UUID {uuid}: URL {url} failed - {error_message}\n")
+            log_file.write(f"{timestamp}: UUID {uuid}: URL {url} failed - {error_message}\n")
 
         # Write the result to the output CSV
-        writer.writerow({'uuid': uuid, 'url': url, 'url_status': int(url_status)})
+        writer.writerow({'uuid': uuid, 'url': url, 'url_status': int(url_status), 'timestamp': timestamp})
 
-        print(f"UUID {uuid}: URL {url} responded with status {int(url_status)}")
+        print(f"{timestamp}: UUID {uuid}: URL {url} responded with status {int(url_status)}")
 
 # Determine UUIDs without any successful response
 failed_uuids = all_uuids - successful_uuids
