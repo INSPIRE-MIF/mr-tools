@@ -1,0 +1,32 @@
+{
+	"id": "INSPIRE-4fed3eb0-06fa-11ea-8480-525400695e9c_20211220-070802",
+	"type_count": {
+		"dataset": 76614,
+		"series": 579,
+		"service": 117891,
+		"unknown": 5,
+		"missing": 1,
+		"duplicate": 0
+	},
+	"type_ids": {
+		"unknown": [
+			"B253A3A2-7D5E-11D3-B18A-0040333B31EA",
+			"abccf867-9504-4180-b2cb-0c6aa3a40733",
+			"fd3fe5bb-83aa-41cd-bbc0-08d2c0874483",
+			"e94a07d7-2d52-4e1d-9418-49ea1e057255",
+			"e1fb6246-9d54-4261-8891-b58a665cf58d"
+		],
+		"missing": ["456d9a8c-8eca-4ce7-a473-04e1dd450f04"],
+		"duplicate": [""]
+	},
+	"validation": {
+		"dataset": {
+			"pass": 55154,
+			"fail": 22039
+		},
+		"services": {
+			"pass": 110763,
+			"fail": 7128
+		}
+	}
+}

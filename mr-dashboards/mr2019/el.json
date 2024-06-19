@@ -1,0 +1,50 @@
+{
+    "countrycode": "el",
+    "countryname": "Greece",
+    "endpoints": [
+        {
+            "id": "INSPIRE-b4838d76-ec02-11e8-a08e-52540023a883",
+            "session-id": "INSPIRE-b4838d76-ec02-11e8-a08e-52540023a883_20200113-091602",
+            "url": "http://geoportal.ypen.gr/geonetwork/srv/eng/csw",
+            "dumpdate": "2019-12-16",
+            "dataset": "57",
+            "services": "17",
+            "series": "0",
+            "indicators": {
+                "DSi_1_1": "57",
+                "DSi_1_2": "17",
+                "DSi_1_3": "54",
+                "DSi_1_4": "0",
+                "DSi_1_5": "33",
+                "MDi_1_1": "100%",
+                "MDi_1_2": "100%",
+                "DSi_2_0": "0.0%",
+                "DSi_2_1": "0.0%",
+                "DSi_2_2": "Not available",
+                "DSi_2_3": "0.0%",
+                "NSi_2_0": "100.0%",
+                "NSi_2_1": "100.0%",
+                "NSi_2_2": "100.0%",
+                "NSi_4_0": "5.9%",
+                "NSi_4_1": "100.0%",
+                "NSi_4_2": "0.0%",
+                "NSi_4_3": "0.0%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 57,
+                    "fail": 0,
+                    "1.3": 0,
+                    "2.0": 57
+                },
+                "services": {
+                    "pass": 17,
+                    "fail": 0,
+                    "1.3": 0,
+                    "2.0": 17
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+file_id;md_id;type;error_count;errors
+1-20/10;1a3c6961-9334-11e9-a25b-482ae30f98d9;service;1;C.1
+1-20/11;1b69c5cf-9334-11e9-abaf-482ae30f98d9;service;1;C.1
+1-20/1;01d4aeaf-1302-47a7-83c0-4fd0820b1427;dataset;1;C.1
+1-20/13;232844d3-26c5-47e4-9dae-1386fc4647e9;dataset;4;C.15 C.17 2.2 M.1
+1-20/18;2cadfdc0-ebf0-4f53-b572-09f7235aaec4;service;1;C.1
+1-20/14;24c018e0-e9bd-4315-8e64-b9dbe724710c;dataset;4;C.15 C.17 2.2 M.1
+1-20/17;29f40b0d-2a3e-49a8-870a-e9b4acd4d1e3;dataset;1;M.2
+1-20/4;067c8ccb-50fa-4918-9f6b-6b1248b3bef3;dataset;1;M.1
+1-20/5;07a4b1b2-8cc6-4118-a142-c0fcd1ee8ace;dataset;1;C.1
+101-120/11;e59181f0-8469-44c6-8f6c-a5e1a4af15d5;dataset;1;M.1
+101-120/20;fa4df595-0413-4f33-a54f-fb048426576d;service;1;C.1
+121-140/11;RMI_DATASET_CLIMATE_STATISTICS;dataset;5;C.18 2.2 2.4 2.6 M.1
+121-140/10;RMI_DATASET_CLIMATE_OBSERVATIONS;dataset;5;C.18 2.2 2.4 2.6 M.1
+121-140/14;RMI_DATASET_GRIDDEDOBS;dataset;5;C.18 2.2 2.4 2.6 M.1
+121-140/13;RMI_DATASET_EXTREME_PRECIPITATION;dataset;5;C.18 2.2 2.4 2.6 M.1
+121-140/12;RMI_DATASET_COMMUNE_FORECAST_1H;dataset;5;C.18 2.2 2.4 2.6 M.1
+121-140/17;RMI_LIDAR_WFS;service;3;C.18 3.1 3.8
+121-140/15;RMI_DATASET_LIDAR;dataset;5;C.18 2.2 2.4 2.6 M.1
+121-140/16;RMI_DATASET_SYNOP;dataset;5;C.18 2.2 2.4 2.6 M.1
+121-140/2;RMI_ALARO_WCS;service;3;C.18 3.1 3.8
+121-140/18;RMI_LIDAR_WMS;service;3;C.18 3.1 3.8
+121-140/19;RMI_SYNOP_WFS;service;3;C.18 3.1 3.8
+121-140/4;RMI_AWS_WFS;service;3;C.18 3.1 3.8
+121-140/20;RMI_SYNOP_WMS;service;3;C.18 3.1 3.8
+121-140/7;RMI_DATASET_AWS_10MIN;dataset;5;C.18 2.2 2.4 2.6 M.1
+121-140/3;RMI_ALARO_WMS;service;3;C.18 3.1 3.8
+121-140/5;RMI_AWS_WMS;service;3;C.18 3.1 3.8
+121-140/6;RMI_DATASET_ALARO;dataset;5;C.17 2.2 2.4 2.6 M.1
+121-140/8;RMI_DATASET_AWS_1DAY;dataset;5;C.18 2.2 2.4 2.6 M.1
+121-140/9;RMI_DATASET_AWS_1HOUR;dataset;5;C.18 2.2 2.4 2.6 M.1
+21-40/11;5cfe8a91-3dc9-4cf6-a40a-6a6d6f3124ab;service;1;3.6
+21-40/14;6657e6da-7345-416f-bef6-c6a8b2def9bd;dataset;1;C.1
+21-40/17;69ff70d1-012a-4483-9a75-03233f145556;dataset;1;C.1
+21-40/10;59379275-3f11-448a-9120-bb5da3af7f67;service;5;C.15 C.17 3.1 3.6 3.8
+21-40/2;38fe6fee-0ac7-11ea-b2e4-34e12d0f0423;dataset;1;C.1
+21-40/18;6c467faa-a594-4142-abf2-d16aab3f255c;service;3;C.17 3.1 3.8
+21-40/7;57de54b1-4739-4e34-b8ab-a2d34d0bf37f;service;1;3.6
+21-40/19;6dae1ca4-387b-11eb-8113-00155d109d37;dataset;1;M.1
+21-40/3;39ab42ba-c371-418b-b88e-a9d16570713f;service;2;C.1 3.6
+21-40/20;75ba33db-0c91-4b21-ba48-3f4976b86779;service;1;C.18
+41-60/12;8dad9c98-0512-4845-a2bf-3ace1c93df6f;service;1;C.1
+21-40/5;4a4f5e3c-91ce-4f1c-8bbf-cd8b2e87fb5d;dataset;4;C.15 C.17 1.7 2.2
+21-40/8;59129f4b-a61b-467c-9b41-1f92e4338151;dataset;1;C.1
+41-60/15;92f330a7-8781-4dbd-966e-1bb8e5314009;dataset;1;M.1
+41-60/18;99d4d01a-eae7-446c-a053-4ec0c18e6fb5;service;1;C.1
+41-60/17;97c75e13-6102-497a-b53d-d47dfa9f7720;dataset;1;C.1
+61-80/10;a71845e4-387d-11eb-b0ec-00155d109d37;service;2;C.1 3.6
+41-60/16;975899ef-02f4-4e07-b262-43aa9dc02c2d;dataset;1;M.1
+41-60/19;9afbf0ea-8f63-4013-bdde-34ad3ee98b79;service;2;C.1 C.18
+61-80/16;b10a532e-832d-4f2c-8aa9-d2baa91201fd;dataset;1;C.1
+61-80/12;a9187022-0bf6-4e96-a787-25476d9f1173;dataset;1;C.1
+61-80/3;a07d5a86-3d5a-4a9a-a29e-085f709d3ce2;service;2;C.1 3.6
+61-80/6;a2548b46-ab06-47ca-bfbc-0fb8a5d4eccb;service;2;C.1 3.6
+41-60/6;8180d0f1-eca0-4b96-b7f1-aa8b158c2959;service;1;C.1
+61-80/9;a71223fd-0bef-44b5-afe4-e3cb3e58b2dc;dataset;2;C.1 1.7
+61-80/20;b9d3181d-9173-46e6-a257-b0e070cefabb;dataset;1;M.1
+61-80/8;a4bbf2e9-efe4-4b24-9522-b785c941b66e;service;3;C.17 3.1 3.8
+81-100/10;bmdc.be:dataset:2030;dataset;1;C.10
+61-80/17;b25e1487-8fe5-4dd2-b413-3155cb1fd53a;service;1;C.18
+81-100/1;bdbf4888-96ae-46ee-8818-a5a7abcafe49;service;1;3.6
+81-100/12;bmdc.be:dataset:2032;dataset;1;C.10

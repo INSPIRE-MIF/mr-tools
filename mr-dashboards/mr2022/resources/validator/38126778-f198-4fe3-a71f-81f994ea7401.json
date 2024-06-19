@@ -1,0 +1,51 @@
+{
+  "id": "38126778-f198-4fe3-a71f-81f994ea7401",
+  "type_count": {
+    "dataset": 111,
+    "series": 0,
+    "service": 59,
+    "unknown": 0,
+    "missing": 20,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      ""
+    ],
+    "missing": [
+      "b0befc9a-ad29-4a26-ae8c-9ef53217442b",
+      "8d7ef848-28c5-43c4-8581-4df715053d23",
+      "845263e4-ba0e-440a-bcf6-167196998d87",
+      "5a6ba80c-d48e-462e-b352-758ff68d509b",
+      "59d61f75-6345-4fdd-aef7-95db3c43267e",
+      "67ea8107-a435-4b5d-8602-2a86481827b3",
+      "1528e7a0-06cf-4645-8a98-261367869525",
+      "05419984-d0ee-482c-9666-2797b7fcbf12",
+      "0d7d93c5-0718-4f02-98fd-c9e01d7bf482",
+      "ee951499-ebeb-4098-885f-73d1bdd7f01a",
+      "ef512af3-c615-42e6-9218-f8ff0a0829bf",
+      "e8c48d5f-dc14-4a02-9d05-61f40e1739f9",
+      "ec35dcd9-6bad-407e-ac47-9c170b45807f",
+      "e1021071-5063-4127-97a7-12f4830c6f31",
+      "f3a4749a-9cf0-486c-9d7c-e5a31596b025",
+      "ffaf3996-2c2e-4676-b9a8-b11c31274fcb",
+      "dabc2035-b6cd-4f9f-9cf1-47ad611246d2",
+      "cfd01f8b-f153-48ae-bc13-c94681be6888",
+      "b04d83e1-f44d-470b-a09e-76522f46bb15",
+      "a05106fb-a309-4405-a9e7-00a337d80836"
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 1,
+      "fail": 110
+    },
+    "services": {
+      "pass": 0,
+      "fail": 59
+    }
+  }
+}

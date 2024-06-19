@@ -1,0 +1,24 @@
+file_id;md_id;type;error_count;errors
+1-20/19;ES_SDGC_CP;dataset;1;1.3
+1-20/9;ES.GFA.CP.MD;dataset;1;C.1
+1-20/20;ES_SDGC_AD;dataset;1;1.3
+101-120/10;4c28dd6f-0dd7-4614-a2bd-ef9d51500785;service;1;C.1
+181-200/9;52b58bb0-19ad-482b-a837-b5dbb8665931;service;1;3.6
+21-40/10;ES_SDGC_BU;dataset;1;1.3
+21-40/8;ES_SDGC_CP_WFS;service;1;3.6
+221-240/20;4ec17280-83f2-49ce-8d7d-7f43308de947;dataset;1;1.10
+241-260/3;af7aeed6-cd6c-4456-92ff-d1026c60a27e;dataset;2;C.1 2.2
+241-260/20;d8ef15bc-1524-4fa9-a7c8-ab48434853d0;dataset;1;1.10
+261-280/15;spaINE_wmsSecciones;service;2;C.1 C.7
+281-300/1;spacarcapacaptwmstematica20131216;dataset;1;C.18
+281-300/16;spacarcapaemerrecsanitarioswmstematica20140408;dataset;1;C.18
+301-320/11;spaGeoportalWMS;service;1;C.1
+281-300/2;spacarcapaceneducativoswmstematica20141201;dataset;1;C.18
+341-360/19;spaminetadpermisosysondeos;dataset;2;1.5 1.10
+341-360/18;a255a7fb-1240-4443-b759-62b76f721757;dataset;1;1.10
+381-400/4;d4ffc403-f1d9-4a64-a7f0-1ebcb99deca4;dataset;1;1.10
+341-360/4;spacarcaparuidodtnwmstematica20130304;dataset;1;C.18
+501-520/10;spacarcapaparqeolwmstematica20131216;dataset;1;C.18
+421-440/10;GLG_IET_BTG500023029_20120330;dataset;5;C.5 C.17 C.18 1.6 1.10
+521-540/5;spacarcapaemervolunwmstematica20140408;dataset;1;C.18
+81-100/13;inspire-demografia;dataset;1;1.4

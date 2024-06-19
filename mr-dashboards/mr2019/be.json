@@ -1,0 +1,182 @@
+{
+    "countrycode": "be",
+    "countryname": "Belgium",
+    "endpoints": [
+        {
+            "id": "INSPIRE-210556c9-36d4-11e1-aeeb-52540004b857",
+            "session_id": "INSPIRE-210556c9-36d4-11e1-aeeb-52540004b857_20200120-170802",
+            "url": "https://geobru-geonetwork.irisnet.be/geonetwork/inspire/fre/csw",
+            "dumpdate": "2019-12-18",
+            "dataset": "58",
+            "services": "32",
+            "series": "0",
+            "indicators": {
+                "DSi_1_1": "58",
+                "DSi_1_2": "32",
+                "DSi_1_3": "33",
+                "DSi_1_4": "58",
+                "DSi_1_5": "0",
+                "MDi_1_1": "96.5%",
+                "MDi_1_2": "56.2%",
+                "DSi_2_0": "36.2%",
+                "DSi_2_1": "100.0%",
+                "DSi_2_2": "45.5%",
+                "DSi_2_3": "6.1%",
+                "NSi_2_0": "91.4%",
+                "NSi_2_1": "91.4%",
+                "NSi_2_2": "91.4%",
+                "NSi_4_0": "0.0%",
+                "NSi_4_1": "0.0%",
+                "NSi_4_2": "0.0%",
+                "NSi_4_3": "0.0%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 56,
+                    "fail": 2,
+                    "1.3": 58,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 18,
+                    "fail": 14,
+                    "1.3": 32,
+                    "2.0": 0
+                }
+            }
+        },
+        {
+            "id": "INSPIRE-f5201eb0-2404-11e5-8130-52540004b857",
+            "session_id": "INSPIRE-f5201eb0-2404-11e5-8130-52540004b857_20191216-000901",
+            "url": "http://geoservices.wallonie.be/metawal/csw-inspire",
+            "dumpdate": "2019-12-16",
+            "dataset": "120",
+            "services": "45",
+            "series": "34",
+            "indicators": {
+                "DSi_1_1": "153",
+                "DSi_1_2": "45",
+                "DSi_1_3": "40",
+                "DSi_1_4": "152",
+                "DSi_1_5": "1",
+                "MDi_1_1": "45.1%",
+                "MDi_1_2": "97.7%",
+                "DSi_2_0": "7.8%",
+                "DSi_2_1": "80.0%",
+                "DSi_2_2": "0.0%",
+                "DSi_2_3": "0.0%",
+                "NSi_2_0": "97.4%",
+                "NSi_2_1": "97.4%",
+                "NSi_2_2": "98.0%",
+                "NSi_4_0": "100%",
+                "NSi_4_1": "100%",
+                "NSi_4_2": "100%",
+                "NSi_4_3": "100%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 69,
+                    "fail": 85,
+                    "1.3": 85,
+                    "2.0": 69
+                },
+                "services": {
+                    "pass": 44,
+                    "fail": 1,
+                    "1.3": 45,
+                    "2.0": 0
+                }
+            }
+        },
+        {
+            "id": "INSPIRE-f0c91711-ece0-11e8-a08e-52540023a883",
+            "session_id": "INSPIRE-f0c91711-ece0-11e8-a08e-52540023a883_20191216-021726",
+            "url": "http://geonetwork.geopunt.be/zoekdienst/srv/dut/csw",
+            "dumpdate": "2019-12-16",
+            "dataset": "292",
+            "services": "67",
+            "series": "0",
+            "indicators": {
+                "DSi_1_1": "292",
+                "DSi_1_2": "66",
+                "DSi_1_3": "51",
+                "DSi_1_4": "34",
+                "DSi_1_5": "0",
+                "MDi_1_1": "73.6%",
+                "MDi_1_2": "12.1%",
+                "DSi_2_0": "22.9%",
+                "DSi_2_1": "70.6%",
+                "DSi_2_2": "20.2%",
+                "DSi_2_3": "20.0%",
+                "NSi_2_0": "13.4%",
+                "NSi_2_1": "77.4%",
+                "NSi_2_2": "14.0%",
+                "NSi_4_0": "24.2%",
+                "NSi_4_1": "0.0%",
+                "NSi_4_2": "25.9%",
+                "NSi_4_3": "23.7%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 215,
+                    "fail": 77,
+                    "1.3": 81,
+                    "2.0": 211
+                },
+                "services": {
+                    "pass": 8,
+                    "fail": 59,
+                    "1.3": 62,
+                    "2.0": 5
+                }
+            }
+        },
+        {
+            "id": "INSPIRE-b285fced-4eb6-11e8-a459-52540023a883",
+            "session_id": "INSPIRE-b285fced-4eb6-11e8-a459-52540023a883_20200122-134502",
+            "url": "http://inspire.reporting.geo.be/eng/csw",
+            "dumpdate": "2019-12-17",
+            "dataset": "103",
+            "services": "42",
+            "series": "1",
+            "indicators": {
+                "DSi_1_1": "101",
+                "DSi_1_2": "42",
+                "DSi_1_3": "40",
+                "DSi_1_4": "0",
+                "DSi_1_5": "89",
+                "MDi_1_1": "50.5%",
+                "MDi_1_2": "26.2%",
+                "DSi_2_0": "70.3%",
+                "DSi_2_1": "100.0%",
+                "DSi_2_2": "18.2%",
+                "DSi_2_3": "67.5%",
+                "NSi_2_0": "62.4%",
+                "NSi_2_1": "72.3%",
+                "NSi_2_2": "68.3%",
+                "NSi_4_0": "69.0%",
+                "NSi_4_1": "100.0%",
+                "NSi_4_2": "77.3%",
+                "NSi_4_3": "57.9%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 51,
+                    "fail": 53,
+                    "1.3": 104,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 11,
+                    "fail": 31,
+                    "1.3": 42,
+                    "2.0": 0
+                }
+            }
+        }
+    ]
+}

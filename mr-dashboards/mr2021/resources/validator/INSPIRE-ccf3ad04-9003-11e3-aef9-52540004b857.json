@@ -1,0 +1,32 @@
+{
+  "id": "INSPIRE-ccf3ad04-9003-11e3-aef9-52540004b857_20211219-082109",
+  "type_count": {
+    "dataset": 139,
+    "series": 5,
+    "service": 238,
+    "unknown": 0,
+    "missing": 0,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      ""
+    ],
+    "missing": [
+      ""
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 1,
+      "fail": 143
+    },
+    "services": {
+      "pass": 0,
+      "fail": 238
+    }
+  }
+}

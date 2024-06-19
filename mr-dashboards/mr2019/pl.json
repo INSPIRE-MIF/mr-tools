@@ -1,0 +1,50 @@
+{
+    "countrycode": "pl",
+    "countryname": "Poland",
+    "endpoints": [
+        {
+            "id": "INSPIRE-d81e48c4-b4cf-11e3-a455-52540004b857",
+            "session-id": "INSPIRE-d81e48c4-b4cf-11e3-a455-52540004b857_20191216-000802",
+            "url": "http://mapy.geoportal.gov.pl/wss/service/CSWINSP/guest/CSWStartup",
+            "dumpdate": "2019-12-16",
+            "dataset": "35488",
+            "services": "3887",
+            "series": "8",
+            "indicators": {
+                "DSi_1_1": "35408",
+                "DSi_1_2": "3884",
+                "DSi_1_3": "47",
+                "DSi_1_4": "0",
+                "DSi_1_5": "128",
+                "MDi_1_1": "51.2%",
+                "MDi_1_2": "50.6%",
+                "DSi_2_0": "76.4%",
+                "DSi_2_1": "80.8%",
+                "DSi_2_2": "44.2%",
+                "DSi_2_3": "75.6%",
+                "NSi_2_0": "0.9%",
+                "NSi_2_1": "25.0%",
+                "NSi_2_2": "1.4%",
+                "NSi_4_0": "47.8%",
+                "NSi_4_1": "35.7%",
+                "NSi_4_2": "32.0%",
+                "NSi_4_3": "94.6%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 18117,
+                    "fail": 17339,
+                    "1.3": 35384,
+                    "2.0": 72
+                },
+                "services": {
+                    "pass": 1966,
+                    "fail": 1921,
+                    "1.3": 3843,
+                    "2.0": 44
+                }
+            }
+        }
+    ]
+}

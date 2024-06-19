@@ -1,0 +1,9 @@
+file_id;md_id;type;error_count;errors
+101-120/19;https://data.gov.sk/set/rpi/gmd/00626031/eeb21673-85a6-4d7d-ac94-5a1966ed8eab;service;4;5.2 5.3 5.4 5.5
+121-140/4;https://data.gov.sk/set/rpi/gmd/00626031/1747e6a5-c965-44d6-90c3-cf86abc45335;service;4;5.2 5.3 5.4 5.5
+141-160/13;https://data.gov.sk/set/rpi/gmd/156850/e0b39c05-114d-428f-a41f-d37a3af341b5;service;3;5.2 5.4 5.5
+221-240/3;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_INSPIRE_KS;service;4;5.2 5.3 5.4 5.5
+341-360/12;https://data.gov.sk/set/rpi/gmd/36022047/D2A373A1DE383765E0530210000AD6B7;service;1;C.17
+361-380/2;https://data.gov.sk/set/rpi/gmd/37808427/C0E08A389CA20E88E0530110000A45D7;service;2;3.6 4.1
+401-420/18;https://data.gov.sk/set/rpi/gmd/42181810/C4E895C1BE93235BE0530210000A4FE2;dataset;1;M.2
+41-60/15;https://data.gov.sk/set/rpi/gmd/00626031/a1d653f2-b4b8-4b6b-bc08-11e0f7f53c27;service;4;5.2 5.3 5.4 5.5

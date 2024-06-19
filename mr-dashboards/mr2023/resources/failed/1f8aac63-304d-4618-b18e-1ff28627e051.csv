@@ -1,0 +1,23 @@
+file_id;md_id;type;error_count;errors
+1-100/28.iso19139;https://data.gov.sk/set/data/gmd/97ed4d94-6407-4e4f-9921-636ac47d31b5;service;3;C.22 3.5 4.1
+1-100/27.iso19139;https://data.gov.sk/set/data/gmd/60e768c7-e57e-4eeb-ba78-7f27fb17e3ac;service;3;C.22 3.5 4.1
+1-100/30.iso19139;https://data.gov.sk/set/data/gmd/9ea4334b-f1c5-4b59-82fe-2c5b0e83989a;service;3;C.22 3.5 4.1
+1-100/41.iso19139;https://data.gov.sk/set/data/gmd/1f2ccd05-0a4a-479f-9fd8-fffbc8033df1;service;3;C.22 3.5 4.1
+1-100/50.iso19139;https://data.gov.sk/set/data/gmd/a2d880ad-c9bd-4a9b-b385-e8904e0a4a7f;service;3;C.22 3.5 4.1
+1-100/59.iso19139;https://data.gov.sk/set/data/gmd/4e557854-cda2-4492-8224-f85a3ad562aa;service;3;C.22 3.5 4.1
+1-100/64.iso19139;https://data.gov.sk/set/data/gmd/e63688c3-29a6-4eb1-99e2-7e17db190822;service;3;C.22 3.5 4.1
+1-100/65.iso19139;https://data.gov.sk/set/data/gmd/8c3bb8b7-641d-4b9a-891e-22a4a5e1512b;service;3;C.22 3.5 4.1
+1-100/67.iso19139;https://data.gov.sk/set/data/gmd/a292c66c-e7ce-4421-bd9a-007e9ace0f50;service;3;C.22 3.5 4.1
+1-100/80.iso19139;https://data.gov.sk/set/data/gmd/6d20fb13-82dc-48d5-8ac5-29172e170acc;service;3;C.22 3.5 4.1
+1-100/82.iso19139;https://data.gov.sk/set/data/gmd/64dc7170-607c-4532-b144-7ca6b04fe139;service;3;C.22 3.5 4.1
+1-100/78.iso19139;https://data.gov.sk/set/data/gmd/061329f5-c0c3-434e-8bc6-af398c55acea;service;3;C.22 3.5 4.1
+1-100/89.iso19139;https://data.gov.sk/set/data/gmd/a854f272-ebde-40b9-8db1-0b718d2ec16a;dataset;1;C.1
+101-200/17.iso19139;https://data.gov.sk/set/data/gmd/a351d63c-dfe8-4318-8c55-4068c637adb8;service;1;C.1
+101-200/41.iso19139;https://data.gov.sk/set/data/gmd/0333921d-4d38-4bd0-8ed6-aeee5f0c9183;service;1;C.1
+201-300/3.iso19139;https://data.gov.sk/set/data/gmd/1412b727-5eab-4336-b972-e5f111a45f31;service;1;3.6
+201-300/35.iso19139;https://data.gov.sk/set/data/gmd/09f2d95c-aaf1-485b-b393-b6700fd4e3b9;service;1;3.6
+201-300/39.iso19139;https://data.gov.sk/set/data/gmd/bd67206b-7d8f-4e5c-9db9-25effbce145b;service;1;3.6
+201-300/97.iso19139;https://data.gov.sk/set/data/gmd/865cd333-04d1-4f41-85fe-affe98b37809;service;1;C.1
+301-400/22.iso19139;https://data.gov.sk/set/data/gmd/48869a9d-3067-4c1f-8598-37083eab8a9d;service;1;C.1
+301-400/25.iso19139;https://data.gov.sk/set/data/gmd/150f2fa6-82b9-477f-9d4c-4c725f8cbd91;service;1;C.1
+301-400/48.iso19139;https://data.gov.sk/set/data/gmd/5b148b90-530f-4797-af73-81ae36c39fbb;dataset;1;C.1

@@ -1,0 +1,22 @@
+file_id;md_id;type;error_count;errors
+1-100/19.iso19139;ES_SDGC_CP_WFS;service;1;3.6
+1-100/59.iso19139;spaGeoportalWMS;service;1;C.1
+1-100/4.iso19139;ES_SDGC_AD;dataset;1;1.3
+301-400/59.iso19139;md_ideeu_wms_ortoargazkiak_es;service;1;3.4
+301-400/35.iso19139;12ced207-a9d1-4887-9a1b-eea1ea8fff56;service;1;3.6
+301-400/63.iso19139;md_ideeu_orto_urbana_2017_es;dataset;1;1.7
+401-500/11.iso19139;spacarcaparuidodtnwmstematica20130304;dataset;1;C.18
+301-400/62.iso19139;md_ideeu_ortofoto_2021_es;dataset;1;1.7
+301-400/91.iso19139;ES.GFA.CP.MD;dataset;1;C.1
+301-400/61.iso19139;md_ideeu_ortofoto_capita_2005_es;dataset;1;1.7
+401-500/16.iso19139;spacarcapaceneducativoswmstematica20141201;dataset;1;C.18
+401-500/13.iso19139;spacarcapaemervolunwmstematica20140408;dataset;1;C.18
+301-400/99.iso19139;ES_SDGC_BU;dataset;1;1.3
+301-400/79.iso19139;spaminetadpermisosysondeos;dataset;2;1.5 1.10
+401-500/37.iso19139;inspire-demografia;dataset;1;1.4
+301-400/98.iso19139;ES_SDGC_CP;dataset;1;1.3
+401-500/12.iso19139;spacarcapaparqeolwmstematica20131216;dataset;1;C.18
+401-500/17.iso19139;spacarcapacaptwmstematica20131216;dataset;1;C.18
+401-500/14.iso19139;spacarcapaemerrecsanitarioswmstematica20140408;dataset;1;C.18
+401-500/8.iso19139;spaign_IGR_Transporte;dataset;1;C.1
+401-500/97.iso19139;93a2b6c8-1a95-457e-9f48-46404b1dee0b;dataset;1;M.2

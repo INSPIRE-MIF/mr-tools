@@ -1,0 +1,50 @@
+{
+    "countrycode": "si",
+    "countryname": "Slovenia",
+    "endpoints": [
+        {
+            "id": "INSPIRE-6f0cd439-226d-11e6-9ff2-52540023a883",
+            "session-id": "INSPIRE-6f0cd439-226d-11e6-9ff2-52540023a883_20191216-010202",
+            "url": "http://prostor4.gov.si/imps/srv/slv/csw-INSPIRE",
+            "dumpdate": "2019-12-16",
+            "dataset": "92",
+            "services": "56",
+            "series": "0",
+            "indicators": {
+                "DSi_1_1": "91",
+                "DSi_1_2": "56",
+                "DSi_1_3": "9",
+                "DSi_1_4": "0",
+                "DSi_1_5": "62",
+                "MDi_1_1": "26.3%",
+                "MDi_1_2": "23.2%",
+                "DSi_2_0": "62.6%",
+                "DSi_2_1": "75.0%",
+                "DSi_2_2": "61.5%",
+                "DSi_2_3": "62.3%",
+                "NSi_2_0": "5.5%",
+                "NSi_2_1": "11.0%",
+                "NSi_2_2": "14.3%",
+                "NSi_4_0": "26.8%",
+                "NSi_4_1": "0.0%",
+                "NSi_4_2": "4.0%",
+                "NSi_4_3": "46.7%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 24,
+                    "fail": 68,
+                    "1.3": 27,
+                    "2.0": 65
+                },
+                "services": {
+                    "pass": 13,
+                    "fail": 43,
+                    "1.3": 7,
+                    "2.0": 49
+                }
+            }
+        }
+    ]
+}
