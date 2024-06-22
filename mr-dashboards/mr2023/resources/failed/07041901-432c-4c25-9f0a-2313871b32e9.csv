@@ -1,0 +1,35 @@
+file_id;md_id;type;error_count;errors
+1-100/1.iso19139;9afbf0ea-8f63-4013-bdde-34ad3ee98b79;service;2;C.1 C.18
+1-100/29.iso19139;aeaeaab2-10ac-48ac-922f-077a831a61c5;service;1;C.1
+1-100/30.iso19139;b88b6865-c169-471f-a73e-408462ec952a;service;1;C.1
+1-100/31.iso19139;042ad31c-ebce-4b51-8213-3142aa22c544;service;1;C.1
+1-100/38.iso19139;bmdc.be:dataset:2780;dataset;2;1.4 1.11
+1-100/41.iso19139;7f950934-7aff-463f-981a-1c1bf8ad3bfa;service;1;C.1
+1-100/40.iso19139;99d4d01a-eae7-446c-a053-4ec0c18e6fb5;service;1;C.1
+1-100/42.iso19139;5dbba3c9-bce8-4f3f-88f6-9dfbcc77c7ca;service;1;C.1
+1-100/43.iso19139;75ba33db-0c91-4b21-ba48-3f4976b86779;service;2;C.1 C.18
+1-100/44.iso19139;293bbecb-b03c-49c8-a83b-8b478b636a52;service;1;C.1
+1-100/46.iso19139;ea430cb8-2805-4c67-8392-9e2a47c1ef55;dataset;1;M.1
+1-100/50.iso19139;d074fa7a-8307-4ba5-b192-f9155fea44ec;service;1;C.1
+1-100/54.iso19139;RMI_SYNOP_WMS;service;4;C.18 3.1 3.6 3.8
+1-100/58.iso19139;RMI_DATASET_GRIDDEDOBS;dataset;1;C.18
+1-100/61.iso19139;RMI_DATASET_CLIMATE_STATISTICS;dataset;1;C.18
+1-100/60.iso19139;RMI_DATASET_COMMUNE_FORECAST_1H;dataset;1;C.18
+1-100/62.iso19139;RMI_DATASET_CLIMATE_OBSERVATIONS;dataset;1;C.18
+1-100/69.iso19139;RMI_SYNOP_WFS;service;4;C.18 3.1 3.6 3.8
+1-100/8.iso19139;bmdc.be:dataset:2032;dataset;1;C.10
+1-100/77.iso19139;59379275-3f11-448a-9120-bb5da3af7f67;service;4;C.15 C.17 3.1 3.8
+1-100/81.iso19139;29f40b0d-2a3e-49a8-870a-e9b4acd4d1e3;dataset;1;M.2
+1-100/89.iso19139;0e0b1866-7437-4b5a-9828-c5db2f47ad49;dataset;1;M.1
+1-100/88.iso19139;33b0a929-402c-468e-b41f-c4038cbcc363;service;1;C.1
+1-100/9.iso19139;bmdc.be:dataset:2030;dataset;1;C.10
+101-200/1.iso19139;ee87e68e-123d-4d6f-a48f-57220c611908;service;1;C.16
+101-200/11.iso19139;2cadfdc0-ebf0-4f53-b572-09f7235aaec4;service;1;C.1
+101-200/13.iso19139;232844d3-26c5-47e4-9dae-1386fc4647e9;dataset;3;C.17 2.2 M.1
+101-200/12.iso19139;24c018e0-e9bd-4315-8e64-b9dbe724710c;dataset;3;C.17 2.2 M.1
+101-200/17.iso19139;b25e1487-8fe5-4dd2-b413-3155cb1fd53a;service;2;C.1 C.18
+101-200/2.iso19139;a4bbf2e9-efe4-4b24-9522-b785c941b66e;service;3;C.17 3.1 3.8
+101-200/28.iso19139;089f1496-4cba-4ef4-93c1-83de30167378;service;1;C.1
+101-200/29.iso19139;X69GF0K7-970Q-48B1-W5N2-2A78P462122C;service;1;C.1
+101-200/3.iso19139;6c467faa-a594-4142-abf2-d16aab3f255c;service;3;C.17 3.1 3.8
+101-200/9.iso19139;4a4f5e3c-91ce-4f1c-8bbf-cd8b2e87fb5d;dataset;4;C.15 C.17 1.7 2.2

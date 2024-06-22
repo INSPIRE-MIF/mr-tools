@@ -1,0 +1,50 @@
+{
+    "countrycode": "lt",
+    "countryname": "Lithuania",
+    "endpoints": [
+        {
+            "id": "INSPIRE-106902a4-2bd0-11e9-a83c-52540023a883",
+            "session-id": "INSPIRE-106902a4-2bd0-11e9-a83c-52540023a883_20191216-022902",
+            "url": "https://www.geoportal.lt/geonetwork/srv/en/csw",
+            "dumpdate": "2019-12-16",
+            "dataset": "115",
+            "services": "62",
+            "series": "0",
+            "indicators": {
+                "DSi_1_1": "115",
+                "DSi_1_2": "62",
+                "DSi_1_3": "75",
+                "DSi_1_4": "0",
+                "DSi_1_5": "15",
+                "MDi_1_1": "64.3%",
+                "MDi_1_2": "80.6%",
+                "DSi_2_0": "90.4%",
+                "DSi_2_1": "93.8%",
+                "DSi_2_2": "100.0%",
+                "DSi_2_3": "90.3%",
+                "NSi_2_0": "15.7%",
+                "NSi_2_1": "15.7%",
+                "NSi_2_2": "77.4%",
+                "NSi_4_0": "100.0%",
+                "NSi_4_1": "Not available",
+                "NSi_4_2": "100.0%",
+                "NSi_4_3": "100.0%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 74,
+                    "fail": 41,
+                    "1.3": 115,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 50,
+                    "fail": 12,
+                    "1.3": 62,
+                    "2.0": 0
+                }
+            }
+        }
+    ]
+}

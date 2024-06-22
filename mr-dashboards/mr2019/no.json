@@ -1,0 +1,50 @@
+{
+    "countrycode": "no",
+    "countryname": "Norway",
+    "endpoints": [
+        {
+            "id": "INSPIRE-ccf3ad04-9003-11e3-aef9-52540004b857",
+            "session-id": "INSPIRE-ccf3ad04-9003-11e3-aef9-52540004b857_20191216-011803",
+            "url": "http://www.geonorge.no/geonetwork/srv/eng/csw-inspire",
+            "dumpdate": "2019-12-16",
+            "dataset": "164",
+            "services": "245",
+            "series": "0",
+            "indicators": {
+                "DSi_1_1": "164",
+                "DSi_1_2": "244",
+                "DSi_1_3": "14",
+                "DSi_1_4": "7",
+                "DSi_1_5": "150",
+                "MDi_1_1": "0.0%",
+                "MDi_1_2": "0.0%",
+                "DSi_2_0": "37.2%",
+                "DSi_2_1": "54.5%",
+                "DSi_2_2": "43.3",
+                "DSi_2_3": "34.6%",
+                "NSi_2_0": "9.8%",
+                "NSi_2_1": "12.8%",
+                "NSi_2_2": "40.9%",
+                "NSi_4_0": "12.0%",
+                "NSi_4_1": "100.0%",
+                "NSi_4_2": "11.8%",
+                "NSi_4_3": "11.4%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 0,
+                    "fail": 164,
+                    "1.3": 164,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 0,
+                    "fail": 245,
+                    "1.3": 245,
+                    "2.0": 0
+                }
+            }
+        }
+    ]
+}

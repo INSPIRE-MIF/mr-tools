@@ -1,0 +1,50 @@
+{
+    "countrycode": "dk",
+    "countryname": "Denmark",
+    "endpoints": [
+        {
+            "id": "INSPIRE-6e8353b4-de80-11e7-a188-52540023a883",
+            "session-id": "INSPIRE-6e8353b4-de80-11e7-a188-52540023a883_20191216-003602",
+            "url": "https://www.geodata-info.dk/srv/dan/csw",
+            "dumpdate": "2019-12-16",
+            "dataset": "176",
+            "services": "135",
+            "series": "0",
+            "indicators": {
+                "DSi_1_1": "174",
+                "DSi_1_2": "135",
+                "DSi_1_3": "50",
+                "DSi_1_4": "0",
+                "DSi_1_5": "106",
+                "MDi_1_1": "37.9%",
+                "MDi_1_2": "65.2%",
+                "DSi_2_0": "37.9%",
+                "DSi_2_1": "90.5%",
+                "DSi_2_2": "18.8%",
+                "DSi_2_3": "31.1%",
+                "NSi_2_0": "27.0%",
+                "NSi_2_1": "35.1%",
+                "NSi_2_2": "30.5%",
+                "NSi_4_0": "85.0%",
+                "NSi_4_1": "Not available",
+                "NSi_4_2": "80.7%",
+                "NSi_4_3": "88.6%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 66,
+                    "fail": 110,
+                    "1.3": 171,
+                    "2.0": 5
+                },
+                "services": {
+                    "pass": 88,
+                    "fail": 47,
+                    "1.3": 135,
+                    "2.0": 0
+                }
+            }
+        }
+    ]
+}

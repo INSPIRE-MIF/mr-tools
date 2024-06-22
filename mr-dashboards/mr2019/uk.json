@@ -1,0 +1,51 @@
+{
+    "countrycode": "uk",
+    "countryname": "United Kingdom",
+    "endpoints": [
+        {
+            "id": "INSPIRE-f89f4772-05f5-11e1-b7de-52540004b857",
+            "session-id": "INSPIRE-f89f4772-05f5-11e1-b7de-52540004b857_20191216-014202",
+            "url": "http://csw.data.gov.uk/geonetwork/srv/en/csw",
+            "dumpdate": "2019-12-16",
+            "dataset": "21334",
+            "services": "634",
+            "series": "1292",
+            "indicators": {
+                "DSi_1_1": "21385",
+                "DSi_1_2": "634",
+                "DSi_1_3": "0",
+                "DSi_1_4": "4",
+                "DSi_1_5": "0",
+                "MDi_1_1": "0.1%",
+                "MDi_1_2": "12.7%",
+                "DSi_2_0": "3.1%",
+                "DSi_2_1": "19.5%",
+                "DSi_2_2": "0.5%",
+                "DSi_2_3": "4.7%",
+                "NSi_2_0": "0.2%",
+                "NSi_2_1": "1.1%",
+                "NSi_2_2": "0.7%",
+                "NSi_4_0": "0.0%",
+                "NSi_4_1": "0.0%",
+                "NSi_4_2": "0.0%",
+                "NSi_4_3": "0.1%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 14,
+                    "fail": 22612,
+                    "1.3": 22626,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 81,
+                    "fail": 553,
+                    "1.3": 633,
+                    "2.0": 1
+                }
+            }
+        }
+    ]
+}
+

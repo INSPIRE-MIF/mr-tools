@@ -1,0 +1,251 @@
+{
+	"id": "76edce98-d5a3-44bb-9ff5-2c29b422c5a2",
+	"sessionid": null,
+	"url": "",
+	"countrycode": "dk",
+	"countryname": "Denmark",
+	"dumpdate": null,
+	"indicators": [
+		{
+			"id": "DSi_1_1",
+			"format": "integer",
+			"value": 194,
+			"formattedValue": "194",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 194
+				}
+			}
+		},
+		{
+			"id": "DSi_1_2",
+			"format": "integer",
+			"value": 247,
+			"formattedValue": "247",
+			"sourceData": {
+				"DSi_1_2": {
+					"doc_count": 247
+				}
+			}
+		},
+		{
+			"id": "DSi_1_3",
+			"format": "integer",
+			"value": 59,
+			"formattedValue": "59",
+			"sourceData": {
+				"DSi_1_3": {
+					"doc_count": 59
+				}
+			}
+		},
+		{
+			"id": "DSi_1_4",
+			"format": "integer",
+			"value": 0,
+			"formattedValue": "0",
+			"sourceData": {
+				"DSi_1_4": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "DSi_1_5",
+			"format": "integer",
+			"value": 190,
+			"formattedValue": "190",
+			"sourceData": {
+				"DSi_1_5": {
+					"doc_count": 190
+				}
+			}
+		},
+		{
+			"id": "DSi_2_0",
+			"format": "percentage",
+			"value": 62.5615763546798,
+			"formattedValue": "63%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 194
+				},
+				"DSi_2_0_1": {
+					"doc_count": 127
+				}
+			}
+		},
+		{
+			"id": "DSi_2_1",
+			"format": "percentage",
+			"value": 100,
+			"formattedValue": "100%",
+			"sourceData": {
+				"DSi_2_1_1": {
+					"doc_count": 20
+				},
+				"DSi_2_1_2": {
+					"doc_count": 20
+				}
+			}
+		},
+		{
+			"id": "DSi_2_2",
+			"format": "percentage",
+			"value": 71.4285714285714,
+			"formattedValue": "71%",
+			"sourceData": {
+				"DSi_2_2_1": {
+					"doc_count": 15
+				},
+				"DSi_2_2_2": {
+					"doc_count": 21
+				}
+			}
+		},
+		{
+			"id": "DSi_2_3",
+			"format": "percentage",
+			"value": 46.551724137931,
+			"formattedValue": "47%",
+			"sourceData": {
+				"DSi_2_3_1": {
+					"doc_count": 54
+				},
+				"DSi_2_3_2": {
+					"doc_count": 116
+				}
+			}
+		},
+		{
+			"id": "NSi_2_0",
+			"format": "percentage",
+			"value": 52.2167487684729,
+			"formattedValue": "52%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 203
+				},
+				"NSi_2_0_1": {
+					"doc_count": 106
+				}
+			}
+		},
+		{
+			"id": "NSi_2_1",
+			"format": "percentage",
+			"value": 70.935960591133,
+			"formattedValue": "71%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 203
+				},
+				"NSi_2_1_1": {
+					"doc_count": 144
+				}
+			}
+		},
+		{
+			"id": "NSi_2_2",
+			"format": "percentage",
+			"value": 54.1871921182266,
+			"formattedValue": "54%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 203
+				},
+				"NSi_2_2_1": {
+					"doc_count": 110
+				}
+			}
+		},
+		{
+			"id": "NSi_4_0",
+			"format": "percentage",
+			"value": 91.0931174089069,
+			"formattedValue": "91%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 1
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				},
+				"NSi_4_2_1": {
+					"doc_count": 97
+				},
+				"NSi_4_2_2": {
+					"doc_count": 107
+				},
+				"NSi_4_3_1": {
+					"doc_count": 127
+				},
+				"NSi_4_3_2": {
+					"doc_count": 139
+				},
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "NSi_4_1",
+			"format": "percentage",
+			"value": 100,
+			"formattedValue": "100%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 1
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				}
+			}
+		},
+		{
+			"id": "NSi_4_2",
+			"format": "percentage",
+			"value": 90.6542056074766,
+			"formattedValue": "91%",
+			"sourceData": {
+				"NSi_4_2_1": {
+					"doc_count": 97
+				},
+				"NSi_4_2_2": {
+					"doc_count": 107
+				}
+			}
+		},
+		{
+			"id": "NSi_4_3",
+			"format": "percentage",
+			"value": 91.3669064748201,
+			"formattedValue": "91%",
+			"sourceData": {
+				"NSi_4_3_1": {
+					"doc_count": 127
+				},
+				"NSi_4_3_2": {
+					"doc_count": 139
+				}
+			}
+		},
+		{
+			"id": "NSi_4_4",
+			"format": "percentage",
+			"value": null,
+			"formattedValue": "Not available",
+			"sourceData": {
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		}
+	]
+}

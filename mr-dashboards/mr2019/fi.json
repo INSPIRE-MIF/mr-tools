@@ -1,0 +1,50 @@
+{
+    "countrycode": "fi",
+    "countryname": "Finland",
+    "endpoints": [
+        {
+            "id": "INSPIRE-f670705f-f4e9-11e6-81e4-52540023a883",
+            "session-id": "INSPIRE-f670705f-f4e9-11e6-81e4-52540023a883_20200113-104302",
+            "url": "https://www.paikkatietohakemisto.fi/geonetwork/srv/fin/csw",
+            "dumpdate": "2019-12-16",
+            "dataset": "540",
+            "services": "191",
+            "series": "69",
+            "indicators": {
+                "DSi_1_1": "548",
+                "DSi_1_2": "185",
+                "DSi_1_3": "18",
+                "DSi_1_4": "22",
+                "DSi_1_5": "181",
+                "MDi_1_1": "27.5%",
+                "MDi_1_2": "1.1%",
+                "DSi_2_0": "9.9%",
+                "DSi_2_1": "5.4%",
+                "DSi_2_2": "0.0%",
+                "DSi_2_3": "15.9%",
+                "NSi_2_0": "29.4%",
+                "NSi_2_1": "35.2%",
+                "NSi_2_2": "32.8%",
+                "NSi_4_0": "56.7%",
+                "NSi_4_1": "0.0%",
+                "NSi_4_2": "53.5%",
+                "NSi_4_3": "62.0%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 151,
+                    "fail": 458,
+                    "1.3": 609,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 2,
+                    "fail": 189,
+                    "1.3": 186,
+                    "2.0": 5
+                }
+            }
+        }
+    ]
+}

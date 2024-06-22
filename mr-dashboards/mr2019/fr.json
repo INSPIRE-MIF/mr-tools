@@ -1,0 +1,50 @@
+{
+    "countrycode": "fr",
+    "countryname": "France",
+    "endpoints": [
+        {
+            "id": "INSPIRE-5145fa60-0067-11e5-9ea6-52540004b857",
+            "session-id": "INSPIRE-5145fa60-0067-11e5-9ea6-52540004b857_20200228-120902",
+            "url": "http://www.geocatalogue.fr/api-public/prior/servicesRest",
+            "dumpdate": "2019-12-20",
+            "dataset": "42311",
+            "services": "52632",
+            "series": "1113",
+            "indicators": {
+                "DSi_1_1": "42066",
+                "DSi_1_2": "52629",
+                "DSi_1_3": "123",
+                "DSi_1_4": "10",
+                "DSi_1_5": "44",
+                "MDi_1_1": "0.0%",
+                "MDi_1_2": "4.3%",
+                "DSi_2_0": "8.7%",
+                "DSi_2_1": "7.0%",
+                "DSi_2_2": "9.7%",
+                "DSi_2_3": "8.7%",
+                "NSi_2_0": "0.5%",
+                "NSi_2_1": "31.7%",
+                "NSi_2_2": "2.9%",
+                "NSi_4_0": "1.0%",
+                "NSi_4_1": "4.9%",
+                "NSi_4_2": "3.0%",
+                "NSi_4_3": "Not available",
+                "NSi_4_4": "0.0%"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 0,
+                    "fail": 43424,
+                    "1.3": 37825,
+                    "2.0": 5599
+                },
+                "services": {
+                    "pass": 2288,
+                    "fail": 50344,
+                    "1.3": 52035,
+                    "2.0": 597
+                }
+            }
+        }
+    ]
+}

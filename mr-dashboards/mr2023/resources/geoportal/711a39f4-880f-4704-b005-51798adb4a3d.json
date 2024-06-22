@@ -1,0 +1,251 @@
+{
+	"id": "711a39f4-880f-4704-b005-51798adb4a3d",
+	"sessionid": null,
+	"url": "",
+	"countrycode": "de",
+	"countryname": "Germany",
+	"dumpdate": null,
+	"indicators": [
+		{
+			"id": "DSi_1_1",
+			"format": "integer",
+			"value": 108521,
+			"formattedValue": "108521",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 108521
+				}
+			}
+		},
+		{
+			"id": "DSi_1_2",
+			"format": "integer",
+			"value": 187403,
+			"formattedValue": "187403",
+			"sourceData": {
+				"DSi_1_2": {
+					"doc_count": 187403
+				}
+			}
+		},
+		{
+			"id": "DSi_1_3",
+			"format": "integer",
+			"value": 274,
+			"formattedValue": "274",
+			"sourceData": {
+				"DSi_1_3": {
+					"doc_count": 274
+				}
+			}
+		},
+		{
+			"id": "DSi_1_4",
+			"format": "integer",
+			"value": 2721,
+			"formattedValue": "2721",
+			"sourceData": {
+				"DSi_1_4": {
+					"doc_count": 2721
+				}
+			}
+		},
+		{
+			"id": "DSi_1_5",
+			"format": "integer",
+			"value": 245,
+			"formattedValue": "245",
+			"sourceData": {
+				"DSi_1_5": {
+					"doc_count": 245
+				}
+			}
+		},
+		{
+			"id": "DSi_2_0",
+			"format": "percentage",
+			"value": 61.1575420639888,
+			"formattedValue": "61%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 108644
+				},
+				"DSi_2_0_1": {
+					"doc_count": 66444
+				}
+			}
+		},
+		{
+			"id": "DSi_2_1",
+			"format": "percentage",
+			"value": 52.6717263166005,
+			"formattedValue": "53%",
+			"sourceData": {
+				"DSi_2_1_1": {
+					"doc_count": 13672
+				},
+				"DSi_2_1_2": {
+					"doc_count": 25957
+				}
+			}
+		},
+		{
+			"id": "DSi_2_2",
+			"format": "percentage",
+			"value": 52.3184368202114,
+			"formattedValue": "52%",
+			"sourceData": {
+				"DSi_2_2_1": {
+					"doc_count": 13709
+				},
+				"DSi_2_2_2": {
+					"doc_count": 26203
+				}
+			}
+		},
+		{
+			"id": "DSi_2_3",
+			"format": "percentage",
+			"value": 53.4724534724535,
+			"formattedValue": "53%",
+			"sourceData": {
+				"DSi_2_3_1": {
+					"doc_count": 14452
+				},
+				"DSi_2_3_2": {
+					"doc_count": 27027
+				}
+			}
+		},
+		{
+			"id": "NSi_2_0",
+			"format": "percentage",
+			"value": 65.1052980376275,
+			"formattedValue": "65%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 108644
+				},
+				"NSi_2_0_1": {
+					"doc_count": 70733
+				}
+			}
+		},
+		{
+			"id": "NSi_2_1",
+			"format": "percentage",
+			"value": 72.3629468723537,
+			"formattedValue": "72%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 108644
+				},
+				"NSi_2_1_1": {
+					"doc_count": 78618
+				}
+			}
+		},
+		{
+			"id": "NSi_2_2",
+			"format": "percentage",
+			"value": 66.7363130959832,
+			"formattedValue": "67%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 108644
+				},
+				"NSi_2_2_1": {
+					"doc_count": 72505
+				}
+			}
+		},
+		{
+			"id": "NSi_4_0",
+			"format": "percentage",
+			"value": 98.8015197114256,
+			"formattedValue": "99%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 1
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				},
+				"NSi_4_2_1": {
+					"doc_count": 93223
+				},
+				"NSi_4_2_2": {
+					"doc_count": 94137
+				},
+				"NSi_4_3_1": {
+					"doc_count": 91861
+				},
+				"NSi_4_3_2": {
+					"doc_count": 92905
+				},
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "NSi_4_1",
+			"format": "percentage",
+			"value": 100,
+			"formattedValue": "100%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 1
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				}
+			}
+		},
+		{
+			"id": "NSi_4_2",
+			"format": "percentage",
+			"value": 99.0290746465258,
+			"formattedValue": "99%",
+			"sourceData": {
+				"NSi_4_2_1": {
+					"doc_count": 93223
+				},
+				"NSi_4_2_2": {
+					"doc_count": 94137
+				}
+			}
+		},
+		{
+			"id": "NSi_4_3",
+			"format": "percentage",
+			"value": 98.8762714600936,
+			"formattedValue": "99%",
+			"sourceData": {
+				"NSi_4_3_1": {
+					"doc_count": 91861
+				},
+				"NSi_4_3_2": {
+					"doc_count": 92905
+				}
+			}
+		},
+		{
+			"id": "NSi_4_4",
+			"format": "percentage",
+			"value": null,
+			"formattedValue": "Not available",
+			"sourceData": {
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		}
+	]
+}

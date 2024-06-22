@@ -1,0 +1,50 @@
+{
+    "countrycode": "hu",
+    "countryname": "Hungary",
+    "endpoints": [
+        {
+            "id": "INSPIRE-412cdb45-0b05-11e7-9a72-52540023a883",
+            "session-id": "INSPIRE-412cdb45-0b05-11e7-9a72-52540023a883_20191216-005403",
+            "url": "http://inspire.gov.hu/geonetwork/srv/eng/csw",
+            "dumpdate": "2019-12-16",
+            "dataset": "119",
+            "services": "64",
+            "series": "0",
+            "indicators": {
+                "DSi_1_1": "116",
+                "DSi_1_2": "60",
+                "DSi_1_3": "19",
+                "DSi_1_4": "0",
+                "DSi_1_5": "7",
+                "MDi_1_1": "15.5%",
+                "MDi_1_2": "38.3%",
+                "DSi_2_0": "37.9%",
+                "DSi_2_1": "32.4%",
+                "DSi_2_2": "32.6%",
+                "DSi_2_3": "36.0%",
+                "NSi_2_0": "7.8%",
+                "NSi_2_1": "10.3%",
+                "NSi_2_2": "9.5%",
+                "NSi_4_0": "13.3%",
+                "NSi_4_1": "60.0%",
+                "NSi_4_2": "7.1%",
+                "NSi_4_3": "11.1%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 18,
+                    "fail": 101,
+                    "1.3": 119,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 23,
+                    "fail": 41,
+                    "1.3": 57,
+                    "2.0": 7
+                }
+            }
+        }
+    ]
+}

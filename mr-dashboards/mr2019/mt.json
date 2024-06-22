@@ -1,0 +1,50 @@
+{
+    "countrycode": "mt",
+    "countryname": "Malta",
+    "endpoints": [
+        {
+            "id": "INSPIRE-80e86358-9378-11e5-a300-a0369f4c5bc0",
+            "session-id": "INSPIRE-80e86358-9378-11e5-a300-a0369f4c5bc0_20191216-000231",
+            "url": "https://msdi.data.gov.mt/geonetwork/srv/eng/csw",
+            "dumpdate": "2019-12-16",
+            "dataset": "158",
+            "services": "175",
+            "series": "0",
+            "indicators": {
+                "DSi_1_1": "157",
+                "DSi_1_2": "175",
+                "DSi_1_3": "54",
+                "DSi_1_4": "0",
+                "DSi_1_5": "155",
+                "MDi_1_1": "45.8%",
+                "MDi_1_2": "68.0%",
+                "DSi_2_0": "75.2%",
+                "DSi_2_1": "93.8%",
+                "DSi_2_2": "100.0%",
+                "DSi_2_3": "70.3%",
+                "NSi_2_0": "3.2%",
+                "NSi_2_1": "42.0%",
+                "NSi_2_2": "9.6%",
+                "NSi_4_0": "0.0%",
+                "NSi_4_1": "0.0%",
+                "NSi_4_2": "0.0%",
+                "NSi_4_3": "0.0%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 72,
+                    "fail": 86,
+                    "1.3": 158,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 119,
+                    "fail": 56,
+                    "1.3": 175,
+                    "2.0": 0
+                }
+            }
+        }
+    ]
+}

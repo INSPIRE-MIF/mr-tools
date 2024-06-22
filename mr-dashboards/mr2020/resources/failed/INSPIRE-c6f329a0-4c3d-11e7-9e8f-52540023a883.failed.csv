@@ -1,0 +1,19 @@
+file_id;md_id;type;error_count;errors
+101-120/19;SPADBSE08000E1M;dataset;3;C.17 C.18 1.10
+121-140/8;ESPIGMESERVICIOHIDROGEOLOGICO200CONTINUODIGITAL20110221637843;service;1;3.6
+121-140/7;ESPIGMESERVICIOGEOLOGICO1000EDICION19952011021426047;service;1;3.6
+141-160/9;spacarcaparuidodtnwmstematica20130304;dataset;1;C.18
+21-40/4;ES_SDGC_CP_ATOM;service;1;C.1
+261-280/16;{309e871c-e108-426d-ab0f-f8aa46117574}_200001_es;dataset;2;C.14 C.17
+321-340/16;spaminetadpermisosysondeos;dataset;2;1.5 1.10
+341-360/17;spaseatEIEL;dataset;4;C.5 C.17 1.6 1.10
+361-380/10;spacarcapaemervolunwmstematica20140408;dataset;1;C.18
+361-380/6;spacarcapaparqeolwmstematica20131216;dataset;1;C.18
+361-380/8;spacarcapaceneducativoswmstematica20141201;dataset;1;C.18
+361-380/5;GLG_IET_BTG500023029_20120330;dataset;5;C.5 C.17 C.18 1.6 1.10
+361-380/7;spacarcapacaptwmstematica20131216;dataset;1;C.18
+361-380/9;spacarcapaemerrecsanitarioswmstematica20140408;dataset;1;C.18
+461-480/7;85276317-accd-4000-90c2-442ebea2e4a6;service;1;3.6
+481-500/5;c30e9c54-07b1-4546-87bb-434136f3f548;service;1;3.6
+281-300/6;242cd2b7-30f9-45d3-8126-fdf5fd9bd364;service;1;3.6
+481-500/1;e0e600db-443c-44c3-83da-87c69bdfb47a;service;1;3.6

@@ -1,0 +1,48 @@
+{
+  "id": "INSPIRE-f670705f-f4e9-11e6-81e4-52540023a883",
+  "type_count": {
+    "dataset": 571,
+    "series": 59,
+    "service": 207,
+    "unknown": 0,
+    "missing": 17,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      ""
+    ],
+    "missing": [
+      "7f3cba03-842f-405c-9f10-7725f0f01d14",
+      "a8f60c18-168d-475b-9d0d-fc9ea17dc31b",
+      "ee727d17-88d7-49a4-9aa9-7e864bd9e333",
+      "9b666a52-dfed-4880-9925-a3c697fff1c2",
+      "8fd0d4b4-850d-4dd9-946e-b75c750e217e",
+      "08db89f9-b04a-43ac-946a-92762d4cf3a8",
+      "958d8e90-838d-4a89-afb2-d2308a5c794a",
+      "c211ee9f-ab8e-46d3-a8e0-a9eac8e25ce7",
+      "85fd9bf5-623d-4f72-a034-2f8cb6655afa",
+      "fae0afc3-e080-43be-8c1c-e632bcc2c9f7",
+      "4bc94ac3-b38e-4b11-a388-89e1543c6312",
+      "bd4edc2c-9753-4145-a5f2-3d25c1f5f5d4",
+      "17bbc4c0-a1c5-4366-acf9-c2262a101d5a",
+      "797d59ae-c839-4739-8cf7-f21ef57f69f7",
+      "567e2b65-d741-4316-9a79-6a321d0a2f26",
+      "13ea9b5c-2b53-42b9-b72b-dbcab440c210",
+      "1cd1e3ca-8575-49a3-8a78-ee33b83092aa"
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 253,
+      "fail": 377
+    },
+    "services": {
+      "pass": 36,
+      "fail": 171
+    }
+  }
+}

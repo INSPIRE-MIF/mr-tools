@@ -1,0 +1,50 @@
+{
+    "countrycode": "ch",
+    "countryname": "Switzerland",
+    "endpoints": [
+        {
+            "id": "INSPIRE-7a076b28-098b-11e7-9a72-52540023a883",
+            "session-id": "INSPIRE-7a076b28-098b-11e7-9a72-52540023a883_20191216-000221",
+            "url": "https://www.geocat.ch/geonetwork/srv/eng/csw-geobasisdaten",
+            "dumpdate": "2019-12-16",
+            "dataset": "202",
+            "services": "26",
+            "series": "3",
+            "indicators": {
+                "DSi_1_1": "197",
+                "DSi_1_2": "26",
+                "DSi_1_3": "0",
+                "DSi_1_4": "0",
+                "DSi_1_5": "1",
+                "MDi_1_1": "2.0%",
+                "MDi_1_2": "0.0%",
+                "DSi_2_0": "2.0%",
+                "DSi_2_1": "7.1%",
+                "DSi_2_2": "0.0%",
+                "DSi_2_3": "0.0%",
+                "NSi_2_0": "1.0%",
+                "NSi_2_1": "2.0%",
+                "NSi_2_2": "1.0%",
+                "NSi_4_0": "0.0%",
+                "NSi_4_1": "0.0%",
+                "NSi_4_2": "0.0%",
+                "NSi_4_3": "0.0%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 4,
+                    "fail": 193,
+                    "1.3": 26,
+                    "2.0": 171
+                },
+                "services": {
+                    "pass": 0,
+                    "fail": 26,
+                    "1.3": 4,
+                    "2.0": 22
+                }
+            }
+        }
+    ]
+}

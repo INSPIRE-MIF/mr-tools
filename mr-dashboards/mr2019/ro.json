@@ -1,0 +1,50 @@
+{
+    "countrycode": "ro",
+    "countryname": "Romania",
+    "endpoints": [
+        {
+            "id": "INSPIRE-7edbed58-ddbc-11e4-b469-52540004b857",
+            "session-id": "INSPIRE-7edbed58-ddbc-11e4-b469-52540004b857_20191216-010602",
+            "url": "http://geoportal.gov.ro/Geoportal_INIS/csw202/discovery",
+            "dumpdate": "2019-12-16",
+            "dataset": "111",
+            "services": "48",
+            "series": "4",
+            "indicators": {
+                "DSi_1_1": "115",
+                "DSi_1_2": "48",
+                "DSi_1_3": "30",
+                "DSi_1_4": "15",
+                "DSi_1_5": "100",
+                "MDi_1_1": "3.4%",
+                "MDi_1_2": "77.1%",
+                "DSi_2_0": "30.4%",
+                "DSi_2_1": "69.6%",
+                "DSi_2_2": "23.5%",
+                "DSi_2_3": "20.5%",
+                "NSi_2_0": "15.7%",
+                "NSi_2_1": "19.1%",
+                "NSi_2_2": "20.0%",
+                "NSi_4_0": "66.7%",
+                "NSi_4_1": "50.0%",
+                "NSi_4_2": "76.2%",
+                "NSi_4_3": "57.9%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 4,
+                    "fail": 111,
+                    "1.3": 115,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 37,
+                    "fail": 11,
+                    "1.3": 48,
+                    "2.0": 0
+                }
+            }
+        }
+    ]
+}

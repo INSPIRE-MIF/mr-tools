@@ -1,0 +1,9 @@
+file_id;md_id;type;error_count;errors
+1-100/6.iso19139;maaamet_geoloogiline_baaskaart;dataset;2;C.17 C.18
+1-100/76.iso19139;0b0ea5d6-45d3-46a3-9f5a-14eafe38a50f;service;1;3.6
+1-100/85.iso19139;29d33091-afa2-46c3-8ca6-413c579ce954;service;2;C.1 C.17
+1-100/87.iso19139;70003098_KPOIS_tehnovorgud;dataset;1;2.6
+101-200/75.iso19139;e43da54a-cda4-4903-879b-030b3dc19b55;service;1;3.6
+101-200/81.iso19139;muinsuskaitseamet_muinas;dataset;2;2.4 2.6
+101-200/89.iso19139;7d6865aa-f792-4aae-877a-eb17d41d23e6;service;1;3.6
+101-200/98.iso19139;42b75ebb-7b60-4900-979d-b9abd854ff1d;service;1;3.6

@@ -1,0 +1,251 @@
+{
+	"id": "29f5dbeb-474e-42a3-94bc-1b76952299ad",
+	"sessionid": null,
+	"url": "",
+	"countrycode": "lu",
+	"countryname": "Luxembourg",
+	"dumpdate": null,
+	"indicators": [
+		{
+			"id": "DSi_1_1",
+			"format": "integer",
+			"value": 312,
+			"formattedValue": "312",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 312
+				}
+			}
+		},
+		{
+			"id": "DSi_1_2",
+			"format": "integer",
+			"value": 59,
+			"formattedValue": "59",
+			"sourceData": {
+				"DSi_1_2": {
+					"doc_count": 59
+				}
+			}
+		},
+		{
+			"id": "DSi_1_3",
+			"format": "integer",
+			"value": 94,
+			"formattedValue": "94",
+			"sourceData": {
+				"DSi_1_3": {
+					"doc_count": 94
+				}
+			}
+		},
+		{
+			"id": "DSi_1_4",
+			"format": "integer",
+			"value": 0,
+			"formattedValue": "0",
+			"sourceData": {
+				"DSi_1_4": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "DSi_1_5",
+			"format": "integer",
+			"value": 312,
+			"formattedValue": "312",
+			"sourceData": {
+				"DSi_1_5": {
+					"doc_count": 312
+				}
+			}
+		},
+		{
+			"id": "DSi_2_0",
+			"format": "percentage",
+			"value": 74.67948717948718,
+			"formattedValue": "75%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 312
+				},
+				"DSi_2_0_1": {
+					"doc_count": 233
+				}
+			}
+		},
+		{
+			"id": "DSi_2_1",
+			"format": "percentage",
+			"value": 100,
+			"formattedValue": "100%",
+			"sourceData": {
+				"DSi_2_1_1": {
+					"doc_count": 44
+				},
+				"DSi_2_1_2": {
+					"doc_count": 44
+				}
+			}
+		},
+		{
+			"id": "DSi_2_2",
+			"format": "percentage",
+			"value": 74.9174917491749,
+			"formattedValue": "75%",
+			"sourceData": {
+				"DSi_2_2_1": {
+					"doc_count": 227
+				},
+				"DSi_2_2_2": {
+					"doc_count": 303
+				}
+			}
+		},
+		{
+			"id": "DSi_2_3",
+			"format": "percentage",
+			"value": 74.5980707395498,
+			"formattedValue": "75%",
+			"sourceData": {
+				"DSi_2_3_1": {
+					"doc_count": 232
+				},
+				"DSi_2_3_2": {
+					"doc_count": 311
+				}
+			}
+		},
+		{
+			"id": "NSi_2_0",
+			"format": "percentage",
+			"value": 0.32051282051282,
+			"formattedValue": "0%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 312
+				},
+				"NSi_2_0_1": {
+					"doc_count": 1
+				}
+			}
+		},
+		{
+			"id": "NSi_2_1",
+			"format": "percentage",
+			"value": 90.7051282051282,
+			"formattedValue": "91%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 312
+				},
+				"NSi_2_1_1": {
+					"doc_count": 283
+				}
+			}
+		},
+		{
+			"id": "NSi_2_2",
+			"format": "percentage",
+			"value": 0.32051282051282,
+			"formattedValue": "0%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 312
+				},
+				"NSi_2_2_1": {
+					"doc_count": 1
+				}
+			}
+		},
+		{
+			"id": "NSi_4_0",
+			"format": "percentage",
+			"value": 100,
+			"formattedValue": "100%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 1
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				},
+				"NSi_4_2_1": {
+					"doc_count": 29
+				},
+				"NSi_4_2_2": {
+					"doc_count": 29
+				},
+				"NSi_4_3_1": {
+					"doc_count": 29
+				},
+				"NSi_4_3_2": {
+					"doc_count": 29
+				},
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "NSi_4_1",
+			"format": "percentage",
+			"value": 100,
+			"formattedValue": "100%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 1
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				}
+			}
+		},
+		{
+			"id": "NSi_4_2",
+			"format": "percentage",
+			"value": 100,
+			"formattedValue": "100%",
+			"sourceData": {
+				"NSi_4_2_1": {
+					"doc_count": 29
+				},
+				"NSi_4_2_2": {
+					"doc_count": 29
+				}
+			}
+		},
+		{
+			"id": "NSi_4_3",
+			"format": "percentage",
+			"value": 100,
+			"formattedValue": "100%",
+			"sourceData": {
+				"NSi_4_3_1": {
+					"doc_count": 29
+				},
+				"NSi_4_3_2": {
+					"doc_count": 29
+				}
+			}
+		},
+		{
+			"id": "NSi_4_4",
+			"format": "percentage",
+			"value": null,
+			"formattedValue": "Not available",
+			"sourceData": {
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		}
+	]
+}

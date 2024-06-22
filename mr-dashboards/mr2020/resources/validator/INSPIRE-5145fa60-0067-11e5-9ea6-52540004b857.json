@@ -1,0 +1,46 @@
+{
+  "id": "INSPIRE-5145fa60-0067-11e5-9ea6-52540004b857",
+  "type_count": {
+    "dataset": 45749,
+    "series": 1121,
+    "service": 49327,
+    "unknown": 15,
+    "missing": 0,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      "01af2879-2730-471a-8d44-96c2db109945",
+      "d40ea15c-852b-41a5-b84c-6702eee4947a",
+      "0e3fe68a-892b-43a5-8fec-7d0532ba1c68",
+      "urn:isogeo:metadata:uuid:8ce4385d-073f-40d0-a204-f131837f4174",
+      "9e5b590c-d127-465b-a6b5-04ff07ebbb54",
+      "45417f9d-0d09-4960-9a1d-b0c8e1a5dfd1",
+      "4e8ff9f7-f17c-43f2-b0f9-00f79021337a",
+      "ab9e36a4-805a-4fdd-b4a3-898c79214395",
+      "a3328310-9725-48fa-a368-710e6a60b10d",
+      "f97b7a10-0a4e-4604-862b-697bea6d0d23",
+      "dd7dd724-870c-436e-a8ca-e85049837b1c",
+      "a628710b-92a9-4757-91de-8e1dfc3150eb",
+      "7b707803-c6e2-4945-a9a9-d8eae897e91e",
+      "a97f7a2b-dce9-4182-88af-4292bcf7e6a4",
+      "1931a58e-45b2-4b91-abde-211259a9bb74"
+    ],
+    "missing": [
+      ""
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 36,
+      "fail": 46834
+    },
+    "services": {
+      "pass": 14,
+      "fail": 49313
+    }
+  }
+}

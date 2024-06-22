@@ -1,0 +1,214 @@
+file_id;md_id;type;error_count;errors
+101-120/1;https://data.gov.sk/set/rpi/gmd/156850/e0b39c05-114d-428f-a41f-d37a3af341b5;service;3;5.2 5.4 5.5
+101-120/18;https://data.gov.sk/set/rpi/gmd/156850/590f7542-5c50-4eba-90ef-639fde8cf48b;service;1;3.6
+121-140/12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_CSKN_VMUO;dataset;1;1.10
+161-180/10;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_AP-K_DO;dataset;1;1.10
+161-180/12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_AP-K_SKO;dataset;1;1.10
+161-180/16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_GNN;dataset;1;1.10
+161-180/14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_DMR3.5;dataset;1;1.10
+161-180/18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_Hm-3VM-raster;dataset;4;C.20 C.21 C.22 1.10
+161-180/9;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_AP-K;series;1;1.10
+181-200/12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_KladyZBGISraster;dataset;4;C.20 C.21 C.22 1.10
+161-180/13;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_DBO;dataset;1;1.10
+181-200/16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT02;dataset;1;1.10
+161-180/17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_GNS;dataset;1;1.10
+161-180/20;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA_KR;dataset;1;1.10
+181-200/2;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA_OK;dataset;1;1.10
+181-200/14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT01_DMP1.0;dataset;1;1.10
+181-200/18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT02_DMR5.0;dataset;1;1.10
+181-200/1;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA_OB;dataset;1;1.10
+201-220/12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT08_DMP1.0;dataset;1;1.10
+181-200/3;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA_SR;dataset;1;1.10
+181-200/13;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT01;dataset;1;1.10
+181-200/17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT02_DMP1.0;dataset;1;1.10
+181-200/20;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT03_DMP1.0;dataset;1;1.10
+201-220/10;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT07_DMR5.0;dataset;1;1.10
+201-220/16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT09_DMR5.0;dataset;1;1.10
+201-220/14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT09;dataset;1;1.10
+201-220/2;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT04;dataset;1;1.10
+201-220/18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT10_DMP1.0;dataset;1;1.10
+201-220/5;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT05;dataset;1;1.10
+201-220/3;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT04_DMP1.0;dataset;1;1.10
+201-220/9;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT07_DMP1.0;dataset;1;1.10
+201-220/1;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT03_DMR5.0;dataset;1;1.10
+201-220/7;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT05_DMR5.0;dataset;1;1.10
+201-220/13;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT08_DMR5.0;dataset;1;1.10
+21-40/12;https://data.gov.sk/set/rpi/gmd/00156884/2a253844-edd9-499a-a44b-40e183f270f8;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+21-40/10;https://data.gov.sk/set/rpi/gmd/00156884/d6d426e4-81b7-41fe-b0e6-1acbff5df7df;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+201-220/17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT10;dataset;1;1.10
+21-40/14;https://data.gov.sk/set/rpi/gmd/00156884/4ce5f483-c35b-4ced-a385-668cdf3f6993;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+201-220/20;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT11;dataset;1;1.10
+21-40/16;https://data.gov.sk/set/rpi/gmd/00156884/841bcbfa-d48f-4ffd-a647-2e665b6d39a0;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+201-220/6;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT05_DMP1.0;dataset;1;1.10
+21-40/18;https://data.gov.sk/set/rpi/gmd/00156884/9ca50c27-a9ae-4bbd-8e0b-b35c0d0b8e2e;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+21-40/9;https://data.gov.sk/set/rpi/gmd/00156884/d5094c4a-7550-4a3a-9ab1-23e4a9458eec;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+221-240/12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT19;dataset;1;1.10
+21-40/13;https://data.gov.sk/set/rpi/gmd/00156884/3960d86c-48e3-496c-8788-49da3ece94e7;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+21-40/17;https://data.gov.sk/set/rpi/gmd/00156884/8723848b-2ba1-4fb5-bcf8-06f233441a15;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+221-240/16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT20_DMP1.0;dataset;1;1.10
+221-240/10;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT17_DMP1.0;dataset;1;1.10
+221-240/14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT19_DMR5.0;dataset;1;1.10
+221-240/18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT21;dataset;1;1.10
+221-240/2;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT11_DMR5.0;dataset;1;1.10
+221-240/3;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT12;dataset;1;1.10
+221-240/1;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT11_DMP1.0;dataset;1;1.10
+221-240/7;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT13_DMP1.0;dataset;1;1.10
+241-260/10;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_L-NI;dataset;1;1.10
+221-240/5;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT12_DMR5.0;dataset;1;1.10
+221-240/13;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT19_DMP1.0;dataset;1;1.10
+221-240/17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT20_DMR5.0;dataset;1;1.10
+241-260/14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_TMraster;dataset;4;C.20 C.21 C.22 1.10
+221-240/9;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT17;dataset;1;1.10
+221-240/20;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT21_DMR5.0;dataset;1;1.10
+241-260/12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_Povrch;dataset;1;1.10
+221-240/6;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT13;dataset;1;1.10
+241-260/3;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT22_DMR5.0;dataset;1;1.10
+241-260/16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_Vodstvo;dataset;1;1.10
+241-260/1;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT22;dataset;1;1.10
+241-260/7;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT26;dataset;1;1.10
+241-260/13;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_RGB;dataset;1;1.10
+121-140/11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_CSKN_VKM;dataset;1;1.10
+241-260/17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_Vyskopis;dataset;1;1.10
+261-280/14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_WMS_Hranica_BezInfo;service;1;3.6
+241-260/2;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT22_DMP1.0;dataset;1;1.10
+241-260/5;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT24_DMP1.0;dataset;1;1.10
+241-260/6;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT24_DMR5.0;dataset;1;1.10
+241-260/9;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT26_DMR5.0;dataset;1;1.10
+281-300/14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS;dataset;1;1.10
+281-300/18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS_Raster50000;dataset;1;1.10
+281-300/16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS_Raster25000;dataset;1;1.10
+281-300/2;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_WMS_TMSR;service;1;3.6
+281-300/17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS_Raster5000;dataset;1;1.10
+301-320/20;https://data.gov.sk/set/rpi/gmd/31753604/ae92c282-b795-482e-9dc7-4ba7f3bd93a1;dataset;4;C.1 C.17 C.22 1.5
+321-340/12;https://data.gov.sk/set/rpi/gmd/31753604/eac9785b-6838-466e-8090-0623dfa76936;dataset;4;C.1 C.17 C.22 1.5
+321-340/16;https://data.gov.sk/set/rpi/gmd/31753604/SK_2_TektonickaMapa_500000;service;2;C.17 3.6
+321-340/10;https://data.gov.sk/set/rpi/gmd/31753604/c6485637-43d3-4558-91e9-fd7906b6a519;dataset;4;C.1 C.17 C.22 1.5
+321-340/14;https://data.gov.sk/set/rpi/gmd/31753604/f736d1e6-c7bb-4357-bac0-dc11df405156;dataset;4;C.1 C.17 C.22 1.5
+321-340/2;https://data.gov.sk/set/rpi/gmd/31753604/A36E4877-2116-4577-8F2E-674ACB1EF3AD;service;2;C.17 3.6
+321-340/18;https://data.gov.sk/set/rpi/gmd/31753604/059F06CA-CFBA-4A00-AC11-F8B29756277C;service;2;C.17 3.6
+321-340/1;https://data.gov.sk/set/rpi/gmd/31753604/a0ebd93d-df6b-40b8-96b6-91389ef3e963;dataset;4;C.1 C.17 C.22 1.5
+321-340/5;https://data.gov.sk/set/rpi/gmd/31753604/bc18e9d5-dd5e-4fca-a390-7599518d6b31;dataset;4;C.1 C.17 C.22 1.5
+321-340/3;https://data.gov.sk/set/rpi/gmd/31753604/A70347A4-6BBF-41B5-84D8-24425561A46A;service;2;C.17 3.6
+321-340/13;https://data.gov.sk/set/rpi/gmd/31753604/e55acb93-80b2-4f8b-ac6d-2e37169df62d;dataset;4;C.1 C.17 C.22 1.5
+321-340/7;https://data.gov.sk/set/rpi/gmd/31753604/CF459385-EFC2-41A6-A5E8-BFA1FB508D1E;service;2;C.17 3.6
+321-340/9;https://data.gov.sk/set/rpi/gmd/31753604/c14210d7-5534-4027-a50a-52428e8b0816;dataset;4;C.1 C.17 C.22 1.5
+321-340/17;https://data.gov.sk/set/rpi/gmd/31753604/02f81030-2efa-4231-a190-c6e93c091578;dataset;4;C.1 C.17 C.22 1.5
+321-340/20;https://data.gov.sk/set/rpi/gmd/31753604/10468945-3af1-40f0-a9f7-c33981bcf04b;dataset;4;C.1 C.17 C.22 1.5
+341-360/10;https://data.gov.sk/set/rpi/gmd/31753604/1542625032396r5510941663213935;service;2;C.17 3.6
+341-360/12;https://data.gov.sk/set/rpi/gmd/31753604/1542625806430r49234643422184665;service;2;C.17 3.6
+321-340/6;https://data.gov.sk/set/rpi/gmd/31753604/CC41E6DA-F73D-4781-B917-FE09BAB5FCC1;service;2;C.17 3.6
+341-360/14;https://data.gov.sk/set/rpi/gmd/31753604/1542631482493r28896040208043416;service;2;C.17 3.6
+341-360/18;https://data.gov.sk/set/rpi/gmd/31753604/1542632841596r09007099805524121;service;2;C.17 3.6
+341-360/16;https://data.gov.sk/set/rpi/gmd/31753604/1542632307381r877502672593131;service;2;C.17 3.6
+341-360/2;https://data.gov.sk/set/rpi/gmd/31753604/1538996480677r7483699086630045;dataset;3;C.1 C.17 C.22
+341-360/3;https://data.gov.sk/set/rpi/gmd/31753604/1538996532670r20997192449398416;dataset;3;C.1 C.17 C.22
+341-360/1;https://data.gov.sk/set/rpi/gmd/31753604/13fa6dbd-8a52-4885-b7f8-eb631a44e78d;dataset;4;C.1 C.17 C.22 1.5
+341-360/13;https://data.gov.sk/set/rpi/gmd/31753604/1542631088168r5458887955242504;service;2;C.17 3.6
+341-360/5;https://data.gov.sk/set/rpi/gmd/31753604/1538997099203r7379799510472893;service;2;C.17 3.6
+341-360/7;https://data.gov.sk/set/rpi/gmd/31753604/1539000655561r5601378890536135;service;2;C.17 3.6
+341-360/17;https://data.gov.sk/set/rpi/gmd/31753604/1542632558920r7807274787417695;service;2;C.17 3.6
+141-160/8;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_INSPIRE_KS;service;4;5.2 5.3 5.4 5.5
+161-180/11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_AP-K_PO;dataset;1;1.10
+361-380/10;https://data.gov.sk/set/rpi/gmd/31753604/1542719139827r7126008984711918;service;2;C.17 3.6
+341-360/9;https://data.gov.sk/set/rpi/gmd/31753604/1542623802732r33161152209118994;service;2;C.17 3.6
+341-360/20;https://data.gov.sk/set/rpi/gmd/31753604/1542633297550r9006531310833992;service;2;C.17 3.6
+361-380/14;https://data.gov.sk/set/rpi/gmd/31753604/1556101944915r7727323035157703;dataset;4;C.1 C.17 C.22 1.5
+161-180/15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_GN;series;1;1.10
+361-380/18;https://data.gov.sk/set/rpi/gmd/31753604/27CCAC4B-A72B-4837-85AD-59DD9A0A888B;service;2;C.17 3.6
+341-360/6;https://data.gov.sk/set/rpi/gmd/31753604/1539000631055r017208288200939226;dataset;4;C.1 C.17 C.22 1.5
+361-380/12;https://data.gov.sk/set/rpi/gmd/31753604/1542719468588r31320202077917947;service;2;C.17 3.6
+361-380/1;https://data.gov.sk/set/rpi/gmd/31753604/1542633505299r2793106173615991;service;2;C.17 3.6
+361-380/3;https://data.gov.sk/set/rpi/gmd/31753604/1542633909781r7427584025603009;service;2;C.17 3.6
+361-380/16;https://data.gov.sk/set/rpi/gmd/31753604/2ECE564B-2A72-4A62-9280-CC0FAD015AA6;service;2;C.17 3.6
+361-380/7;https://data.gov.sk/set/rpi/gmd/31753604/1542718384236r28625667577850233;service;2;C.17 3.6
+361-380/13;https://data.gov.sk/set/rpi/gmd/31753604/1542720245209r6532662541791048;service;2;C.17 3.6
+161-180/19;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA;series;1;1.10
+361-380/2;https://data.gov.sk/set/rpi/gmd/31753604/1542633675811r45561466589297694;service;2;C.17 3.6
+381-400/10;https://data.gov.sk/set/rpi/gmd/31753604/5E55088C-02AB-4B61-B37F-B3D4AE546BA4;service;2;C.17 3.6
+361-380/5;https://data.gov.sk/set/rpi/gmd/31753604/1542715507444r5181259886407092;service;2;C.17 3.6
+381-400/14;https://data.gov.sk/set/rpi/gmd/31753604/6A9861EAA1554D3EE0530110000A1492;service;1;C.17
+361-380/17;https://data.gov.sk/set/rpi/gmd/31753604/26bbf5df-b460-428d-a691-16fef8efeebf;dataset;4;C.1 C.17 C.22 1.5
+361-380/9;https://data.gov.sk/set/rpi/gmd/31753604/1542718972019r7720358166007777;service;2;C.17 3.6
+381-400/12;https://data.gov.sk/set/rpi/gmd/31753604/6ad8e0d0-7981-41ee-9937-faf65fcb060a;dataset;4;C.1 C.17 C.22 1.5
+381-400/16;https://data.gov.sk/set/rpi/gmd/31753604/71CC05D5-65DB-445B-9D8E-F9A825FB7AD3;service;2;C.17 3.6
+381-400/18;https://data.gov.sk/set/rpi/gmd/31753604/82F824BD-A546-4DDC-B79F-0373B9D3511B;service;2;C.17 3.6
+361-380/20;https://data.gov.sk/set/rpi/gmd/31753604/3daa4824-3464-4cae-9e74-66d769c96dd6;dataset;4;C.1 C.17 C.22 1.5
+361-380/6;https://data.gov.sk/set/rpi/gmd/31753604/1542715727838r3299689642366088;service;2;C.17 3.6
+381-400/2;https://data.gov.sk/set/rpi/gmd/31753604/3E28163F-3F85-4F95-9B89-48CA68E2A452;service;2;C.17 3.6
+381-400/3;https://data.gov.sk/set/rpi/gmd/31753604/3076BEA4-6F35-4DF7-904B-2A57E1F3430F;service;2;C.17 3.6
+381-400/1;https://data.gov.sk/set/rpi/gmd/31753604/3EDA193E-673B-42AE-97C5-5B94F37F6873;service;2;C.17 3.6
+381-400/5;https://data.gov.sk/set/rpi/gmd/31753604/362fd4e9-ad79-4010-adad-107deeea2782;dataset;4;C.1 C.17 C.22 1.5
+161-180/8;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_AMSRraster;dataset;4;C.20 C.21 C.22 1.10
+381-400/13;https://data.gov.sk/set/rpi/gmd/31753604/6A971AB603FB3ED3E0530110000A6CCC;dataset;3;C.1 C.17 C.22
+381-400/7;https://data.gov.sk/set/rpi/gmd/31753604/38e79fe7-a2c4-424b-8a5c-0598059658aa;dataset;4;C.1 C.17 C.22 1.5
+381-400/9;https://data.gov.sk/set/rpi/gmd/31753604/4da25df3-f336-4a49-94d9-644f7eebe833;dataset;4;C.1 C.17 C.22 1.5
+181-200/11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_KladyML;dataset;4;C.20 C.21 C.22 1.10
+401-420/14;https://data.gov.sk/set/rpi/gmd/36063606/7C2F9E089C7A3DECE0530210000AD07A;dataset;2;C.1 1.5
+381-400/17;https://data.gov.sk/set/rpi/gmd/31753604/78babbfe-f4cf-43f3-a0f9-b1b69df003e3;dataset;4;C.1 C.17 C.22 1.5
+401-420/12;https://data.gov.sk/set/rpi/gmd/36063606/7CAC6635A289799CE0530110000A75D7;service;1;3.6
+401-420/18;https://data.gov.sk/set/rpi/gmd/36063606/7C48AAD2E15C1DC9E0530210000AF493;dataset;2;C.1 1.5
+401-420/16;https://data.gov.sk/set/rpi/gmd/36063606/7C43442002CD5D11E0530210000A6A39;dataset;2;C.1 1.5
+381-400/6;https://data.gov.sk/set/rpi/gmd/31753604/373689D3-4A55-465B-9257-8965B3E2BBE7;service;2;C.17 3.6
+401-420/3;https://data.gov.sk/set/rpi/gmd/36022047/4A6506C44A912D0DE0530110000A8498;service;2;C.17 3.6
+181-200/15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT01_DMR5.0;dataset;1;1.10
+401-420/13;https://data.gov.sk/set/rpi/gmd/36063606/7CBF3A0DCB0C1E25E0530210000A7C64;service;1;3.6
+181-200/19;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT03;dataset;1;1.10
+401-420/17;https://data.gov.sk/set/rpi/gmd/36063606/7C47543720E50DF5E0530210000AA38D;dataset;2;C.1 1.5
+401-420/20;https://data.gov.sk/set/rpi/gmd/36063606/7C5831F6DD870A88E0530210000ACEFF;dataset;2;C.1 1.5
+421-440/2;https://data.gov.sk/set/rpi/gmd/36063606/7C5831F6DD890A88E0530210000ACEFF;dataset;2;C.1 1.5
+41-60/1;https://data.gov.sk/set/rpi/gmd/00626031/a1d653f2-b4b8-4b6b-bc08-11e0f7f53c27;service;4;5.2 5.3 5.4 5.5
+421-440/5;https://data.gov.sk/set/rpi/gmd/37828100/B4EB4113A9CA2DEBE0530210000AB010;dataset;2;C.1 1.5
+421-440/3;https://data.gov.sk/set/rpi/gmd/36063606/7D35CEB30D557762E0530210000AD57F;service;1;3.6
+421-440/1;https://data.gov.sk/set/rpi/gmd/36063606/7C5831F6DD880A88E0530210000ACEFF;dataset;2;C.1 1.5
+201-220/11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT08;dataset;1;1.10
+421-440/6;https://data.gov.sk/set/rpi/gmd/37828100/B4FE03F30A3C6D45E0530110000A5FC6;dataset;3;C.1 C.14 1.5
+201-220/15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT09_DMP1.0;dataset;1;1.10
+201-220/19;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT10_DMR5.0;dataset;1;1.10
+461-480/18;https://data.gov.sk/set/rpi/gmd/42181810/B69FA1CEB77116D3E0530110000A0CB8;dataset;7;C.1 C.6 C.8 C.9 C.10 C.11 C.22
+201-220/4;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT04_DMR5.0;dataset;1;1.10
+201-220/8;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT07;dataset;1;1.10
+21-40/11;https://data.gov.sk/set/rpi/gmd/00156884/f5a95d56-b960-4604-aa27-cf32494ca33b;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+21-40/15;https://data.gov.sk/set/rpi/gmd/00156884/48810619-b2f2-41fc-9487-3ee52880c9c8;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+21-40/19;https://data.gov.sk/set/rpi/gmd/00156884/99635fa5-2cf1-45b4-afc9-9fbde651bd01;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+21-40/8;https://data.gov.sk/set/rpi/gmd/00156884/cba39b05-f4e1-481f-974d-5982c6ae80b3;dataset;8;C.5 C.17 C.18 C.20 C.21 C.22 1.6 1.10
+221-240/11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT17_DMR5.0;dataset;1;1.10
+221-240/15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT20;dataset;1;1.10
+221-240/19;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT21_DMP1.0;dataset;1;1.10
+221-240/4;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT12_DMP1.0;dataset;1;1.10
+221-240/8;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT13_DMR5.0;dataset;1;1.10
+241-260/11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ORTO;dataset;1;1.10
+241-260/15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_Vegetacia;dataset;1;1.10
+241-260/4;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT24;dataset;1;1.10
+241-260/8;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT26_DMP1.0;dataset;1;1.10
+81-100/11;https://data.gov.sk/set/rpi/gmd/151866/SK_MVSR_INSPIRE_AD;dataset;1;C.17
+281-300/11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_WMS_ZMSR;service;1;3.6
+281-300/15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS_Raster10000;dataset;1;1.10
+281-300/19;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZMSRraster;dataset;4;C.20 C.21 C.22 1.10
+301-320/19;https://data.gov.sk/set/rpi/gmd/31753604/ADC07737-A54B-4D27-969A-68863F0CDD8E;service;2;C.17 3.6
+321-340/11;https://data.gov.sk/set/rpi/gmd/31753604/D1712E36-3804-4696-A22B-B28C726D05E4;service;2;C.17 3.6
+321-340/15;https://data.gov.sk/set/rpi/gmd/31753604/SK_1_TektonickaMapa_500000;dataset;4;C.1 C.17 C.22 1.5
+81-100/14;https://data.gov.sk/set/rpi/gmd/156850/ae60aa1c-0d18-431f-ab43-11de96912893;service;1;3.6
+321-340/19;https://data.gov.sk/set/rpi/gmd/31753604/1F1A41BA-092B-4085-81A1-71E17F9A5A2C;service;2;C.17 3.6
+321-340/4;https://data.gov.sk/set/rpi/gmd/31753604/a8ec3dd6-aa2b-4be8-8257-5204184b07f8;dataset;4;C.1 C.17 C.22 1.5
+321-340/8;https://data.gov.sk/set/rpi/gmd/31753604/C131C49D-5F15-4E17-A3B6-4100C02D4723;service;2;C.17 3.6
+341-360/11;https://data.gov.sk/set/rpi/gmd/31753604/1542625504541r7506196332743837;service;2;C.17 3.6
+341-360/15;https://data.gov.sk/set/rpi/gmd/31753604/1542631815314r7054963110013788;service;2;C.17 3.6
+341-360/19;https://data.gov.sk/set/rpi/gmd/31753604/1542633113487r9246335039967082;service;2;C.17 3.6
+341-360/4;https://data.gov.sk/set/rpi/gmd/31753604/1538997081213r1734359337821476;service;2;C.17 3.6
+341-360/8;https://data.gov.sk/set/rpi/gmd/31753604/1542614574182r8709696716321436;service;2;C.17 3.6
+361-380/11;https://data.gov.sk/set/rpi/gmd/31753604/1542719292837r18060723853531813;service;2;C.17 3.6
+361-380/15;https://data.gov.sk/set/rpi/gmd/31753604/1561111447495r6400446858891269;service;2;C.17 3.6
+361-380/19;https://data.gov.sk/set/rpi/gmd/31753604/3A50FB4E-BBD6-4C7D-A0F4-C19C538E16E5;service;2;C.17 3.6
+361-380/4;https://data.gov.sk/set/rpi/gmd/31753604/1542634116533r3958376383683897;service;2;C.17 3.6
+361-380/8;https://data.gov.sk/set/rpi/gmd/31753604/1542718786962r25689938338420015;service;2;C.17 3.6
+381-400/11;https://data.gov.sk/set/rpi/gmd/31753604/6ABFC778070E4E43E0530110000AF114;service;1;C.17
+381-400/15;https://data.gov.sk/set/rpi/gmd/31753604/7B5615D8-B831-4C0A-ADE1-F077B7D79BC1;service;2;C.17 3.6
+381-400/19;https://data.gov.sk/set/rpi/gmd/31753604/9F1D019E-1358-4D59-B4B7-92FD8B274CBE;service;2;C.17 3.6
+381-400/4;https://data.gov.sk/set/rpi/gmd/31753604/359b2e18-9992-4189-8dec-fc3ce022fcad;dataset;4;C.1 C.17 C.22 1.5
+381-400/8;https://data.gov.sk/set/rpi/gmd/31753604/4b3e1b3a-780c-4ec4-aa93-5c1c5a496c27;dataset;4;C.1 C.17 C.22 1.5
+401-420/11;https://data.gov.sk/set/rpi/gmd/36063606/7BB79F7096C2277FE0530210000ACC27;service;1;3.6
+401-420/15;https://data.gov.sk/set/rpi/gmd/36063606/7C2F9E089C7B3DECE0530210000AD07A;dataset;2;C.1 1.5
+401-420/19;https://data.gov.sk/set/rpi/gmd/36063606/7C5AC78C7EA71DEAE0530210000AD3D8;service;1;3.6
+41-60/19;https://data.gov.sk/set/rpi/gmd/00626031/eeb21673-85a6-4d7d-ac94-5a1966ed8eab;service;4;5.2 5.3 5.4 5.5
+421-440/4;https://data.gov.sk/set/rpi/gmd/36063606/7D35CEB30D567762E0530210000AD57F;service;1;3.6
+61-80/9;https://data.gov.sk/set/rpi/gmd/00626031/1747e6a5-c965-44d6-90c3-cf86abc45335;service;4;5.2 5.3 5.4 5.5

@@ -1,0 +1,42 @@
+{
+  "id": "INSPIRE-7a076b28-098b-11e7-9a72-52540023a883",
+  "type_count": {
+    "dataset": 211,
+    "series": 1,
+    "service": 30,
+    "unknown": 0,
+    "missing": 11,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      ""
+    ],
+    "missing": [
+      "95879cd4-e93d-4d4d-af57-4ec6731b9c97",
+      "c4622adc-282a-4368-b3a8-d15769882b6f",
+      "a488ff49-540f-4013-aa23-af9a2d2d0d34",
+      "e449ba1d-ee2a-42d5-97a9-ad9fcf48b696",
+      "ed8f4713-e0c7-4dca-a7b0-3ef7aeb1bc73",
+      "2d35d97f-e7b9-4d40-8654-d6adfaf26240",
+      "49f67f0b-6122-42f3-8391-f2ceeb367c2f",
+      "1abcda60-f48d-4340-bc53-4611d49d716c",
+      "a7efd280-1c64-4fdf-98dd-bec607ff6a9d",
+      "dda92878-86a1-4191-a073-9721671d6bc1",
+      "79b73ff5-e8af-4f26-82b6-6d3eda65fc30"
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 0,
+      "fail": 212
+    },
+    "services": {
+      "pass": 0,
+      "fail": 30
+    }
+  }
+}

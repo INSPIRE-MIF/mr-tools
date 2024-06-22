@@ -1,0 +1,51 @@
+{
+    "countrycode": "ee",
+    "countryname": "Estonia",
+    "endpoints": [
+        {
+            "id": "INSPIRE-608e479c-616e-11e2-b563-52540004b857",
+            "session-id": "INSPIRE-608e479c-616e-11e2-b563-52540004b857_20191216-005706",
+            "url": "http://inspire.maaamet.ee/geoportal/csw/discovery",
+            "dumpdate": "2019-12-16",
+            "dataset": "73",
+            "services": "80",
+            "series": "2",
+            "indicators": {
+                "DSi_1_1": "75",
+                "DSi_1_2": "78",
+                "DSi_1_3": "21",
+                "DSi_1_4": "0",
+                "DSi_1_5": "74",
+                "MDi_1_1": "41.3%",
+                "MDi_1_2": "19.2%",
+                "DSi_2_0": "89.3%",
+                "DSi_2_1": "90.5%",
+                "DSi_2_2": "87.5%",
+                "DSi_2_3": "89.5%",
+                "NSi_2_0": "17.3%",
+                "NSi_2_1": "32.0%",
+                "NSi_2_2": "18.7%",
+                "NSi_4_0": "98.6%",
+                "NSi_4_1": "0.0%",
+                "NSi_4_2": "100.0%",
+                "NSi_4_3": "100.0%",
+                "NSi_4_4": "Not available"
+            },
+            "validation": {
+                "dataset": {
+                    "pass": 31,
+                    "fail": 44,
+                    "1.3": 75,
+                    "2.0": 0
+                },
+                "services": {
+                    "pass": 15,
+                    "fail": 65,
+                    "1.3": 80,
+                    "2.0": 0
+                }
+            }
+        }
+    ]
+}
+

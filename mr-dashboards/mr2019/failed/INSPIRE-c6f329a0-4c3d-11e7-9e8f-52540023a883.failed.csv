@@ -1,0 +1,326 @@
+file_id;md_id;version;type;error_count;errors
+1-20_3;ES_SDGC_BU;2.0;dataset;1;C.18
+1-20_9;ES_SDGC_AD;2.0;dataset;1;C.18
+101-120_1;bdb9ca75-9bd2-4b5f-934d-9e31034b211c;1.3;dataset;2;c.3 c.4
+101-120_11;6c181182-6d75-4380-9783-d87a115d422a;1.3;dataset;2;c.3 c.4
+1-20_5;ES_SDGC_CP_ATOM;2.0;service;1;C.1
+101-120_15;7a895abf-bd7d-4914-9842-34ca44d58d8c;1.3;dataset;2;c.3 c.4
+101-120_12;4f218701-1004-4b15-93b1-298551ae9446;1.3;dataset;2;c.3 c.4
+101-120_14;9a6c7b5c-3551-4625-8105-d1bb1008eb45;1.3;service;1;d.3
+101-120_18;33f23277-db9b-45ef-a807-7e8bc35bbc77;1.3;dataset;2;c.3 c.4
+101-120_17;9d7e7223-bff5-4fca-886b-a90b727f5e33;1.3;dataset;2;c.3 c.4
+101-120_10;8a82bf1c-238f-4184-b37c-955e68ecc23d;1.3;dataset;2;c.3 c.4
+101-120_13;4d53ce82-d590-4ad3-9137-c2548d8352a3;1.3;dataset;2;c.3 c.4
+101-120_20;48cf15c1-303b-4f31-9790-bdd114475d71;1.3;dataset;2;c.3 c.4
+101-120_5;8d6bcb8c-f146-4a68-a819-8f59394f5d5b;1.3;dataset;2;c.3 c.4
+101-120_2;cb91c17b-525c-4b4d-8cc6-baa005c4c21d;1.3;dataset;2;c.3 c.4
+101-120_16;8e4cf7e1-cb81-418a-b36c-05f9c6148802;1.3;service;1;d.3
+101-120_4;7c49ccc0-f0d4-444d-94f1-cb1d3578880a;1.3;service;1;d.3
+101-120_7;5f668eeb-3768-49fc-80b1-fd089c7d2a7e;1.3;dataset;2;c.3 c.4
+101-120_8;6bd4a451-4cc0-4ebb-9687-2119027fd12e;1.3;dataset;2;c.3 c.4
+121-140_10;52b58bb0-19ad-482b-a837-b5dbb8665931;1.3;service;1;d.3
+101-120_3;d7acebc0-c03e-4717-84c2-ec391241f9e3;1.3;dataset;2;c.3 c.4
+101-120_19;9de4ba98-6cc7-4d8e-a140-02dfd7760842;1.3;service;1;d.3
+121-140_13;e98f3e45-628c-4452-a17e-4b5a14cdde47;1.3;service;2;a.8 d.3
+121-140_1;49b414bc-5afc-4e88-ab68-75b829a2db37;1.3;dataset;2;c.3 c.4
+121-140_16;d69528c7-f60c-456c-9ec4-f9d04b5672d0;1.3;service;1;d.3
+121-140_12;e5637a8c-0ec2-446c-b8dd-23ae69f45f62;1.3;service;2;a.8 d.3
+121-140_15;e2d44ed7-ffd2-4e0f-8a56-6e8c45107ac1;1.3;dataset;2;c.3 c.4
+101-120_6;6cd66f9c-6a16-47f3-b79e-c88675de7d1d;1.3;dataset;2;c.3 c.4
+101-120_9;8c13dce4-47e2-4cb9-997c-306f1e48db3c;1.3;dataset;2;c.3 c.4
+121-140_11;54b9baa8-3e59-449f-9e83-2048b23108ac;1.3;service;1;d.3
+121-140_18;ea351392-3e03-4b77-b4e3-4eb75b6c41a1;1.3;dataset;2;c.3 c.4
+121-140_19;de873bb2-9560-4cb3-be85-4bab13665ce5;1.3;service;1;d.3
+121-140_3;9d65177e-c2ae-4f15-b174-580b75fac1c2;1.3;service;1;d.3
+121-140_6;21abb560-8bc2-43c9-a80b-53e18ebca559;1.3;dataset;2;c.3 c.4
+121-140_14;e6488344-daee-4fb5-9bff-16e3578e29f7;1.3;dataset;2;c.3 c.4
+121-140_9;9b4b203a-36bb-444e-b86a-dfa609e5a5d5;1.3;dataset;2;c.3 c.4
+121-140_20;da9ac8ef-38a6-4b8d-b8e2-a05463122f36;1.3;dataset;2;c.3 c.4
+121-140_17;e0acf6a9-5c89-4275-9e16-5bca6abba38e;1.3;service;1;d.3
+121-140_4;9ac49feb-d2c0-4cf7-bfc9-bb9ecd349fd4;1.3;dataset;2;c.3 c.4
+121-140_2;9d6e67b4-7d9c-468f-9a58-aa94e55f3cbb;1.3;dataset;2;c.3 c.4
+121-140_5;12b8de4e-21ac-4eac-9e7c-c88729357da3;1.3;service;2;d.2 d.3
+121-140_8;27eb3b81-1188-4e13-b761-2eba58072ca4;1.3;service;1;d.3
+141-160_11;ea0e39ab-c3ae-4253-a5ce-d3b3ceb06016;1.3;service;1;d.3
+141-160_14;f6370904-e1ac-49be-b874-e400170d3769;1.3;service;1;d.3
+141-160_10;da5227c0-3233-4389-8421-21683c605b08;1.3;dataset;2;c.3 c.4
+121-140_7;52f538b0-95b6-439b-af1d-816763877366;1.3;dataset;2;c.3 c.4
+141-160_1;ea8ca652-1e55-4ac1-b4de-433d39c84304;1.3;dataset;2;c.3 c.4
+141-160_17;fbd424ef-a99c-4a2c-86af-d06585fdffff;1.3;dataset;2;c.3 c.4
+141-160_2;ea364deb-9584-46b1-b7c5-a70cadd45586;1.3;service;1;d.3
+141-160_13;fb326c11-18d4-4ee1-aa23-a40cb90cf8d8;1.3;dataset;2;c.3 c.4
+141-160_4;dd8c6578-cd24-4cba-bfa4-2d035021b0f4;1.3;dataset;2;c.3 c.4
+141-160_16;f2918254-1bd9-43ac-a071-6ee275717dc6;1.3;service;1;d.3
+141-160_15;fc21c1a5-4c02-4157-9d2f-9a2cd200f908;1.3;dataset;2;c.3 c.4
+141-160_19;fa6d04bf-faa6-4336-ba82-c6bef9b77be9;1.3;dataset;2;c.3 c.4
+141-160_12;fb1ee583-620b-46df-9515-70344cc7cc24;1.3;service;1;d.3
+141-160_18;f334572d-8516-4bbd-8810-6660d4018652;1.3;dataset;2;c.3 c.4
+141-160_3;d0873e7e-e6cb-4983-933c-1591ab18fc8c;1.3;service;1;d.3
+141-160_7;e5da1aa1-91dc-4b9b-a6d8-7b2326455f3c;1.3;dataset;2;c.3 c.4
+161-180_1;1df7bc53-1daa-4fa3-bf99-06065d75bc68;1.3;dataset;2;c.3 c.4
+141-160_6;e3cb19bb-4392-4d12-a892-b088fa841948;1.3;dataset;2;c.3 c.4
+161-180_12;0d427e21-be52-4723-b78e-8b00a43319cb;1.3;dataset;2;c.3 c.4
+141-160_20;4bb08b93-b3b6-46d5-92a1-7d5c2b4b4c53;1.3;service;1;d.3
+161-180_18;6e3a56da-a5bc-4227-9960-ffae3327bff8;1.3;dataset;2;c.3 c.4
+141-160_9;dda6cecc-4b42-499c-a0d1-4d2d6f01c861;1.3;dataset;2;c.3 c.4
+161-180_20;8e08f57e-f694-4e97-837c-6ba1b9dca0b7;1.3;service;1;d.3
+141-160_8;dacda83c-b8ca-4463-9a9e-fe7f0a583f86;1.3;service;2;a.8 d.3
+161-180_14;1b225fec-03fe-413d-9621-d0c951028d4c;1.3;dataset;2;c.3 c.4
+161-180_10;4d0f156e-9660-42b0-ae09-ea8f08f7a524;1.3;dataset;2;c.3 c.4
+161-180_15;4aff3a6c-0f35-45fd-bca0-3e25a0560c29;1.3;service;1;d.3
+141-160_5;ebf9ef3c-2d39-4784-bb31-fe6f6af3051c;1.3;dataset;2;c.3 c.4
+161-180_11;1e0751bb-87b7-439a-afef-72316531b607;1.3;service;1;d.3
+161-180_17;0e425f02-c564-4a34-86ce-17ce2ab3be00;1.3;dataset;2;c.3 c.4
+161-180_5;3dc4b6ff-669a-451b-ade2-c1d52dcf42b1;1.3;service;1;d.3
+161-180_13;4cb67d89-3da4-4da6-a0e7-3afca7baf5ee;1.3;dataset;2;c.3 c.4
+161-180_16;4a58a812-db59-457f-80c9-3d66739f9c74;1.3;dataset;2;c.3 c.4
+161-180_4;04e0ae86-2c90-4f14-ab11-6ab247827e58;1.3;service;1;d.3
+161-180_8;2d477909-cfe1-4e12-bfa0-0b86ca2edcc1;1.3;dataset;2;c.3 c.4
+161-180_2;4d39f689-1cd2-45f0-bbaa-7b2df865225e;1.3;dataset;2;c.3 c.4
+161-180_19;6aeb9533-e274-4881-a643-81b73f9f41ea;1.3;dataset;2;c.3 c.4
+181-200_10;898f0ff8-f06c-4c14-88f7-43ea90e48233;1.3;dataset;2;c.3 c.4
+161-180_7;4a84a477-0d4a-4fcc-b9c5-d76b5a6471b5;1.3;dataset;2;c.3 c.4
+181-200_13;615d79a5-56b1-4b35-8d75-0f8d4cbd9554;1.3;dataset;2;c.3 c.4
+161-180_6;1e1a3d96-6ac0-4370-8e61-4936ea99674c;1.3;dataset;2;c.3 c.4
+161-180_3;0a67cad8-721d-4c93-be69-035ac372be9c;1.3;dataset;2;c.3 c.4
+181-200_1;7be8a0d6-c2b0-4cd6-bc00-fd70c356cfe4;1.3;dataset;2;c.3 c.4
+181-200_16;5811d1aa-d2a8-4d8b-b493-40f2eecd9514;1.3;service;1;d.3
+181-200_12;3146b867-f72e-476c-b1cd-d6e6eb47d480;1.3;service;1;d.3
+181-200_15;1597a68c-4cfd-47e2-897a-f45b7e53be3f;1.3;dataset;2;c.3 c.4
+161-180_9;1dc5b326-590a-492a-93e9-ab8cc28145e8;1.3;service;1;d.3
+181-200_11;5353db93-fcb3-4be3-a4ff-39bbf25429ce;1.3;dataset;2;c.3 c.4
+181-200_14;664dc89c-3742-4372-bd81-a45348aba916;1.3;dataset;2;c.3 c.4
+181-200_18;1637cdd3-2625-43b1-8e11-7ac7e2a11e8d;1.3;dataset;2;c.3 c.4
+181-200_20;619dcbfc-f168-40cb-a13d-baf9c663ecc1;1.3;dataset;2;c.3 c.4
+181-200_19;6420de21-5a2e-4097-b608-399c649d4982;1.3;service;1;d.3
+181-200_5;674c84da-29c3-4672-84c9-47c8fc5b4f95;1.3;dataset;2;c.3 c.4
+181-200_17;613e86a9-584f-496e-8b55-36a624c4d05b;1.3;dataset;2;c.3 c.4
+181-200_6;887ca76a-0adc-45f9-bbc6-89905e092f26;1.3;dataset;2;c.3 c.4
+181-200_3;5ca5b253-f312-405d-a988-9b2c48bd27ba;1.3;dataset;2;c.3 c.4
+181-200_4;7ab7d9ed-f652-491f-a2c4-e1a5f81eb462;1.3;dataset;2;c.3 c.4
+181-200_9;920ecde9-5343-4d1d-9a52-b2b08123a1f8;1.3;dataset;2;c.3 c.4
+181-200_7;00747f77-ded4-4970-a2bb-f108f5c81905;1.3;dataset;2;c.3 c.4
+181-200_2;6ab95e0b-209b-4b0a-89b7-38b33d7574cd;1.3;service;1;d.3
+201-220_11;470884da-c744-4bbc-8ab5-23df781cd66e;1.3;dataset;2;c.3 c.4
+201-220_14;417367e1-2a58-47f3-b4fa-f8418e3b497c;1.3;dataset;2;c.3 c.4
+181-200_8;5207e72a-769e-480e-b1fd-4b395073aa2d;1.3;service;1;d.3
+201-220_1;813bd9ed-a458-438e-af96-b9cbca568007;1.3;dataset;2;c.3 c.4
+201-220_17;25818080-5500-4fff-848e-03c638e351c7;1.3;dataset;2;c.3 c.4
+201-220_16;129381ec-8bfd-4538-b399-66f9c6023da5;1.3;service;1;d.3
+201-220_10;8668f1a9-1ce3-47a9-be88-3af39d9d32c;1.3;service;1;d.3
+201-220_13;76964f6d-3a83-45b6-b160-326990fe9ee0;1.3;dataset;2;c.3 c.4
+201-220_12;588501d1-d5bf-450b-a67e-29b0c3973dba;1.3;dataset;2;c.3 c.4
+201-220_2;701817e3-eba3-4ab9-a5b9-401335f1df77;1.3;dataset;2;c.3 c.4
+201-220_4;40218cc9-d838-48b5-a3e9-a5730c9fc49f;1.3;service;1;d.3
+201-220_19;7845530f-4721-443f-b84f-fca43b6d9e3f;1.3;service;1;d.3
+201-220_3;3604297e-756a-4d7b-83da-9967fb342a28;1.3;dataset;2;c.3 c.4
+201-220_15;38940357-6f97-4e79-a424-33fe613a176b;1.3;dataset;2;c.3 c.4
+201-220_7;9221d023-746f-493b-9716-f0d6733077a9;1.3;dataset;2;c.3 c.4
+201-220_6;8221d742-fc7e-405f-ace9-a5cc602b2704;1.3;service;1;d.3
+201-220_18;56417c7d-0988-4d4c-bd45-b3d98aab2329;1.3;dataset;2;c.3 c.4
+201-220_20;6990092f-1ca3-484f-93aa-b2acd8538be9;1.3;service;1;d.3
+201-220_9;746180c7-bb46-4f0c-a37d-efdee17ae37e;1.3;service;1;d.3
+21-40_18;{309e871c-e108-426d-ab0f-f8aa46117574}_200001_es;1.3;dataset;1;c.4
+201-220_5;847424c0-ee2d-46dc-bbfa-63327469e9f9;1.3;dataset;2;c.3 c.4
+21-40_20;ESCSICPROYECTOSIGMAYORES20080704ResidenciasPROYECTO;1.3;dataset;2;a.6 c.2
+21-40_14;WFS_AU_icgc-idec_inspire;1.3;service;1;d.2
+201-220_8;82987b2b-600b-44a0-b0fd-9949ca5b90bd;1.3;dataset;2;c.3 c.4
+21-40_17;AU_Unidades_administrativas_de_Catalunya;1.3;dataset;1;c.3
+221-240_10;md_IDEEu_WCS_CARTOGRAFIA_es;1.3;service;1;d.3
+221-240_13;69cfe63c-9974-4c5b-aefb-1a27c994bb88;1.3;dataset;2;c.3 c.4
+21-40_19;ESCSICPROYECTOSIGMAYORES20080704CentrosdiaPROYECTO;1.3;dataset;2;a.6 c.2
+221-240_1;7113179e-6b93-4392-bdf9-e405a0d80fc4;1.3;service;1;d.3
+21-40_6;ES_SDGC_CP;2.0;dataset;1;C.18
+21-40_9;GLG_INTECMAR_RADARHF_2011;1.3;dataset;1;c.3
+221-240_16;021c6b3c-be18-4459-ba7a-2e85d31a93f1;1.3;service;1;d.3
+221-240_19;79e887e2-8e1f-4f97-b132-538d83da8d99;1.3;dataset;2;c.3 c.4
+221-240_11;1e2524c9-8c46-43a2-86f0-22c463762f77;1.3;dataset;2;c.3 c.4
+221-240_12;4c08fef2-f367-4c14-ad8b-6975a5df8799;1.3;dataset;2;c.3 c.4
+221-240_18;78f8661b-ff09-4aa0-94f6-3bd7e67dca7f;1.3;dataset;2;c.3 c.4
+221-240_3;aa318a6a-ebc1-4f78-bc60-58ae305d6f5c;1.3;dataset;2;c.3 c.4
+221-240_15;44db5dd4-936d-4a5e-8c31-9fbd8a593662;1.3;dataset;2;c.3 c.4
+221-240_17;18a05d46-cd80-4b82-97ff-3ebe8320c73e;1.3;service;1;d.3
+221-240_6;a72956a4-7fb3-46a5-b3ff-b1129fd78e76;1.3;dataset;2;c.3 c.4
+221-240_14;9aa66933-a8db-4817-972b-7249f1655ddf;1.3;dataset;2;c.3 c.4
+221-240_20;89ba5545-02c0-420c-b155-2550834d5e25;1.3;service;1;d.3
+221-240_9;b672b5a8-ef48-4bb0-b6b5-57db973330a7;1.3;dataset;2;c.3 c.4
+221-240_2;a449a7b9-31ae-49e5-8f67-5c6f67991d88;1.3;dataset;2;c.3 c.4
+221-240_5;aae202fb-ffd6-4acb-8c1b-3280578f7067;1.3;dataset;2;c.3 c.4
+241-260_11;93ac147b-0522-4545-94cc-9996a547921a;1.3;service;1;d.3
+221-240_8;40129627-1ce6-454c-9511-d80251510906;1.3;service;1;d.3
+221-240_7;aeee2d91-2ce6-4df5-81f4-3ea850045095;1.3;dataset;2;c.3 c.4
+221-240_4;a573d5a2-24ad-4138-a934-6c28811ea743;1.3;dataset;2;c.3 c.4
+241-260_14;467ca901-1df3-4852-921c-8fcb3abee4e6;1.3;dataset;2;c.3 c.4
+241-260_10;074bc7ac-2e2f-4bbd-8f50-dce034f7c5d5;1.3;dataset;2;c.3 c.4
+241-260_17;0577ad24-f044-40cf-bb04-1c2e951cadf6;1.3;service;1;d.3
+241-260_1;440b076d-0dcd-48ca-8252-d1f6f3edf615;1.3;dataset;2;c.3 c.4
+241-260_2;575e8cb3-95b5-4fb9-9b99-81e2b7f76084;1.3;dataset;2;c.3 c.4
+241-260_13;429bf33d-d303-46a4-b2dd-7e0ebf28f65b;1.3;service;1;d.3
+241-260_16;351d1a5a-ddbb-4fc4-b4df-2d0ed0af49c6;1.3;service;1;d.3
+241-260_12;473cb713-996d-408f-9204-12f2fd08cdb0;1.3;dataset;2;c.3 c.4
+241-260_15;98a15f5f-666d-45d9-a972-ff3a73f8479b;1.3;dataset;2;c.3 c.4
+241-260_18;6647e1f1-25f4-45ed-91e2-e559a2c2ec0b;1.3;dataset;2;c.3 c.4
+241-260_19;3921abc9-a5bb-434e-828d-501d64b2bd9f;1.3;dataset;2;c.3 c.4
+241-260_4;78ad1bb8-27f2-48bf-93f7-1298be002980;1.3;service;1;d.3
+241-260_3;86bd3bae-fdad-4a62-ac45-b33f5048bf8d;1.3;dataset;2;c.3 c.4
+261-280_1;f6c6eaac-2126-4a43-909f-3467380e6cde;1.3;service;1;d.3
+241-260_7;95b8abce-2083-40b3-bd6b-83a7d8a72307;1.3;dataset;2;c.3 c.4
+241-260_20;ee39bacc-5931-4599-b153-6f470a224266;1.3;service;1;d.3
+241-260_6;0475ebeb-d822-4719-af86-c1c2750cdc53;1.3;dataset;2;c.3 c.4
+241-260_9;99b7327d-a1cf-465a-9a2c-88302787216f;1.3;dataset;2;c.3 c.4
+261-280_12;7d440f88-5a17-4e88-98a8-8050dc25a075;1.3;service;2;d.2 d.3
+241-260_5;533e50fe-0a30-4aea-b31c-6f5ae36e0e40;1.3;dataset;2;c.3 c.4
+261-280_15;9876d351-7476-4a39-b45d-cd41e98a4325;1.3;service;1;d.3
+261-280_11;f37d2438-c76f-495b-9c05-4b43673d2ae6;1.3;dataset;2;c.3 c.4
+241-260_8;327f852a-bb9e-4d30-987c-e7619af29232;1.3;dataset;2;c.3 c.4
+261-280_14;2dbac977-fb72-48c0-ac80-05313b014a8c;1.3;service;1;d.3
+261-280_18;fe757d64-436c-482d-b65b-f24348139fd6;1.3;service;1;d.3
+261-280_10;f28d0f8d-72df-43d2-a137-62dab76a874b;1.3;dataset;2;c.3 c.4
+261-280_17;6aedfe8d-8368-4899-a082-59ec759bcae2;1.3;service;2;d.2 d.3
+261-280_13;0cb17ff1-5b72-4588-9cad-a031a62bbcfa;1.3;service;1;d.3
+261-280_20;64d10695-15ae-4c6e-88b7-8d8aa6d2fd20;1.3;service;2;d.2 d.3
+261-280_2;f1587f65-7567-4460-a4f6-ca7623abb718;1.3;service;1;d.3
+261-280_5;f28caf34-5451-4bf9-ba5e-cdab02646bc2;1.3;service;1;d.3
+261-280_16;2eb51a84-a42a-489e-a30c-80ecb8dfa8e8;1.3;service;2;d.2 d.3
+261-280_8;fd7c1066-eb38-4fc8-b81d-eecc27c16b2f;1.3;service;1;d.3
+261-280_7;fd81fc26-0380-4426-85e1-f63b0b376848;1.3;dataset;2;c.3 c.4
+261-280_4;f92cc506-43bf-4ade-9dd4-5a9bd387efd7;1.3;dataset;2;c.3 c.4
+281-300_10;d6a2127c-8ae7-407a-ab5a-2f4a6be8da98;1.3;service;1;d.3
+261-280_19;af66f77a-f5dd-407d-93f1-e32ce975e8f2;1.3;service;1;d.3
+281-300_1;6de8aff5-a524-4a81-9121-440e7c64c2fc;1.3;service;1;d.3
+281-300_13;57e4d472-9306-4c54-9871-02028a1476ec;1.3;service;1;d.3
+281-300_12;2ecf6e62-676c-4931-a648-f9a3e22dffbd;1.3;service;1;d.3
+261-280_3;f6ff1625-f532-4513-8e7e-00266bab203d;1.3;service;1;d.3
+281-300_19;30d546d9-e52e-40d7-923b-de129175a936;1.3;service;1;d.3
+281-300_15;e6948efa-fc17-46d2-a73d-2d79ceaa1dce;1.3;service;1;d.3
+281-300_16;b94574f8-7b74-4281-b93d-aa5dc5a5e297;1.3;service;1;d.3
+261-280_6;fe63e694-2fd8-4ec2-81b9-06a3d0b4ce38;1.3;dataset;2;c.3 c.4
+281-300_3;de730f91-7976-4917-b863-5639fba20f50;1.3;service;1;d.3
+281-300_18;08724978-2c58-4c49-9307-8af4c0220084;1.3;service;1;d.3
+281-300_6;2ccd5195-6b23-48e6-b8eb-f83ca7f69737;1.3;service;1;d.3
+281-300_20;3367fbb4-85d6-451f-9d60-923b08d4f2df;1.3;service;1;d.3
+261-280_9;fd192ac4-21d0-4aab-b7a6-e28f8921f9c5;1.3;service;1;d.3
+281-300_11;260688ef-5f64-4169-b109-68c19ede9fad;1.3;service;1;d.3
+281-300_8;ce05a8b7-addd-4f5e-b0f3-a8c0a18dcb37;1.3;service;1;d.3
+281-300_9;fe1f9fa4-b973-49f6-94f9-074d04d68e16;1.3;service;2;d.2 d.3
+281-300_5;c2991e47-924d-411d-911e-1da64666ba34;1.3;service;1;d.3
+281-300_14;22e829d8-ca72-4669-bdb6-f0ee6748801b;1.3;service;1;d.3
+301-320_11;862105c3-1186-484c-80a0-3790a6d3c22f;1.3;service;1;d.3
+281-300_17;19b687ff-21e5-49af-b8b0-93eeb33f20c2;1.3;service;1;d.3
+301-320_17;c51934ee-9094-49bc-a0f4-63480b7bdfe3;1.3;service;2;d.2 d.3
+301-320_10;7d8ea5c2-02be-4e49-a22f-a0628f89dba1;1.3;service;1;d.3
+301-320_16;08185ad3-2b0a-4524-95c8-ac674595c5be;1.3;service;1;d.3
+301-320_14;00d5fcb9-1407-46ad-a3a1-ac163978cf52;1.3;service;1;d.3
+301-320_13;6c4c1801-ad69-4b74-9816-d0280556a020;1.3;service;1;d.3
+281-300_2;e0d8d0e1-7b89-4340-8395-baecf3d1edc2;1.3;service;2;d.2 d.3
+301-320_2;cc129446-a898-45e9-9361-4f27fcd36054;1.3;service;1;d.3
+301-320_4;c44e7b18-f5c6-43cd-8837-321647417965;1.3;service;2;d.2 d.3
+301-320_1;f4930fc2-06c7-43d5-a62e-b2f8a26b2b54;1.3;service;1;d.3
+281-300_4;2644c0cb-1374-411f-b406-d9361e9ecec5;1.3;service;1;d.3
+281-300_7;6774c571-35d0-4485-ad5f-df4cc97f518f;1.3;service;1;d.3
+301-320_7;f0c3ba72-283d-4273-b72f-33c92ca84ddc;1.3;service;1;d.3
+301-320_19;0f818396-2174-4bc9-a40f-04c2d371b2c5;1.3;service;2;d.2 d.3
+301-320_3;0255a82f-5837-4c78-a05f-ffc19a864ddb;1.3;service;2;d.2 d.3
+321-340_1;881dbd60-8f4a-43b7-bbb5-3191a9e98b13;1.3;service;2;d.2 d.3
+301-320_15;2f0b29d0-2dc9-441f-a4f5-5ea19a3068b1;1.3;service;2;d.2 d.3
+301-320_12;eabf7d25-2e83-47f1-9feb-8d8c5a0b1bf8;1.3;service;2;d.2 d.3
+301-320_6;18dbd811-3a6b-4caa-8b8f-4894a4ee7988;1.3;service;1;d.3
+321-340_12;167d5138-f223-455e-b6d8-0732a61d3bbe;1.3;service;1;d.3
+301-320_18;43ad72e1-0705-4b04-ba3b-fe8d19643df9;1.3;service;1;d.3
+321-340_15;f09af1ac-2be1-4367-a2a1-b581de1bafc8;1.3;service;1;d.3
+301-320_9;ea03fc24-dfed-40cd-aedf-ae753c01b471;1.3;service;2;d.2 d.3
+301-320_20;1ac81374-3aca-44be-a700-e33469aa01c6;1.3;service;1;d.3
+321-340_18;85276317-accd-4000-90c2-442ebea2e4a6;1.3;service;2;d.2 d.3
+301-320_5;e0e2625b-084a-4c6f-9d2b-6e9f37466bce;1.3;service;2;d.2 d.3
+321-340_11;242cd2b7-30f9-45d3-8126-fdf5fd9bd364;1.3;service;2;d.2 d.3
+321-340_20;ff5b999e-05ef-471d-b5cb-2c2bfc7ed2d7;1.3;service;1;d.3
+321-340_14;c30e9c54-07b1-4546-87bb-434136f3f548;1.3;service;2;d.2 d.3
+321-340_8;54573cd8-1678-41f6-ab33-63f6b6f7e110;1.3;service;1;d.3
+301-320_8;6fe79a14-a138-4092-b4fb-d8ea1b524f9d;1.3;service;1;d.3
+321-340_10;8f8c2c68-b930-4a35-ae47-77d44ff0cb14;1.3;service;1;d.3
+341-360_10;c003806e-cb6f-4d7f-b37c-964429aacc7e;1.3;service;1;d.2
+321-340_2;492e6cda-11f2-42e9-8314-744536986607;1.3;service;2;d.2 d.3
+321-340_17;bda5cc39-5c82-4133-955f-65525cc70efc;1.3;service;2;d.2 d.3
+321-340_13;d417d547-9f0a-4b6a-9379-8b60403594b2;1.3;service;1;d.3
+321-340_4;spaGeoportalWMS;1.3;service;1;d.3
+321-340_16;08f9403b-5f67-49cb-aa1e-c43f6a05e3aa;1.3;service;1;d.3
+341-360_13;ea176d5e-4529-4322-884d-9483e9e6a284;1.3;service;1;d.3
+321-340_7;38687cf6-4bb9-43a4-a54c-03d1347b8a75;1.3;service;1;d.3
+321-340_19;c254a628-9eb7-4af7-899a-5574debe83ca;1.3;service;1;d.3
+341-360_1;a205157d-6ab9-4746-a6d6-ddeddbdb6495;1.3;service;2;d.2 d.3
+341-360_3;fef4216d-fb68-4a67-858e-5bdd80c1c773;1.3;service;1;d.3
+321-340_6;ba1e6f65-c235-4536-a127-70b961a8c380;1.3;service;1;d.3
+341-360_19;ESPIGMESERVICIOHIDROGEOLOGICO200CONTINUODIGITAL20110221637843;2.0;service;1;C.18
+341-360_12;94548589-c01f-4c10-9440-818b84a6a1b5;1.3;service;1;d.3
+321-340_9;285d213f-23e2-47da-b66a-f2f458962b5e;1.3;service;1;d.3
+341-360_15;spaPermisosysondeosWMS;1.3;service;1;d.3
+341-360_18;ESPIGMESERVICIOGEOLOGICO1000EDICION19952011021426047;2.0;service;1;C.18
+341-360_11;2844cd76-de60-4791-99af-b6eae97e8924;1.3;service;2;d.2 d.3
+341-360_6;7c2234e7-0050-4580-8d23-e43b992ec08e;1.3;service;1;d.3
+341-360_9;e0e600db-443c-44c3-83da-87c69bdfb47a;1.3;service;2;d.2 d.3
+341-360_5;84d25ce4-0e93-4212-9605-9138dca8913d;1.3;service;1;d.3
+341-360_17;ESPIGMEHIDROGEOLOGICO200CONTINUODIGITAL20100806637843;2.0;series;1;C.18
+341-360_14;02315800-5a44-4ee1-b373-68930921f9cd;1.3;service;2;d.2 d.3
+341-360_8;e3775a56-1359-46d6-8edf-6564e1cc0957;1.3;service;1;d.3
+361-380_17;3e0139de-e91c-456c-b616-e20975e6a6c6;1.3;service;1;d.3
+341-360_2;3b382ab2-519b-4663-8341-9c0e1dcacc31;1.3;service;1;d.3
+341-360_4;23f9d348-5c31-4b2d-9670-e877e1af90c9;1.3;service;2;d.2 d.3
+341-360_7;803be79c-7d7d-4659-87fb-ca228605381e;1.3;service;1;d.3
+361-380_18;191574be-5eca-4315-b4b4-756dc50ac553;2.0;service;1;3.4
+361-380_6;8d185f60-78f3-4355-8aa3-153757cdb663;2.0;service;1;3.4
+401-420_17;spacarcapaemerrecsanitarioswmstematica20140408;2.0;dataset;1;C.18
+381-400_15;spaignwms_igr_transporte;2.0;service;1;3.4
+41-60_1;ESCSICPROYECTOSIGMAYORES20120118INSSPROYECTO;1.3;dataset;2;a.6 c.2
+41-60_12;{D822ED79-C4D2-4270-BFDE-2D07E1BB41CF}_100016_spa;1.3;dataset;1;c.4
+41-60_15;SPADBSE08000E1M;1.3;dataset;1;c.4
+401-420_15;spacarcapaemervolunwmstematica20140408;2.0;dataset;1;C.18
+41-60_20;spaJEXserieOEX10;1.3;series;1;c.3
+401-420_20;spacarcapacaptwmstematica20131216;2.0;dataset;1;C.18
+401-420_13;spacarcapaparqeolwmstematica20131216;2.0;dataset;1;C.18
+41-60_8;900df0de-be87-11e0-8e37-00261812f484_NGA;1.3;dataset;1;c.3
+401-420_16;spacarcapaceneducativoswmstematica20141201;2.0;dataset;1;C.18
+401-420_8;ESPIGMEGEOLOGICO1000EDICION19952010072026047;2.0;dataset;1;C.18
+401-420_9;spacarcaparuidodtnwmstematica20130304;2.0;dataset;1;C.18
+41-60_14;{D822ED79-C4D2-4270-BFDE-2D07E1BB41CF}_100018_spa;1.3;dataset;1;c.4
+41-60_3;ESCSICPROYECTOSIGMAYORES20091214HospitalesPROYECTO;1.3;dataset;2;a.6 c.2
+41-60_2;ESCSICPROYECTOSIGMAYORES20120321ConsultoriosPROYECTO;1.3;dataset;2;a.6 c.2
+41-60_4;ESCSICPROYECTOSIGMAYORES20120321CentrosSaludPROYECTO;1.3;dataset;2;a.6 c.2
+41-60_7;spaidearagonrca_csw_ws_NGA;1.3;service;2;d.2 d.3
+421-440_8;GLG_INTECMAR_WMS-INSPIRE-BU_2016;1.3;service;1;d.3
+441-457_10;spaignwms_unidades_administrativas_2013;2.0;service;1;3.4
+441-457_16;873f5b08-4263-48ec-9345-3aaacd53d1e0;1.3;dataset;2;c.3 c.4
+61-80_10;ESCSICPROYECTOSIGMAYORES20120118CMSSPROYECTO;1.3;dataset;2;a.6 c.2
+61-80_13;b15f251c-866e-432c-8111-f0feb745b56a;1.3;service;1;d.3
+61-80_1;md_IDEEu_MDT_LIDAR_2016_es;1.3;dataset;2;c.4 f.1
+61-80_16;ac11b891-6c6c-4458-b89c-2b73f593d019;1.3;dataset;2;c.3 c.4
+61-80_12;b690c4b1-2fc8-447e-858f-438f1162c884;1.3;service;1;d.3
+61-80_19;a01cb8d6-2a8c-4041-bd92-5b8f0db67a66;1.3;dataset;2;c.3 c.4
+61-80_15;b42355e9-f585-4205-ab49-da80adac2cbf;1.3;dataset;2;c.3 c.4
+61-80_3;wms_serv_sanitarios;1.3;service;2;a.8 f.4
+61-80_14;bb612c55-2729-4f31-bf4f-b5e190d74b46;1.3;dataset;2;c.3 c.4
+61-80_17;b82af55f-ce93-4f98-b302-280cc319ec38;1.3;dataset;2;c.3 c.4
+61-80_18;b3c330f1-ef8d-4e62-a940-1040083dabff;1.3;dataset;2;c.3 c.4
+61-80_6;wms_serv_sociales;1.3;service;1;a.8
+61-80_5;wfs_serv_sanitarios;1.3;service;2;a.8 f.4
+61-80_4;wfs_serv_sociales;1.3;service;1;a.8
+61-80_20;56256838-b3b2-43bb-acdb-12e9dab62f90;1.3;dataset;2;c.3 c.4
+81-100_11;cc94abe9-75a1-4362-8de2-c8b8e1f7cc00;1.3;dataset;2;c.3 c.4
+81-100_10;d1d35488-2c38-4288-a463-359165bff122;1.3;dataset;2;c.3 c.4
+81-100_14;cb550555-548b-450f-bee1-4435a4c40b6c;1.3;dataset;2;c.3 c.4
+81-100_1;bca2512d-18bd-4c56-a3c3-cca23871ebfe;1.3;service;1;d.3
+81-100_17;c012a652-de43-48c0-9c28-b3eb752a988f;1.3;dataset;2;c.3 c.4
+81-100_13;c181404d-abb8-4f69-8c47-a50434270b51;1.3;service;1;d.3
+81-100_12;c5b805f2-45f3-4256-9ba9-084f82bd31bf;1.3;service;1;d.3
+81-100_19;d4ec156a-f733-4ab2-8a2c-a84f07247ff1;1.3;dataset;2;c.3 c.4
+81-100_16;d2fc3935-0fbb-444a-83a8-be06d59604df;1.3;dataset;2;c.3 c.4
+81-100_15;ce547116-0acc-4483-89ca-3634c8da2c4a;1.3;service;1;d.3
+81-100_2;a1102942-b4f1-49c5-be92-99b224b4c561;1.3;dataset;2;c.3 c.4
+81-100_18;cb9952e6-844f-420b-af1a-a3dbdc95d995;1.3;dataset;2;c.3 c.4
+81-100_7;c1593ee7-5795-495c-b18e-ef65511c656d;1.3;service;1;d.3
+81-100_20;c4bdcfc2-0006-44e0-b731-cca58b793e45;1.3;dataset;2;c.3 c.4
+81-100_4;cc381566-d971-4dea-9938-84ad8c0d3ff3;1.3;dataset;2;c.3 c.4
+81-100_3;b3a0d403-e85b-477a-85aa-158009f5cd70;1.3;dataset;2;c.3 c.4
+81-100_5;d2f590a1-56c9-436f-8d64-9ae024ac75bf;1.3;dataset;2;c.3 c.4
+81-100_6;cb0ee635-45cc-407e-bc84-aa8c3d04faff;1.3;dataset;2;c.3 c.4
+81-100_9;d8db2101-16ba-4d75-8935-f511d15982a8;1.3;dataset;2;c.3 c.4
+81-100_8;c9b9b552-dba5-4d60-8252-6d5e8f9cd142;1.3;service;1;d.3

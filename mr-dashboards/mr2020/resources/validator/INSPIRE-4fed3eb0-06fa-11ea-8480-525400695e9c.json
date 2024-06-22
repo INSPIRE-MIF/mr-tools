@@ -1,0 +1,34 @@
+{
+  "id": "INSPIRE-4fed3eb0-06fa-11ea-8480-525400695e9c",
+  "type_count": {
+    "dataset": 57974,
+    "series": 531,
+    "service": 88068,
+    "unknown": 3,
+    "missing": 1,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      "B253A3A2-7D5E-11D3-B18A-0040333B31EA",
+      "3ae50737-1b56-4d13-b4c2-f03b73d248a4",
+      "74c944ee-e6b3-4843-9713-6c7898c4bedb"
+    ],
+    "missing": [
+      "456d9a8c-8eca-4ce7-a473-04e1dd450f04"
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 11206,
+      "fail": 47299
+    },
+    "services": {
+      "pass": 70051,
+      "fail": 18017
+    }
+  }
+}

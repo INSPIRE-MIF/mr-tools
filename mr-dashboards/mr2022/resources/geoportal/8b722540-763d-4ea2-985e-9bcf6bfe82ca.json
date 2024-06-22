@@ -1,0 +1,216 @@
+{
+    "id": "8b722540-763d-4ea2-985e-9bcf6bfe82ca",
+    "sessionid": null,
+    "url": "",
+    "countrycode": "cz",
+    "countryname": "Czech Republic",
+    "dumpdate": null,
+    "indicators": [{
+            "id": "DSi_1_1",
+            "format": "integer",
+            "value": 90,
+            "formattedValue": "90",
+            "sourceData": {
+                "DSi_1_1": {
+                    "doc_count": 90
+                }
+            }
+        }, {
+            "id": "DSi_1_2",
+            "format": "integer",
+            "value": 193,
+            "formattedValue": "193",
+            "sourceData": {
+                "DSi_1_2": {
+                    "doc_count": 193
+                }
+            }
+        }, {
+            "id": "DSi_1_3",
+            "format": "integer",
+            "value": 33,
+            "formattedValue": "33",
+            "sourceData": {
+                "DSi_1_3": {
+                    "doc_count": 33
+                }
+            }
+        }, {
+            "id": "DSi_1_4",
+            "format": "integer",
+            "value": 12,
+            "formattedValue": "12",
+            "sourceData": {
+                "DSi_1_4": {
+                    "doc_count": 12
+                }
+            }
+        }, {
+            "id": "DSi_1_5",
+            "format": "integer",
+            "value": 78,
+            "formattedValue": "78",
+            "sourceData": {
+                "DSi_1_5": {
+                    "doc_count": 78
+                }
+            }
+        }, {
+            "id": "DSi_2_0",
+            "format": "percentage",
+            "value": 47.77777777777778,
+            "formattedValue": "48%",
+            "sourceData": {
+                "DSi_1_1": {
+                    "doc_count": 90
+                },
+                "DSi_2_0_1": {
+                    "doc_count": 43
+                }
+            }
+        }, {
+            "id": "DSi_2_1",
+            "format": "percentage",
+            "value": 100,
+            "formattedValue": "100%",
+            "sourceData": {
+                "DSi_2_1_1": {
+                    "doc_count": 21
+                },
+                "DSi_2_1_2": {
+                    "doc_count": 21
+                }
+            }
+        }, {
+            "id": "DSi_2_2",
+            "format": "percentage",
+            "value": 90.9090909090909,
+            "formattedValue": "91%",
+            "sourceData": {
+                "DSi_2_2_1": {
+                    "doc_count": 10
+                },
+                "DSi_2_2_2": {
+                    "doc_count": 11
+                }
+            }
+        }, {
+            "id": "DSi_2_3",
+            "format": "percentage",
+            "value": 20.689655172413794,
+            "formattedValue": "21%",
+            "sourceData": {
+                "DSi_2_3_1": {
+                    "doc_count": 12
+                },
+                "DSi_2_3_2": {
+                    "doc_count": 58
+                }
+            }
+        }, {
+            "id": "NSi_2_0",
+            "format": "percentage",
+            "value": 78.0,
+            "formattedValue": "78%",
+            "sourceData": {
+            }
+        }, {
+            "id": "NSi_2_1",
+            "format": "percentage",
+            "value": 93.0,
+            "formattedValue": "93%",
+            "sourceData": {
+            }
+        }, {
+            "id": "NSi_2_2",
+            "format": "percentage",
+            "value": 83.0,
+            "formattedValue": "83%",
+            "sourceData": {
+            }
+        }, {
+            "id": "NSi_4_0",
+            "format": "percentage",
+            "value": 96.33507853403141,
+            "formattedValue": "96%",
+            "sourceData": {
+                "NSi_4_1_1": {
+                    "doc_count": 2
+                },
+                "NSi_4_1_2": {
+                    "doc_count": 2
+                },
+                "NSi_4_2_1": {
+                    "doc_count": 69
+                },
+                "NSi_4_2_2": {
+                    "doc_count": 73
+                },
+                "NSi_4_3_1": {
+                    "doc_count": 112
+                },
+                "NSi_4_3_2": {
+                    "doc_count": 115
+                },
+                "NSi_4_4_1": {
+                    "doc_count": 1
+                },
+                "NSi_4_4_2": {
+                    "doc_count": 1
+                }
+            }
+        }, {
+            "id": "NSi_4_1",
+            "format": "percentage",
+            "value": 100,
+            "formattedValue": "100%",
+            "sourceData": {
+                "NSi_4_1_1": {
+                    "doc_count": 2
+                },
+                "NSi_4_1_2": {
+                    "doc_count": 2
+                }
+            }
+        }, {
+            "id": "NSi_4_2",
+            "format": "percentage",
+            "value": 94.52054794520548,
+            "formattedValue": "95%",
+            "sourceData": {
+                "NSi_4_2_1": {
+                    "doc_count": 69
+                },
+                "NSi_4_2_2": {
+                    "doc_count": 73
+                }
+            }
+        }, {
+            "id": "NSi_4_3",
+            "format": "percentage",
+            "value": 97.3913043478261,
+            "formattedValue": "97%",
+            "sourceData": {
+                "NSi_4_3_1": {
+                    "doc_count": 112
+                },
+                "NSi_4_3_2": {
+                    "doc_count": 115
+                }
+            }
+        }, {
+            "id": "NSi_4_4",
+            "format": "percentage",
+            "value": 100,
+            "formattedValue": "100%",
+            "sourceData": {
+                "NSi_4_4_1": {
+                    "doc_count": 1
+                },
+                "NSi_4_4_2": {
+                    "doc_count": 1
+                }
+            }
+        }
+    ]
+}

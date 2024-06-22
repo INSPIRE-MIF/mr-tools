@@ -1,0 +1,367 @@
+file_id;md_id;version;type;error_count;errors
+1-20_10;https://data.gov.sk/set/rpi/gmd/00156884/8723848b-2ba1-4fb5-bcf8-06f233441a15;1.3;dataset;3;a.4 a.5 c.4
+1-20_11;https://data.gov.sk/set/rpi/gmd/00156884/9ca50c27-a9ae-4bbd-8e0b-b35c0d0b8e2e;1.3;dataset;3;a.4 a.5 c.4
+1-20_16;https://data.gov.sk/set/rpi/gmd/00626031/a8e48ab3-9878-45b5-84e4-c42e4d56bbcc;1.3;dataset;3;c.3 f.1 f.3
+1-20_14;https://data.gov.sk/set/rpi/gmd/00626031/a1d653f2-b4b8-4b6b-bc08-11e0f7f53c27;1.3;service;2;d.2 f.3
+1-20_17;https://data.gov.sk/set/rpi/gmd/00626031/b7a2de23-33f4-4ea0-a50c-0f5df335f878;1.3;service;3;d.2 d.3 f.3
+1-20_2;https://data.gov.sk/set/rpi/gmd/00156884/d5094c4a-7550-4a3a-9ab1-23e4a9458eec;1.3;dataset;3;a.4 a.5 c.4
+1-20_19;https://data.gov.sk/set/rpi/gmd/00626031/0b0142b9-71d4-4315-a3c9-5d5bcce46585;1.3;dataset;2;f.1 f.3
+1-20_3;https://data.gov.sk/set/rpi/gmd/00156884/d6d426e4-81b7-41fe-b0e6-1acbff5df7df;1.3;dataset;3;a.4 a.5 c.4
+1-20_4;https://data.gov.sk/set/rpi/gmd/00156884/f5a95d56-b960-4604-aa27-cf32494ca33b;1.3;dataset;3;a.4 a.5 c.4
+1-20_6;https://data.gov.sk/set/rpi/gmd/00156884/3960d86c-48e3-496c-8788-49da3ece94e7;1.3;dataset;4;a.4 a.5 c.3 c.4
+1-20_7;https://data.gov.sk/set/rpi/gmd/00156884/4ce5f483-c35b-4ced-a385-668cdf3f6993;1.3;dataset;3;a.4 a.5 c.4
+101-120_11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_AP-K;1.3;series;1;c.4
+1-20_9;https://data.gov.sk/set/rpi/gmd/00156884/841bcbfa-d48f-4ffd-a647-2e665b6d39a0;1.3;dataset;3;a.4 a.5 c.4
+101-120_12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_AP-K_DO;1.3;dataset;1;c.4
+101-120_18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_GNN;1.3;dataset;2;c.4 f.1
+101-120_14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_AP-K_SKO;1.3;dataset;1;c.4
+101-120_15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_DBO;1.3;dataset;1;c.4
+101-120_17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_GN;1.3;series;2;c.4 f.1
+101-120_20;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA;1.3;series;2;c.4 f.1
+101-120_5;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_INSPIRE_WMS_CP_UO;1.3;service;1;d.2
+121-140_10;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_INSPIRE_OI;1.3;dataset;2;a.5 c.4
+121-140_13;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT01_DMP1.0;1.3;dataset;1;c.4
+101-120_4;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_INSPIRE_WMS_CP_KN;1.3;service;1;d.2
+121-140_1;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA_KR;1.3;dataset;2;c.4 f.1
+121-140_19;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT17_DMP1.0;1.3;dataset;1;c.4
+121-140_16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT05_DMP1.0;1.3;dataset;1;c.4
+121-140_12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT01;1.3;dataset;1;c.4
+121-140_15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT05;1.3;dataset;1;c.4
+121-140_3;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA_OK;1.3;dataset;2;c.4 f.1
+121-140_6;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_INSPIRE_BU;1.3;dataset;2;a.5 c.4
+121-140_18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT17;1.3;dataset;1;c.4
+121-140_9;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_INSPIRE_HY;1.3;dataset;2;a.5 c.4
+121-140_20;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT17_DMR5.0;1.3;dataset;1;c.4
+141-160_11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ORTO;1.3;dataset;1;c.4
+121-140_5;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_INSPIRE_AU;1.3;dataset;1;f.1
+121-140_8;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_INSPIRE_GN;1.3;dataset;1;f.1
+141-160_14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_Vegetacia;1.3;dataset;1;c.4
+141-160_2;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT19_DMP1.0;1.3;dataset;1;c.4
+141-160_10;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_L-NI;1.3;dataset;1;c.4
+141-160_13;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_RGB;1.3;dataset;1;c.4
+141-160_16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_Vyskopis;1.3;dataset;1;c.4
+141-160_4;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT24;1.3;dataset;1;c.4
+141-160_7;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT26;1.3;dataset;1;c.4
+141-160_3;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT19_DMR5.0;1.3;dataset;1;c.4
+141-160_19;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_WFS_Hranica;1.3;service;1;d.2
+141-160_9;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT26_DMR5.0;1.3;dataset;1;c.4
+141-160_6;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT24_DMR5.0;1.3;dataset;1;c.4
+161-180_11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_WMS_Hranica_BezInfo;1.3;service;1;d.3
+181-200_13;https://data.gov.sk/set/rpi/gmd/31364501/JZM_VECTOR;1.3;dataset;1;c.3
+181-200_10;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS_Raster25000;1.3;dataset;1;c.4
+181-200_16;https://data.gov.sk/set/rpi/gmd/31364501/MV_DOPR_BOD_PRIVATE;1.3;dataset;1;c.3
+181-200_12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS_Raster50000;1.3;dataset;1;c.4
+181-200_15;https://data.gov.sk/set/rpi/gmd/31364501/MV_DEF_USEK_PUBLIC;1.3;dataset;1;c.3
+181-200_6;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_WMTS_ORTO_BezInfo;1.3;service;1;d.3
+181-200_9;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS_Raster10000;1.3;dataset;1;c.4
+181-200_18;https://data.gov.sk/set/rpi/gmd/31364501/MV_MOST_PRIVATE;1.3;dataset;1;c.3
+181-200_8;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS;1.3;dataset;1;c.4
+181-200_20;https://data.gov.sk/set/rpi/gmd/31364501/MV_PRIECESTIE_PRIVATE;1.3;dataset;1;c.3
+201-220_14;https://data.gov.sk/set/rpi/gmd/31753604/a0ebd93d-df6b-40b8-96b6-91389ef3e963;1.3;dataset;1;xml.a.1
+201-220_17;https://data.gov.sk/set/rpi/gmd/31753604/a8ec3dd6-aa2b-4be8-8257-5204184b07f8;1.3;dataset;1;xml.a.1
+201-220_10;https://data.gov.sk/set/rpi/gmd/31364501/TRATE_STAVBY_PRIVATE;1.3;series;1;c.3
+201-220_13;https://data.gov.sk/set/rpi/gmd/31753604/ae92c282-b795-482e-9dc7-4ba7f3bd93a1;1.3;dataset;1;xml.a.1
+201-220_4;https://data.gov.sk/set/rpi/gmd/31364501/MV_TUNEL_PRIVATE;1.3;dataset;1;c.3
+201-220_19;https://data.gov.sk/set/rpi/gmd/31753604/CC41E6DA-F73D-4781-B917-FE09BAB5FCC1;1.3;service;1;d.3
+201-220_2;https://data.gov.sk/set/rpi/gmd/31364501/MV_TRAT_USEK_PRIVATE;1.3;dataset;1;c.3
+201-220_16;https://data.gov.sk/set/rpi/gmd/31753604/A70347A4-6BBF-41B5-84D8-24425561A46A;1.3;service;1;d.3
+21-40_1;https://data.gov.sk/set/rpi/gmd/00626031/170112143211;1.3;dataset;2;f.1 f.3
+21-40_12;https://data.gov.sk/set/rpi/gmd/00626031/4E34D8FA16B66BFFE0530110000A3369;1.3;dataset;2;f.1 f.3
+21-40_15;https://data.gov.sk/set/rpi/gmd/00626031/4E85AEB82B1A37B7E0530110000A8D4C;1.3;dataset;1;f.4
+201-220_6;https://data.gov.sk/set/rpi/gmd/31364501/SRV_WMS_ZSR_PRIVATE;1.3;service;1;d.2
+21-40_18;https://data.gov.sk/set/rpi/gmd/00626031/4E85AEB82B1D37B7E0530110000A8D4C;1.3;dataset;1;f.4
+21-40_11;https://data.gov.sk/set/rpi/gmd/00626031/4A201CE79B847895E0530210000A0DB8;1.3;dataset;1;c.3
+21-40_14;https://data.gov.sk/set/rpi/gmd/00626031/4E383934DE051190E0530210000A2B87;1.3;dataset;1;f.4
+21-40_2;https://data.gov.sk/set/rpi/gmd/00626031/170112143211_2000a2;1.3;dataset;1;f.4
+21-40_5;https://data.gov.sk/set/rpi/gmd/00626031/170123074833;1.3;dataset;3;f.1 f.3 f.4
+21-40_4;https://data.gov.sk/set/rpi/gmd/00626031/170123074228;1.3;dataset;1;f.4
+221-240_10;https://data.gov.sk/set/rpi/gmd/31753604/02f81030-2efa-4231-a190-c6e93c091578;1.3;dataset;1;xml.a.1
+221-240_1;https://data.gov.sk/set/rpi/gmd/31753604/C131C49D-5F15-4E17-A3B6-4100C02D4723;1.3;service;1;d.3
+221-240_13;https://data.gov.sk/set/rpi/gmd/31753604/10468945-3af1-40f0-a9f7-c33981bcf04b;1.3;dataset;1;xml.a.1
+221-240_16;https://data.gov.sk/set/rpi/gmd/31753604/1538996532670r20997192449398416;1.3;dataset;1;xml.a.1
+221-240_19;https://data.gov.sk/set/rpi/gmd/31753604/1539000631055r017208288200939226;1.3;dataset;1;xml.a.1
+221-240_12;https://data.gov.sk/set/rpi/gmd/31753604/1F1A41BA-092B-4085-81A1-71E17F9A5A2C;1.3;service;1;d.3
+221-240_15;https://data.gov.sk/set/rpi/gmd/31753604/1538996480677r7483699086630045;1.3;dataset;1;xml.a.1
+221-240_3;https://data.gov.sk/set/rpi/gmd/31753604/c6485637-43d3-4558-91e9-fd7906b6a519;1.3;dataset;1;xml.a.1
+221-240_18;https://data.gov.sk/set/rpi/gmd/31753604/1538997099203r7379799510472893;1.3;service;1;d.3
+221-240_6;https://data.gov.sk/set/rpi/gmd/31753604/e55acb93-80b2-4f8b-ac6d-2e37169df62d;1.3;dataset;1;xml.a.1
+221-240_20;https://data.gov.sk/set/rpi/gmd/31753604/1539000655561r5601378890536135;1.3;service;1;d.3
+221-240_5;https://data.gov.sk/set/rpi/gmd/31753604/eac9785b-6838-466e-8090-0623dfa76936;1.3;dataset;1;xml.a.1
+221-240_8;https://data.gov.sk/set/rpi/gmd/31753604/SK_1_TektonickaMapa_500000;1.3;dataset;1;xml.a.1
+241-260_10;https://data.gov.sk/set/rpi/gmd/31753604/1542632558920r7807274787417695;1.3;service;2;d.2 d.3
+221-240_9;https://data.gov.sk/set/rpi/gmd/31753604/SK_2_TektonickaMapa_500000;1.3;service;1;d.3
+241-260_11;https://data.gov.sk/set/rpi/gmd/31753604/1542632841596r09007099805524121;1.3;service;2;d.2 d.3
+241-260_16;https://data.gov.sk/set/rpi/gmd/31753604/1542633909781r7427584025603009;1.3;service;2;d.2 d.3
+241-260_17;https://data.gov.sk/set/rpi/gmd/31753604/1542634116533r3958376383683897;1.3;service;2;d.2 d.3
+241-260_13;https://data.gov.sk/set/rpi/gmd/31753604/1542633297550r9006531310833992;1.3;service;2;d.2 d.3
+241-260_14;https://data.gov.sk/set/rpi/gmd/31753604/1542633505299r2793106173615991;1.3;service;2;d.2 d.3
+241-260_19;https://data.gov.sk/set/rpi/gmd/31753604/1542715727838r3299689642366088;1.3;service;2;d.2 d.3
+241-260_2;https://data.gov.sk/set/rpi/gmd/31753604/1542623802732r33161152209118994;1.3;service;2;d.2 d.3
+241-260_4;https://data.gov.sk/set/rpi/gmd/31753604/1542625504541r7506196332743837;1.3;service;2;d.2 d.3
+241-260_3;https://data.gov.sk/set/rpi/gmd/31753604/1542625032396r5510941663213935;1.3;service;2;d.2 d.3
+241-260_7;https://data.gov.sk/set/rpi/gmd/31753604/1542631482493r28896040208043416;1.3;service;2;d.2 d.3
+261-280_1;https://data.gov.sk/set/rpi/gmd/31753604/1542718786962r25689938338420015;1.3;service;2;d.2 d.3
+261-280_12;https://data.gov.sk/set/rpi/gmd/31753604/3A50FB4E-BBD6-4C7D-A0F4-C19C538E16E5;1.3;service;1;d.3
+261-280_15;https://data.gov.sk/set/rpi/gmd/31753604/3E28163F-3F85-4F95-9B89-48CA68E2A452;1.3;service;1;d.3
+261-280_18;https://data.gov.sk/set/rpi/gmd/31753604/362fd4e9-ad79-4010-adad-107deeea2782;1.3;dataset;1;xml.a.1
+241-260_6;https://data.gov.sk/set/rpi/gmd/31753604/1542631088168r5458887955242504;1.3;service;1;d.3
+241-260_9;https://data.gov.sk/set/rpi/gmd/31753604/1542632307381r877502672593131;1.3;service;2;d.2 d.3
+261-280_20;https://data.gov.sk/set/rpi/gmd/31753604/38e79fe7-a2c4-424b-8a5c-0598059658aa;1.3;dataset;1;xml.a.1
+261-280_5;https://data.gov.sk/set/rpi/gmd/31753604/1542719468588r31320202077917947;1.3;service;1;d.3
+261-280_8;https://data.gov.sk/set/rpi/gmd/31753604/1561111447495r6400446858891269;1.3;service;1;d.3
+261-280_11;https://data.gov.sk/set/rpi/gmd/31753604/27CCAC4B-A72B-4837-85AD-59DD9A0A888B;1.3;service;1;d.3
+281-300_10;https://data.gov.sk/set/rpi/gmd/31753604/78babbfe-f4cf-43f3-a0f9-b1b69df003e3;1.3;dataset;1;xml.a.1
+261-280_14;https://data.gov.sk/set/rpi/gmd/31753604/3EDA193E-673B-42AE-97C5-5B94F37F6873;1.3;service;1;d.3
+261-280_2;https://data.gov.sk/set/rpi/gmd/31753604/1542718972019r7720358166007777;1.3;service;2;d.2 d.3
+261-280_17;https://data.gov.sk/set/rpi/gmd/31753604/359b2e18-9992-4189-8dec-fc3ce022fcad;1.3;dataset;1;xml.a.1
+261-280_4;https://data.gov.sk/set/rpi/gmd/31753604/1542719292837r18060723853531813;1.3;service;2;d.2 d.3
+281-300_16;https://data.gov.sk/set/rpi/gmd/36022047/4A6506C44A912D0DE0530110000A8498;1.3;service;2;d.2 d.3
+281-300_19;https://data.gov.sk/set/rpi/gmd/36022047/8DF2C1D0D8B64B91E0530110000A23A5;1.3;dataset;4;a.3 a.4 c.3 c.7
+261-280_7;https://data.gov.sk/set/rpi/gmd/31753604/1556101944915r7727323035157703;1.3;dataset;1;xml.a.1
+281-300_3;https://data.gov.sk/set/rpi/gmd/31753604/5E55088C-02AB-4B61-B37F-B3D4AE546BA4;1.3;service;1;d.3
+281-300_1;https://data.gov.sk/set/rpi/gmd/31753604/4b3e1b3a-780c-4ec4-aa93-5c1c5a496c27;1.3;dataset;1;xml.a.1
+281-300_6;https://data.gov.sk/set/rpi/gmd/31753604/6A971AB603FB3ED3E0530110000A6CCC;1.3;dataset;2;xml.a.1 c.7
+281-300_12;https://data.gov.sk/set/rpi/gmd/31753604/9F1D019E-1358-4D59-B4B7-92FD8B274CBE;1.3;service;1;d.3
+281-300_18;https://data.gov.sk/set/rpi/gmd/36022047/8DF02626FCB515E6E0530210000A17FA;1.3;dataset;4;xml.a.1 a.4 c.3 c.7
+281-300_9;https://data.gov.sk/set/rpi/gmd/31753604/71CC05D5-65DB-445B-9D8E-F9A825FB7AD3;1.3;service;1;d.3
+301-320_11;https://data.gov.sk/set/rpi/gmd/36063606/7C48AAD2E15C1DC9E0530210000AF493;1.3;dataset;2;xml.a.1 c.7
+281-300_20;https://data.gov.sk/set/rpi/gmd/36022047/8DF2C1D0D8B74B91E0530110000A23A5;1.3;dataset;5;xml.a.1 a.4 a.10 c.3 c.7
+301-320_14;https://data.gov.sk/set/rpi/gmd/36063606/7C5831F6DD880A88E0530210000ACEFF;1.3;dataset;2;xml.a.1 c.7
+301-320_17;https://data.gov.sk/set/rpi/gmd/36063606/7D35CEB30D567762E0530210000AD57F;1.3;service;1;d.3
+301-320_2;https://data.gov.sk/set/rpi/gmd/36022047/8DF38EF70C242459E0530110000AF644;1.3;dataset;4;xml.a.1 a.4 c.3 c.7
+281-300_5;https://data.gov.sk/set/rpi/gmd/31753604/6ad8e0d0-7981-41ee-9937-faf65fcb060a;1.3;dataset;1;xml.a.1
+301-320_10;https://data.gov.sk/set/rpi/gmd/36063606/7C47543720E50DF5E0530210000AA38D;1.3;dataset;2;xml.a.1 c.7
+281-300_8;https://data.gov.sk/set/rpi/gmd/31753604/7B5615D8-B831-4C0A-ADE1-F077B7D79BC1;1.3;service;1;d.3
+301-320_13;https://data.gov.sk/set/rpi/gmd/36063606/7C5831F6DD870A88E0530210000ACEFF;1.3;dataset;2;xml.a.1 c.7
+301-320_7;https://data.gov.sk/set/rpi/gmd/36063606/7C2F9E089C7A3DECE0530210000AD07A;1.3;dataset;2;xml.a.1 c.7
+301-320_4;https://data.gov.sk/set/rpi/gmd/36063606/7BB79F7096C2277FE0530210000ACC27;1.3;service;2;d.2 d.3
+321-340_1;https://data.gov.sk/set/rpi/gmd/42001315/f5124f83-dd6c-465b-9476-fc4849737047;1.3;dataset;3;xml.a.1 c.3 h.1
+301-320_16;https://data.gov.sk/set/rpi/gmd/36063606/7D35CEB30D557762E0530210000AD57F;1.3;service;1;d.3
+301-320_19;https://data.gov.sk/set/rpi/gmd/42001315/b85908e5-cb02-4d95-a523-368f2efe62da;1.3;dataset;1;c.3
+321-340_15;https://data.gov.sk/set/rpi/gmd/42001315/60d27041-554d-46bb-9b00-6f21e7fb25ad;1.3;dataset;3;xml.a.1 c.3 h.1
+321-340_12;https://data.gov.sk/set/rpi/gmd/42001315/4166749e-67d0-4841-8415-effac5288646;1.3;dataset;1;c.3
+301-320_3;https://data.gov.sk/set/rpi/gmd/36022047/8DF38EF70C252459E0530110000AF644;1.3;dataset;4;xml.a.1 a.4 c.3 c.7
+321-340_18;https://data.gov.sk/set/rpi/gmd/42001315/707dc23b-32e4-4483-bf1f-05581321bd46;1.3;dataset;3;xml.a.1 c.3 h.1
+301-320_6;https://data.gov.sk/set/rpi/gmd/36063606/7CBF3A0DCB0C1E25E0530210000A7C64;1.3;service;1;d.3
+321-340_20;https://data.gov.sk/set/rpi/gmd/42001315/77bb79f8-0d47-484e-8146-f07aa18cb3ec;1.3;dataset;1;c.3
+301-320_9;https://data.gov.sk/set/rpi/gmd/36063606/7C43442002CD5D11E0530210000A6A39;1.3;dataset;1;xml.a.1
+321-340_5;https://data.gov.sk/set/rpi/gmd/42001315/07eaa4d8-3467-477b-86fe-610724f917e2;1.3;service;2;d.2 d.3
+1-20_1;https://data.gov.sk/set/rpi/gmd/00156884/cba39b05-f4e1-481f-974d-5982c6ae80b3;1.3;dataset;3;a.4 a.5 c.4
+1-20_12;https://data.gov.sk/set/rpi/gmd/00156884/99635fa5-2cf1-45b4-afc9-9fbde651bd01;1.3;dataset;3;a.4 a.5 c.4
+321-340_8;https://data.gov.sk/set/rpi/gmd/42001315/156f5618-6ffd-4f15-817a-2432b4841f8c;1.3;dataset;3;xml.a.1 c.3 h.1
+321-340_11;https://data.gov.sk/set/rpi/gmd/42001315/4bca3558-54c0-4aee-8a53-0957cb6a8d22;1.3;dataset;3;c.3 f.1 f.3
+321-340_14;https://data.gov.sk/set/rpi/gmd/42001315/6e61c3eb-5e09-4417-99c0-1dd717e93ed2;1.3;service;2;d.2 d.3
+341-360_10;https://data.gov.sk/set/rpi/gmd/42181810/4F1D2904115D596EE0530210000A8020;1.3;dataset;1;c.3
+1-20_15;https://data.gov.sk/set/rpi/gmd/00626031/a69bfc16-7acc-40a6-b917-4ef575988132;1.3;dataset;2;f.1 f.3
+1-20_18;https://data.gov.sk/set/rpi/gmd/00626031/eeb21673-85a6-4d7d-ac94-5a1966ed8eab;1.3;service;1;f.3
+321-340_4;https://data.gov.sk/set/rpi/gmd/42001315/0fb24a4a-364e-49b0-a29e-120172e10679;1.3;dataset;1;c.3
+1-20_5;https://data.gov.sk/set/rpi/gmd/00156884/2a253844-edd9-499a-a44b-40e183f270f8;1.3;dataset;3;a.4 a.5 c.4
+1-20_20;https://data.gov.sk/set/rpi/gmd/00626031/01c3bde5-2440-45a8-a30b-3dac5f524df5;1.3;service;2;a.7 d.1
+341-360_13;https://data.gov.sk/set/rpi/gmd/42181810/4F1D29041160596EE0530210000A8020;1.3;dataset;1;c.3
+1-20_8;https://data.gov.sk/set/rpi/gmd/00156884/48810619-b2f2-41fc-9487-3ee52880c9c8;1.3;dataset;3;a.4 a.5 c.4
+341-360_12;https://data.gov.sk/set/rpi/gmd/42181810/4F1D29041153596EE0530210000A8020;1.3;dataset;1;f.4
+101-120_13;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_AP-K_PO;1.3;dataset;1;c.4
+101-120_16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_DMR3.5;1.3;dataset;1;c.4
+341-360_15;https://data.gov.sk/set/rpi/gmd/42181810/4F1D29041162596EE0530210000A8020;1.3;dataset;1;f.4
+341-360_20;https://data.gov.sk/set/rpi/gmd/42181810/4F19E731C80F0BB2E0530110000AF35A;1.3;dataset;1;c.3
+341-360_3;https://data.gov.sk/set/rpi/gmd/42001315/841ecd62-0b91-498f-b943-3163c0625395;1.3;dataset;3;c.3 f.1 f.3
+341-360_6;https://data.gov.sk/set/rpi/gmd/42181810/4E93C2A5AEDB5B19E0530110000ACE34;1.3;dataset;2;c.3 f.4
+341-360_5;https://data.gov.sk/set/rpi/gmd/42181810/4E88A0888B2C5F25E0530210000A63DC;1.3;dataset;1;f.4
+341-360_8;https://data.gov.sk/set/rpi/gmd/42181810/4E93317B0429510DE0530210000A9EA5;1.3;dataset;3;f.1 f.3 f.4
+341-360_9;https://data.gov.sk/set/rpi/gmd/42181810/4F1D2904115C596EE0530210000A8020;1.3;dataset;3;c.3 f.3 f.4
+361-380_13;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329202CA2E0530210000A0ECD;1.3;dataset;1;f.4
+361-380_16;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329292CA2E0530210000A0ECD;1.3;dataset;1;f.4
+361-380_19;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329312CA2E0530210000A0ECD;1.3;dataset;1;c.3
+361-380_6;https://data.gov.sk/set/rpi/gmd/42181810/4F21D34AE8FD7BA0E0530110000A5453;1.3;dataset;1;a.10
+101-120_19;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_GNS;1.3;dataset;2;c.4 f.1
+361-380_14;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329212CA2E0530210000A0ECD;1.3;dataset;1;f.4
+361-380_11;https://data.gov.sk/set/rpi/gmd/42181810/4F250933292B2CA2E0530210000A0ECD;1.3;dataset;1;f.4
+361-380_9;https://data.gov.sk/set/rpi/gmd/42181810/4F250933291E2CA2E0530210000A0ECD;1.3;dataset;1;f.4
+361-380_17;https://data.gov.sk/set/rpi/gmd/42181810/4F250933293E2CA2E0530210000A0ECD;1.3;dataset;1;f.4
+381-400_11;https://data.gov.sk/set/rpi/gmd/42181810/6A3ADD0FC93E7C3EE0530110000AA2B5;1.3;service;2;d.2 f.3
+381-400_14;https://data.gov.sk/set/rpi/gmd/42181810/6A3CDB2813C35D64E0530110000A39E2;1.3;service;2;d.2 f.3
+361-380_2;https://data.gov.sk/set/rpi/gmd/42181810/4F2D8FE3794242D2E0530210000AA214;1.3;dataset;2;c.3 f.4
+381-400_2;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329362CA2E0530210000A0ECD;1.3;dataset;1;c.3
+381-400_4;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329412CA2E0530210000A0ECD;1.3;dataset;3;c.3 f.1 f.3
+381-400_7;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329442CA2E0530210000A0ECD;1.3;dataset;1;f.4
+121-140_14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT01_DMR5.0;1.3;dataset;1;c.4
+121-140_11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_INSPIRE_TN;1.3;dataset;2;a.5 c.4
+121-140_17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT05_DMR5.0;1.3;dataset;1;c.4
+121-140_2;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA_OB;1.3;dataset;2;c.4 f.1
+121-140_7;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_INSPIRE_EL;1.3;dataset;2;a.5 c.4
+121-140_4;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_HRANICA_SR;1.3;dataset;2;c.4 f.1
+141-160_1;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT19;1.3;dataset;1;c.4
+141-160_12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_Povrch;1.3;dataset;1;c.4
+141-160_18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_WFS_GN;1.3;service;1;d.2
+141-160_15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_Vodstvo;1.3;dataset;1;c.4
+141-160_5;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT24_DMP1.0;1.3;dataset;1;c.4
+141-160_8;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_LiDAR_LOT26_DMP1.0;1.3;dataset;1;c.4
+361-380_7;https://data.gov.sk/set/rpi/gmd/42181810/4F21D34AE8FE7BA0E0530110000A5453;1.3;dataset;2;a.10 c.3
+181-200_11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ZBGIS_ZBGIS_Raster5000;1.3;dataset;1;c.4
+181-200_14;https://data.gov.sk/set/rpi/gmd/31364501/MV_DEF_USEK_PRIVATE;1.3;dataset;1;c.3
+381-400_12;https://data.gov.sk/set/rpi/gmd/42181810/6A3ADD0FC9407C3EE0530110000AA2B5;1.3;service;1;d.2
+381-400_15;https://data.gov.sk/set/rpi/gmd/42181810/6A344EA44BBE1D87E0530110000A54AA;1.3;dataset;1;c.3
+381-400_20;https://data.gov.sk/set/rpi/gmd/42181810/6CE949E5096B3D10E0530110000A427A;1.3;service;1;d.2
+201-220_12;https://data.gov.sk/set/rpi/gmd/31753604/ADC07737-A54B-4D27-969A-68863F0CDD8E;1.3;service;1;d.3
+381-400_5;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329422CA2E0530210000A0ECD;1.3;dataset;1;f.4
+201-220_15;https://data.gov.sk/set/rpi/gmd/31753604/A36E4877-2116-4577-8F2E-674ACB1EF3AD;1.3;service;1;d.3
+201-220_18;https://data.gov.sk/set/rpi/gmd/31753604/bc18e9d5-dd5e-4fca-a390-7599518d6b31;1.3;dataset;1;xml.a.1
+381-400_8;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329452CA2E0530210000A0ECD;1.3;dataset;1;c.3
+201-220_20;https://data.gov.sk/set/rpi/gmd/31753604/CF459385-EFC2-41A6-A5E8-BFA1FB508D1E;1.3;service;1;d.3
+401-420_10;https://data.gov.sk/set/rpi/gmd/42181810/8A4BB67CB1AE5026E0530210000A0CA8;1.3;dataset;4;a.10 c.3 c.7 f.4
+401-420_13;https://data.gov.sk/set/rpi/gmd/42181810/8A67CB67A01B440BE0530210000AAE45;1.3;dataset;2;c.3 c.7
+201-220_8;https://data.gov.sk/set/rpi/gmd/31364501/SRV_WMTS_ZSR_PRIVATE;1.3;service;1;d.2
+21-40_10;https://data.gov.sk/set/rpi/gmd/00626031/3367fd28-bc19-468b-b3c4-517fdb7d50d6;1.3;service;3;d.2 d.3 f.3
+401-420_16;https://data.gov.sk/set/rpi/gmd/42181810/8A67CB67A01E440BE0530210000AAE45;1.3;dataset;2;c.3 c.7
+401-420_19;https://data.gov.sk/set/rpi/gmd/42181810/8A671134A5BE737AE0530210000A3952;1.3;dataset;4;a.3 a.4 c.3 c.7
+21-40_13;https://data.gov.sk/set/rpi/gmd/00626031/4E383934DE021190E0530210000A2B87;1.3;dataset;2;f.1 f.3
+401-420_6;https://data.gov.sk/set/rpi/gmd/42181810/6623D33A76525F8FE0530210000AF3DC;1.3;dataset;1;c.3
+21-40_16;https://data.gov.sk/set/rpi/gmd/00626031/4E85AEB82B1B37B7E0530110000A8D4C;1.3;dataset;1;f.4
+401-420_9;https://data.gov.sk/set/rpi/gmd/42181810/8A2DDE0C2226184FE0530210000A1F93;1.3;dataset;2;c.3 c.7
+21-40_19;https://data.gov.sk/set/rpi/gmd/00626031/4E85AEB82B1E37B7E0530110000A8D4C;1.3;dataset;1;f.4
+21-40_3;https://data.gov.sk/set/rpi/gmd/00626031/170123071339;1.3;dataset;1;f.4
+21-40_6;https://data.gov.sk/set/rpi/gmd/00626031/170131111554;1.3;dataset;1;c.3
+21-40_9;https://data.gov.sk/set/rpi/gmd/00626031/1747e6a5-c965-44d6-90c3-cf86abc45335;1.3;service;2;d.1 f.2
+221-240_11;https://data.gov.sk/set/rpi/gmd/31753604/059F06CA-CFBA-4A00-AC11-F8B29756277C;1.3;service;1;d.3
+41-60_11;https://data.gov.sk/set/rpi/gmd/00626031/97915629-309d-4f1a-8242-4cbb7e38447e;1.3;service;3;d.2 d.3 f.3
+41-60_17;https://data.gov.sk/set/rpi/gmd/156850/b4722ff4-cb63-4bc4-a2ad-0d8430911b9a;1.3;dataset;6;xml.a.1 a.3 a.5 c.3 c.4 f.1
+221-240_14;https://data.gov.sk/set/rpi/gmd/31753604/13fa6dbd-8a52-4885-b7f8-eb631a44e78d;1.3;dataset;1;xml.a.1
+221-240_17;https://data.gov.sk/set/rpi/gmd/31753604/1538997081213r1734359337821476;1.3;service;1;d.3
+41-60_4;https://data.gov.sk/set/rpi/gmd/00626031/7B42C2BB95603EC0E0530210000A235C;1.3;dataset;3;xml.a.1 a.7 c.7
+41-60_2;https://data.gov.sk/set/rpi/gmd/00626031/41c73415-e6f8-475a-a8c5-2c452198e540;1.3;service;2;d.2 d.3
+221-240_2;https://data.gov.sk/set/rpi/gmd/31753604/c14210d7-5534-4027-a50a-52428e8b0816;1.3;dataset;1;xml.a.1
+41-60_7;https://data.gov.sk/set/rpi/gmd/00626031/7C5CBCA7F7547D9EE0530110000A4734;1.3;dataset;5;xml.a.1 a.3 a.4 c.3 c.7
+221-240_4;https://data.gov.sk/set/rpi/gmd/31753604/D1712E36-3804-4696-A22B-B28C726D05E4;1.3;service;1;d.3
+221-240_7;https://data.gov.sk/set/rpi/gmd/31753604/f736d1e6-c7bb-4357-bac0-dc11df405156;1.3;dataset;1;xml.a.1
+241-260_1;https://data.gov.sk/set/rpi/gmd/31753604/1542614574182r8709696716321436;1.3;service;2;d.2 d.3
+241-260_12;https://data.gov.sk/set/rpi/gmd/31753604/1542633113487r9246335039967082;1.3;service;2;d.2 d.3
+421-440_12;https://data.gov.sk/set/rpi/gmd/42181810/8EE23D84EE297198E0530210000ACB6F;1.3;service;1;d.2
+241-260_15;https://data.gov.sk/set/rpi/gmd/31753604/1542633675811r45561466589297694;1.3;service;2;d.2 d.3
+241-260_20;https://data.gov.sk/set/rpi/gmd/31753604/1542718384236r28625667577850233;1.3;service;2;d.2 d.3
+241-260_18;https://data.gov.sk/set/rpi/gmd/31753604/1542715507444r5181259886407092;1.3;service;2;d.2 d.3
+421-440_20;https://data.gov.sk/set/rpi/gmd/42181810/86ADED08C790157EE0530110000A8748;1.3;service;1;d.2
+241-260_5;https://data.gov.sk/set/rpi/gmd/31753604/1542625806430r49234643422184665;1.3;service;2;d.2 d.3
+421-440_5;https://data.gov.sk/set/rpi/gmd/42181810/8EE23D84EE2B7198E0530210000ACB6F;1.3;service;1;d.2
+241-260_8;https://data.gov.sk/set/rpi/gmd/31753604/1542631815314r7054963110013788;1.3;service;2;d.2 d.3
+261-280_10;https://data.gov.sk/set/rpi/gmd/31753604/26bbf5df-b460-428d-a691-16fef8efeebf;1.3;dataset;1;xml.a.1
+441-460_13;https://data.gov.sk/set/rpi/gmd/42181810/97B40E485912033DE0530210000A61FE;1.3;service;1;d.2
+421-440_8;https://data.gov.sk/set/rpi/gmd/42181810/8EE23D84EE2E7198E0530210000ACB6F;1.3;service;1;d.2
+261-280_13;https://data.gov.sk/set/rpi/gmd/31753604/3daa4824-3464-4cae-9e74-66d769c96dd6;1.3;dataset;1;xml.a.1
+261-280_16;https://data.gov.sk/set/rpi/gmd/31753604/3076BEA4-6F35-4DF7-904B-2A57E1F3430F;1.3;service;1;d.3
+441-460_16;https://data.gov.sk/set/rpi/gmd/42181810/98C2070BABFE32E5E0530210000ABCB5;1.3;service;1;d.2
+261-280_19;https://data.gov.sk/set/rpi/gmd/31753604/373689D3-4A55-465B-9257-8965B3E2BBE7;1.3;service;1;d.3
+261-280_3;https://data.gov.sk/set/rpi/gmd/31753604/1542719139827r7126008984711918;1.3;service;2;d.2 d.3
+261-280_9;https://data.gov.sk/set/rpi/gmd/31753604/2ECE564B-2A72-4A62-9280-CC0FAD015AA6;1.3;service;1;d.3
+261-280_6;https://data.gov.sk/set/rpi/gmd/31753604/1542720245209r6532662541791048;1.3;service;2;d.2 d.3
+441-460_9;https://data.gov.sk/set/rpi/gmd/42181810/97B0D3194560282BE0530210000AFE11;1.3;service;1;d.2
+281-300_11;https://data.gov.sk/set/rpi/gmd/31753604/82F824BD-A546-4DDC-B79F-0373B9D3511B;1.3;service;1;d.3
+281-300_14;https://data.gov.sk/set/rpi/gmd/35778458/inspire_download_service;1.3;service;1;d.2
+281-300_17;https://data.gov.sk/set/rpi/gmd/36022047/8DF02626FCB315E6E0530210000A17FA;1.3;dataset;5;xml.a.1 a.4 a.7 c.3 c.7
+281-300_2;https://data.gov.sk/set/rpi/gmd/31753604/4da25df3-f336-4a49-94d9-644f7eebe833;1.3;dataset;1;xml.a.1
+301-320_1;https://data.gov.sk/set/rpi/gmd/36022047/8DF38EF70C232459E0530110000AF644;1.3;dataset;4;xml.a.1 a.4 c.3 c.7
+301-320_15;https://data.gov.sk/set/rpi/gmd/36063606/7C5831F6DD890A88E0530210000ACEFF;1.3;dataset;2;xml.a.1 c.7
+301-320_12;https://data.gov.sk/set/rpi/gmd/36063606/7C5AC78C7EA71DEAE0530210000AD3D8;1.3;service;1;d.3
+461-473_2;https://data.gov.sk/set/rpi/gmd/42337402/0785dcd2-617d-473f-a0ac-18cf5fa80d15;1.3;dataset;7;xml.a.1 a.3 a.5 c.3 c.4 f.1 f.4
+301-320_18;https://data.gov.sk/set/rpi/gmd/42001315/ae65f7f4-7f3d-4de7-aeff-4d78022cdb1c;1.3;dataset;1;f.1
+461-473_8;https://data.gov.sk/set/rpi/gmd/42337402/967194479E333AE1E0530110000A45A8;1.3;dataset;5;xml.a.1 a.4 a.7 c.3 c.7
+461-473_5;https://data.gov.sk/set/rpi/gmd/42337402/7BAB8DF1166D2679E0530210000AC764;1.3;dataset;4;xml.a.1 a.3 c.7 h.1
+61-80_10;https://data.gov.sk/set/rpi/gmd/156850/590f7542-5c50-4eba-90ef-639fde8cf48b;1.3;service;3;xml.a.1 d.2 d.3
+301-320_20;https://data.gov.sk/set/rpi/gmd/42001315/c4132626-67fd-475d-8e47-a3daedaf150c;1.3;dataset;3;xml.a.1 c.3 h.1
+301-320_8;https://data.gov.sk/set/rpi/gmd/36063606/7C2F9E089C7B3DECE0530210000AD07A;1.3;dataset;1;xml.a.1
+301-320_5;https://data.gov.sk/set/rpi/gmd/36063606/7CAC6635A289799CE0530110000A75D7;1.3;service;1;d.3
+321-340_10;https://data.gov.sk/set/rpi/gmd/42001315/4bcac171-54fc-4703-92ff-f7c869872c68;1.3;service;2;d.2 d.3
+61-80_16;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_INSPIRE_CP(KN);1.3;dataset;1;c.3
+321-340_13;https://data.gov.sk/set/rpi/gmd/42001315/5b11euzr-26dm-7ygw-bwvc-180dwi1ikbeh;1.3;service;2;d.2 d.3
+61-80_19;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMS_KN_SJTSK-WM_Orto;1.3;service;1;d.2
+321-340_16;https://data.gov.sk/set/rpi/gmd/42001315/65f69701-7513-41c2-bf4c-30a518bdfb92;1.3;dataset;3;xml.a.1 c.3 h.1
+61-80_3;https://data.gov.sk/set/rpi/gmd/156850/0ed6ffa6-6b14-4865-83bf-faa269f4f105;1.3;dataset;1;c.3
+61-80_6;https://data.gov.sk/set/rpi/gmd/156850/44fb10ad-fbe1-4470-8222-992ad9000270;1.3;dataset;6;xml.a.1 a.3 a.5 c.3 c.4 f.1
+401-420_1;https://data.gov.sk/set/rpi/gmd/42181810/6CE949E5096C3D10E0530110000A427A;1.3;service;1;d.2
+321-340_3;https://data.gov.sk/set/rpi/gmd/42001315/0b152b13-d1ac-4a7d-bffd-933383f1ca50;1.3;service;2;d.2 d.3
+61-80_9;https://data.gov.sk/set/rpi/gmd/156850/55626fd8-1f6d-4a53-bdeb-02afeb59e362;1.3;dataset;6;xml.a.1 a.3 a.5 c.3 c.4 f.1
+81-100_11;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_INSPIRE_KS;1.3;service;1;d.3
+321-340_6;https://data.gov.sk/set/rpi/gmd/42001315/1ae009c5-7fb9-4c12-a535-6b6c13ed2cd0;1.3;dataset;1;c.3
+341-360_11;https://data.gov.sk/set/rpi/gmd/42181810/4F1D2904115F596EE0530210000A8020;1.3;dataset;1;c.3
+321-340_9;https://data.gov.sk/set/rpi/gmd/42001315/3vzssb6x-o9zg-wcrf-u6e2-gosu15g9aybx;1.3;service;2;d.2 d.3
+401-420_12;https://data.gov.sk/set/rpi/gmd/42181810/8A67CB67A01A440BE0530210000AAE45;1.3;dataset;2;c.3 c.7
+401-420_15;https://data.gov.sk/set/rpi/gmd/42181810/8A67CB67A01D440BE0530210000AAE45;1.3;dataset;3;xml.a.1 c.3 c.7
+401-420_18;https://data.gov.sk/set/rpi/gmd/42181810/8A67CB67A019440BE0530210000AAE45;1.3;dataset;4;a.3 a.4 c.3 c.7
+81-100_17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_INSPIRE_WFS_CP_KN;1.3;service;1;d.2
+401-420_20;https://data.gov.sk/set/rpi/gmd/42181810/8CCCDDB2ADFB0C77E0530110000A1639;1.3;service;1;d.2
+81-100_2;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMTS_KN_SJTSK_BezInfo;1.3;service;1;d.2
+81-100_4;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMTS_KN_WM_BezInfo;1.3;service;1;d.2
+81-100_7;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMTS_UO_SJTSK_Orto_BezInfo;1.3;service;1;d.2
+401-420_8;https://data.gov.sk/set/rpi/gmd/42181810/7CE863947F3C2623E0530210000AEDEB;1.3;dataset;8;xml.a.1 a.3 a.4 a.7 a.10 c.3 c.7 h.1
+341-360_2;https://data.gov.sk/set/rpi/gmd/42001315/8186b19a-401d-4785-978e-368f921d73eb;1.3;service;2;d.2 d.3
+341-360_17;https://data.gov.sk/set/rpi/gmd/42181810/4F1D29041165596EE0530210000A8020;1.3;dataset;2;a.10 f.4
+41-60_10;https://data.gov.sk/set/rpi/gmd/00626031/85baf62e-f832-4147-b72f-0e5f318bc689;1.3;service;2;d.2 f.3
+341-360_4;https://data.gov.sk/set/rpi/gmd/42001315/93C0A431300720D6E0530210000A9AFE;1.3;service;2;d.2 d.3
+41-60_19;https://data.gov.sk/set/rpi/gmd/156850/e0b39c05-114d-428f-a41f-d37a3af341b5;1.3;service;1;d.3
+341-360_7;https://data.gov.sk/set/rpi/gmd/42181810/4E93C2A5AEDF5B19E0530110000ACE34;1.3;dataset;1;f.4
+361-380_1;https://data.gov.sk/set/rpi/gmd/42181810/4F2D8FE3794142D2E0530210000AA214;1.3;dataset;1;c.3
+41-60_3;https://data.gov.sk/set/rpi/gmd/00626031/6c8e2984-3b4a-4ee3-bd98-343b51e8285f;1.3;dataset;1;c.3
+421-440_11;https://data.gov.sk/set/rpi/gmd/42181810/8EE23D84EE287198E0530210000ACB6F;1.3;dataset;2;c.3 c.7
+41-60_9;https://data.gov.sk/set/rpi/gmd/00626031/763075fe-bc0d-46a6-ba78-611ed697bafa;1.3;dataset;2;f.1 f.3
+361-380_12;https://data.gov.sk/set/rpi/gmd/42181810/4F250933292F2CA2E0530210000A0ECD;1.3;dataset;1;c.3
+361-380_15;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329282CA2E0530210000A0ECD;1.3;dataset;1;c.3
+421-440_14;https://data.gov.sk/set/rpi/gmd/42181810/81394D4C3F9631AEE0530110000AC4F3;1.3;dataset;8;xml.a.1 a.3 a.4 a.7 a.10 c.3 c.7 h.1
+421-440_2;https://data.gov.sk/set/rpi/gmd/42181810/8CCCDDB2ADFD0C77E0530110000A1639;1.3;service;2;d.2 d.3
+421-440_4;https://data.gov.sk/set/rpi/gmd/42181810/8EE23D84EE2A7198E0530210000ACB6F;1.3;service;1;d.2
+361-380_18;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329302CA2E0530210000A0ECD;1.3;dataset;2;c.3 f.4
+421-440_7;https://data.gov.sk/set/rpi/gmd/42181810/8EE23D84EE2D7198E0530210000ACB6F;1.3;dataset;2;c.3 c.7
+361-380_20;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329342CA2E0530210000A0ECD;1.3;dataset;1;c.3
+441-460_1;https://data.gov.sk/set/rpi/gmd/42181810/86D67B11B12424C7E0530110000AA2C2;1.3;dataset;2;a.10 c.7
+441-460_15;https://data.gov.sk/set/rpi/gmd/42181810/98C2070BABFD32E5E0530210000ABCB5;1.3;service;1;d.2
+361-380_5;https://data.gov.sk/set/rpi/gmd/42181810/4F2D8FE3794542D2E0530210000AA214;1.3;dataset;1;c.3
+361-380_8;https://data.gov.sk/set/rpi/gmd/42181810/4F250933291D2CA2E0530210000A0ECD;1.3;dataset;1;c.3
+381-400_10;https://data.gov.sk/set/rpi/gmd/42181810/501D7155C7C9645EE0530210000A6A70;1.3;dataset;1;c.3
+461-473_4;https://data.gov.sk/set/rpi/gmd/42337402/2d675903-a003-4fa0-8aab-be2c18c5b1d4;1.3;dataset;5;xml.a.1 a.3 a.5 c.4 f.1
+461-473_10;https://data.gov.sk/set/rpi/gmd/42337402/967194479E353AE1E0530110000A45A8;1.3;dataset;4;xml.a.1 a.3 c.3 c.7
+461-473_7;https://data.gov.sk/set/rpi/gmd/42337402/933715e9-2441-4871-b987-32a6a33ae35c;1.3;series;3;a.5 c.4 f.1
+381-400_13;https://data.gov.sk/set/rpi/gmd/42181810/6A3ADD0FC9417C3EE0530110000AA2B5;1.3;service;2;d.2 f.3
+381-400_3;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329402CA2E0530210000A0ECD;1.3;dataset;1;c.3
+381-400_6;https://data.gov.sk/set/rpi/gmd/42181810/4F25093329432CA2E0530210000A0ECD;1.3;dataset;1;c.3
+381-400_9;https://data.gov.sk/set/rpi/gmd/42181810/4F50F8FB18D23297E0530210000AD7D6;1.3;dataset;1;c.3
+401-420_11;https://data.gov.sk/set/rpi/gmd/42181810/8A6A6700239C5F40E0530210000A893A;1.3;dataset;5;xml.a.1 a.3 a.4 c.3 c.7
+61-80_1;https://data.gov.sk/set/rpi/gmd/156850/fba2d79f-739c-44c7-949a-46699728b2f3;1.3;dataset;1;c.3
+61-80_18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMS_KN_SJTSK-WM;1.3;service;1;d.2
+61-80_15;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_CSKN_VMUO;1.3;dataset;1;c.4
+401-420_14;https://data.gov.sk/set/rpi/gmd/42181810/8A67CB67A01C440BE0530210000AAE45;1.3;dataset;2;c.3 c.7
+61-80_5;https://data.gov.sk/set/rpi/gmd/156850/37050c53-5c4a-453a-ae21-1106776e4889;1.3;dataset;1;c.3
+61-80_20;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMS_UO_SJTSK-WM;1.3;service;1;d.2
+81-100_10;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_INSPIRE_CSW;1.3;service;1;d.3
+61-80_8;https://data.gov.sk/set/rpi/gmd/156850/524236c0-019c-4196-9e33-3dff5302f12f;1.3;dataset;5;xml.a.1 a.3 a.5 c.4 f.1
+81-100_3;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMTS_KN_SJTSK_Orto_BezInfo;1.3;service;1;d.2
+81-100_6;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMTS_UO_SJTSK_BezInfo;1.3;service;1;d.2
+81-100_9;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMTS_UO_WM_Orto_BezInfo;1.3;service;1;d.2
+401-420_17;https://data.gov.sk/set/rpi/gmd/42181810/8A67CB67A01F440BE0530210000AAE45;1.3;dataset;2;c.3 c.7
+41-60_1;https://data.gov.sk/set/rpi/gmd/00626031/4E85AEB82B2137B7E0530110000A8D4C;1.3;dataset;1;f.4
+41-60_15;https://data.gov.sk/set/rpi/gmd/156850/ae60aa1c-0d18-431f-ab43-11de96912893;1.3;service;5;xml.a.1 a.3 a.4 d.2 d.3
+41-60_18;https://data.gov.sk/set/rpi/gmd/156850/de505b8f-f149-4116-a9c2-a58fc8defb09;1.3;dataset;1;c.3
+41-60_20;https://data.gov.sk/set/rpi/gmd/156850/e3169de0-0765-4c28-9ed2-caa9cf686f65;1.3;dataset;4;a.5 c.3 c.4 f.1
+41-60_8;https://data.gov.sk/set/rpi/gmd/00626031/7C6E3FE1AFB529F4E0530210000AD6AB;1.3;dataset;7;xml.a.1 a.3 a.4 c.3 c.7 f.4 g.1
+421-440_10;https://data.gov.sk/set/rpi/gmd/42181810/8EE23D84EE277198E0530210000ACB6F;1.3;service;1;d.2
+421-440_13;https://data.gov.sk/set/rpi/gmd/42181810/8F735B3CEC3E571DE0530210000AAB0F;1.3;service;1;d.2
+421-440_6;https://data.gov.sk/set/rpi/gmd/42181810/8EE23D84EE2C7198E0530210000ACB6F;1.3;service;1;d.2
+421-440_9;https://data.gov.sk/set/rpi/gmd/42181810/8EE23D84EE267198E0530210000ACB6F;1.3;service;1;d.2
+441-460_11;https://data.gov.sk/set/rpi/gmd/42181810/97B0D3194562282BE0530210000AFE11;1.3;service;1;d.2
+441-460_2;https://data.gov.sk/set/rpi/gmd/42181810/86D67B11B12524C7E0530110000AA2C2;1.3;service;1;f.3
+441-460_4;https://data.gov.sk/set/rpi/gmd/42181810/876A4078B8561AB3E0530210000A12ED;1.3;dataset;1;c.7
+441-460_7;https://data.gov.sk/set/rpi/gmd/42181810/97B0D319455E282BE0530210000AFE11;1.3;service;1;d.2
+461-473_1;https://data.gov.sk/set/rpi/gmd/42337402/a40b0800-b185-4f90-9f20-65057bf84f9e;1.3;series;3;a.5 c.4 f.1
+461-473_12;https://data.gov.sk/set/rpi/gmd/42355826/4E991EC64E804FB3E0530210000A53C3;1.3;dataset;1;c.3
+461-473_9;https://data.gov.sk/set/rpi/gmd/42337402/967194479E343AE1E0530110000A45A8;1.3;dataset;4;xml.a.1 a.3 c.3 c.7
+61-80_14;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_CSKN_VKM;1.3;dataset;1;c.4
+61-80_2;https://data.gov.sk/set/rpi/gmd/156850/f1a48a57-0b0d-4c9d-a463-ef7eacbe0e0a;1.3;dataset;5;xml.a.1 a.5 c.3 c.4 f.1
+61-80_17;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_INSPIRE_CP(UO);1.3;dataset;1;c.3
+61-80_4;https://data.gov.sk/set/rpi/gmd/156850/13ab7731-9790-4a8a-ba46-a5ad18cb81ab;1.3;dataset;1;c.3
+61-80_7;https://data.gov.sk/set/rpi/gmd/156850/449583b4-0f44-4bf0-9da2-65839b00635c;1.3;dataset;6;xml.a.1 a.3 a.5 c.3 c.4 f.1
+81-100_12;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_INSPIRE_TS;1.3;service;1;d.3
+81-100_1;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMS_UO_SJTSK-WM_Orto;1.3;service;1;d.2
+81-100_18;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_INSPIRE_WFS_CP_UO;1.3;service;1;d.2
+81-100_5;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMTS_KN_WM_Orto_BezInfo;1.3;service;1;d.2
+81-100_8;https://data.gov.sk/set/rpi/gmd/17316219/SK_UGKK_ESKN_WMTS_UO_WM_BezInfo;1.3;service;1;d.2
+321-340_17;https://data.gov.sk/set/rpi/gmd/42001315/7a358a23-b568-496e-bf70-22847302e85b;1.3;service;2;d.2 d.3
+321-340_2;https://data.gov.sk/set/rpi/gmd/42001315/jprl1;1.3;dataset;4;xml.a.1 a.4 c.3 f.4
+321-340_7;https://data.gov.sk/set/rpi/gmd/42001315/1afc8f37-ee95-4fab-80e0-56f1d7fe1359;1.3;dataset;1;c.3
+341-360_1;https://data.gov.sk/set/rpi/gmd/42001315/8df45153-6e8d-4e2e-9d7e-39fd6d64b4d2;1.3;dataset;3;xml.a.1 c.3 h.1
