@@ -1,0 +1,32 @@
+{
+  "id": "76edce98-d5a3-44bb-9ff5-2c29b422c5a2",
+  "type_count": {
+    "dataset": 197,
+    "series": 0,
+    "service": 313,
+    "unknown": 0,
+    "missing": 0,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      ""
+    ],
+    "missing": [
+      ""
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 141,
+      "fail": 56
+    },
+    "services": {
+      "pass": 270,
+      "fail": 43
+    }
+  }
+}

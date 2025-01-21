@@ -1,0 +1,6 @@
+file_id;md_id;type;error_count;errors
+1501-1600/15.iso19139;fc2e24a0-300d-4ca2-b3a0-4205632566aa;service;1;3.6
+1501-1600/18.iso19139;1fc0bb58-a576-4600-8579-f21a0e9e1c6b;series;2;C.1 C.14
+1501-1600/13.iso19139;e294a9c3-3b39-4915-ac61-25ea6c6522c6;service;1;3.6
+1501-1600/14.iso19139;25c3c6d3-e656-4ced-9da7-3415fcbebd69;dataset;1;C.1
+1501-1600/66.iso19139;d3505963-3cda-4aba-b107-d3cbca0b3d07;dataset;1;C.14
