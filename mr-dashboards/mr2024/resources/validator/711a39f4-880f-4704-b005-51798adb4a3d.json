@@ -1,0 +1,40 @@
+{
+  "id": "711a39f4-880f-4704-b005-51798adb4a3d",
+  "type_count": {
+    "dataset": 115898,
+    "series": 968,
+    "service": 206409,
+    "unknown": 9,
+    "missing": 1,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      "114001-114500/320.iso19139",
+      "882C2C31-2655-43C7-9AA9-52992C6EF9D1",
+      "abccf867-9504-4180-b2cb-0c6aa3a40733",
+      "e94a07d7-2d52-4e1d-9418-49ea1e057255",
+      "a4322bc4-d880-41d8-8102-2acde12693c9",
+      "fd3fe5bb-83aa-41cd-bbc0-08d2c0874483",
+      "249c9ef5-2952-40c0-b87f-284448f71139",
+      "295501-296000/365.iso19139",
+      "e1fb6246-9d54-4261-8891-b58a665cf58d"
+    ],
+    "missing": [
+      "456d9a8c-8eca-4ce7-a473-04e1dd450f04"
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 88464,
+      "fail": 28402
+    },
+    "services": {
+      "pass": 158324,
+      "fail": 48085
+    }
+  }
+}
