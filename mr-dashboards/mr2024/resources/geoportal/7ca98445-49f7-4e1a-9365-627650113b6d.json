@@ -1,1 +1,251 @@
-{"id":"7ca98445-49f7-4e1a-9365-627650113b6d","sessionid":null,"url":"","countrycode":"si","countryname":"Slovenia","dumpdate":null,"indicators":[{"id":"DSi_1_1","format":"integer","value":81,"formattedValue":"81","sourceData":{"DSi_1_1":{"doc_count":81}}},{"id":"DSi_1_2","format":"integer","value":129,"formattedValue":"129","sourceData":{"DSi_1_2":{"doc_count":129}}},{"id":"DSi_1_3","format":"integer","value":9,"formattedValue":"9","sourceData":{"DSi_1_3":{"doc_count":9}}},{"id":"DSi_1_4","format":"integer","value":0,"formattedValue":"0","sourceData":{"DSi_1_4":{"doc_count":0}}},{"id":"DSi_1_5","format":"integer","value":81,"formattedValue":"81","sourceData":{"DSi_1_5":{"doc_count":81}}},{"id":"DSi_2_0","format":"percentage","value":79.01234567901234,"formattedValue":"79%","sourceData":{"DSi_1_1":{"doc_count":81},"DSi_2_0_1":{"doc_count":64}}},{"id":"DSi_2_1","format":"percentage","value":94.44444444444444,"formattedValue":"94%","sourceData":{"DSi_2_1_1":{"doc_count":17},"DSi_2_1_2":{"doc_count":18}}},{"id":"DSi_2_2","format":"percentage","value":64.28571428571429,"formattedValue":"64%","sourceData":{"DSi_2_2_1":{"doc_count":9},"DSi_2_2_2":{"doc_count":14}}},{"id":"DSi_2_3","format":"percentage","value":90.19607843137256,"formattedValue":"90%","sourceData":{"DSi_2_3_1":{"doc_count":46},"DSi_2_3_2":{"doc_count":51}}},{"id":"NSi_2_0","format":"percentage","value":32.098765432098766,"formattedValue":"32%","sourceData":{"DSi_1_1":{"doc_count":81},"NSi_2_0_1":{"doc_count":26}}},{"id":"NSi_2_1","format":"percentage","value":51.85185185185185,"formattedValue":"52%","sourceData":{"DSi_1_1":{"doc_count":81},"NSi_2_1_1":{"doc_count":42}}},{"id":"NSi_2_2","format":"percentage","value":49.382716049382715,"formattedValue":"49%","sourceData":{"DSi_1_1":{"doc_count":81},"NSi_2_2_1":{"doc_count":40}}},{"id":"NSi_4_0","format":"percentage","value":100,"formattedValue":"100%","sourceData":{"NSi_4_1_1":{"doc_count":0},"NSi_4_1_2":{"doc_count":0},"NSi_4_2_1":{"doc_count":56},"NSi_4_2_2":{"doc_count":56},"NSi_4_3_1":{"doc_count":73},"NSi_4_3_2":{"doc_count":73},"NSi_4_4_1":{"doc_count":0},"NSi_4_4_2":{"doc_count":0}}},{"id":"NSi_4_1","format":"percentage","value":null,"formattedValue":"Not available","sourceData":{"NSi_4_1_1":{"doc_count":0},"NSi_4_1_2":{"doc_count":0}}},{"id":"NSi_4_2","format":"percentage","value":100,"formattedValue":"100%","sourceData":{"NSi_4_2_1":{"doc_count":56},"NSi_4_2_2":{"doc_count":56}}},{"id":"NSi_4_3","format":"percentage","value":100,"formattedValue":"100%","sourceData":{"NSi_4_3_1":{"doc_count":73},"NSi_4_3_2":{"doc_count":73}}},{"id":"NSi_4_4","format":"percentage","value":null,"formattedValue":"Not available","sourceData":{"NSi_4_4_1":{"doc_count":0},"NSi_4_4_2":{"doc_count":0}}}]}
+{
+	"id": "7ca98445-49f7-4e1a-9365-627650113b6d",
+	"sessionid": null,
+	"url": "",
+	"countrycode": "si",
+	"countryname": "Slovenia",
+	"dumpdate": null,
+	"indicators": [
+		{
+			"id": "DSi_1_1",
+			"format": "integer",
+			"value": 81,
+			"formattedValue": "81",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 81
+				}
+			}
+		},
+		{
+			"id": "DSi_1_2",
+			"format": "integer",
+			"value": 129,
+			"formattedValue": "129",
+			"sourceData": {
+				"DSi_1_2": {
+					"doc_count": 129
+				}
+			}
+		},
+		{
+			"id": "DSi_1_3",
+			"format": "integer",
+			"value": 9,
+			"formattedValue": "9",
+			"sourceData": {
+				"DSi_1_3": {
+					"doc_count": 9
+				}
+			}
+		},
+		{
+			"id": "DSi_1_4",
+			"format": "integer",
+			"value": 0,
+			"formattedValue": "0",
+			"sourceData": {
+				"DSi_1_4": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "DSi_1_5",
+			"format": "integer",
+			"value": 81,
+			"formattedValue": "81",
+			"sourceData": {
+				"DSi_1_5": {
+					"doc_count": 81
+				}
+			}
+		},
+		{
+			"id": "DSi_2_0",
+			"format": "percentage",
+			"value": 80.61,
+			"formattedValue": "81%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 98
+				},
+				"DSi_2_0_1": {
+					"doc_count": 79
+				}
+			}
+		},
+		{
+			"id": "DSi_2_1",
+			"format": "percentage",
+			"value": 94.74,
+			"formattedValue": "95%",
+			"sourceData": {
+				"DSi_2_1_1": {
+					"doc_count": 18
+				},
+				"DSi_2_1_2": {
+					"doc_count": 19
+				}
+			}
+		},
+		{
+			"id": "DSi_2_2",
+			"format": "percentage",
+			"value": 79.31,
+			"formattedValue": "79%",
+			"sourceData": {
+				"DSi_2_2_1": {
+					"doc_count": 23
+				},
+				"DSi_2_2_2": {
+					"doc_count": 29
+				}
+			}
+		},
+		{
+			"id": "DSi_2_3",
+			"format": "percentage",
+			"value": 80.00,
+			"formattedValue": "80%",
+			"sourceData": {
+				"DSi_2_3_1": {
+					"doc_count": 48
+				},
+				"DSi_2_3_2": {
+					"doc_count": 60
+				}
+			}
+		},
+		{
+			"id": "NSi_2_0",
+			"format": "percentage",
+			"value": 32.098765432098769,
+			"formattedValue": "32%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 81
+				},
+				"NSi_2_0_1": {
+					"doc_count": 26
+				}
+			}
+		},
+		{
+			"id": "NSi_2_1",
+			"format": "percentage",
+			"value": 51.85185185185185,
+			"formattedValue": "52%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 81
+				},
+				"NSi_2_1_1": {
+					"doc_count": 42
+				}
+			}
+		},
+		{
+			"id": "NSi_2_2",
+			"format": "percentage",
+			"value": 49.382716049382718,
+			"formattedValue": "49%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 81
+				},
+				"NSi_2_2_1": {
+					"doc_count": 40
+				}
+			}
+		},
+		{
+			"id": "NSi_4_0",
+			"format": "percentage",
+			"value": 100.00,
+			"formattedValue": "100%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 0
+				},
+				"NSi_4_1_2": {
+					"doc_count": 0
+				},
+				"NSi_4_2_1": {
+					"doc_count": 56
+				},
+				"NSi_4_2_2": {
+					"doc_count": 56
+				},
+				"NSi_4_3_1": {
+					"doc_count": 73
+				},
+				"NSi_4_3_2": {
+					"doc_count": 73
+				},
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "NSi_4_1",
+			"format": "percentage",
+			"value": null,
+			"formattedValue": "Not available",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 0
+				},
+				"NSi_4_1_2": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "NSi_4_2",
+			"format": "percentage",
+			"value": 100.00,
+			"formattedValue": "100%",
+			"sourceData": {
+				"NSi_4_2_1": {
+					"doc_count": 56
+				},
+				"NSi_4_2_2": {
+					"doc_count": 56
+				}
+			}
+		},
+		{
+			"id": "NSi_4_3",
+			"format": "percentage",
+			"value": 100.00,
+			"formattedValue": "100%",
+			"sourceData": {
+				"NSi_4_3_1": {
+					"doc_count": 73
+				},
+				"NSi_4_3_2": {
+					"doc_count": 73
+				}
+			}
+		},
+		{
+			"id": "NSi_4_4",
+			"format": "percentage",
+			"value": null,
+			"formattedValue": "Not available",
+			"sourceData": {
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		}
+	]
+}

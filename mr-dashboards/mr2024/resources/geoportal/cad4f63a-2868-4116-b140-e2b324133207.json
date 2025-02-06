@@ -1,1 +1,251 @@
-{"id":"cad4f63a-2868-4116-b140-e2b324133207","sessionid":null,"url":"","countrycode":"no","countryname":"Norway","dumpdate":null,"indicators":[{"id":"DSi_1_1","format":"integer","value":142,"formattedValue":"142","sourceData":{"DSi_1_1":{"doc_count":142}}},{"id":"DSi_1_2","format":"integer","value":238,"formattedValue":"238","sourceData":{"DSi_1_2":{"doc_count":238}}},{"id":"DSi_1_3","format":"integer","value":14,"formattedValue":"14","sourceData":{"DSi_1_3":{"doc_count":14}}},{"id":"DSi_1_4","format":"integer","value":0,"formattedValue":"0","sourceData":{"DSi_1_4":{"doc_count":0}}},{"id":"DSi_1_5","format":"integer","value":137,"formattedValue":"137","sourceData":{"DSi_1_5":{"doc_count":137}}},{"id":"DSi_2_0","format":"percentage","value":5.633802816901409,"formattedValue":"6%","sourceData":{"DSi_1_1":{"doc_count":142},"DSi_2_0_1":{"doc_count":8}}},{"id":"DSi_2_1","format":"percentage","value":12.5,"formattedValue":"13%","sourceData":{"DSi_2_1_1":{"doc_count":5},"DSi_2_1_2":{"doc_count":40}}},{"id":"DSi_2_2","format":"percentage","value":7.4074074074074066,"formattedValue":"7%","sourceData":{"DSi_2_2_1":{"doc_count":2},"DSi_2_2_2":{"doc_count":27}}},{"id":"DSi_2_3","format":"percentage","value":1.1363636363636365,"formattedValue":"1%","sourceData":{"DSi_2_3_1":{"doc_count":1},"DSi_2_3_2":{"doc_count":88}}},{"id":"NSi_2_0","format":"percentage","value":9.859154929577464,"formattedValue":"10%","sourceData":{"DSi_1_1":{"doc_count":142},"NSi_2_0_1":{"doc_count":14}}},{"id":"NSi_2_1","format":"percentage","value":15.492957746478872,"formattedValue":"15%","sourceData":{"DSi_1_1":{"doc_count":142},"NSi_2_1_1":{"doc_count":22}}},{"id":"NSi_2_2","format":"percentage","value":34.50704225352113,"formattedValue":"35%","sourceData":{"DSi_1_1":{"doc_count":142},"NSi_2_2_1":{"doc_count":49}}},{"id":"NSi_4_0","format":"percentage","value":3.418803418803419,"formattedValue":"3%","sourceData":{"NSi_4_1_1":{"doc_count":0},"NSi_4_1_2":{"doc_count":1},"NSi_4_2_1":{"doc_count":7},"NSi_4_2_2":{"doc_count":154},"NSi_4_3_1":{"doc_count":1},"NSi_4_3_2":{"doc_count":79},"NSi_4_4_1":{"doc_count":0},"NSi_4_4_2":{"doc_count":0}}},{"id":"NSi_4_1","format":"percentage","value":0,"formattedValue":"0%","sourceData":{"NSi_4_1_1":{"doc_count":0},"NSi_4_1_2":{"doc_count":1}}},{"id":"NSi_4_2","format":"percentage","value":4.545454545454546,"formattedValue":"5%","sourceData":{"NSi_4_2_1":{"doc_count":7},"NSi_4_2_2":{"doc_count":154}}},{"id":"NSi_4_3","format":"percentage","value":1.2658227848101267,"formattedValue":"1%","sourceData":{"NSi_4_3_1":{"doc_count":1},"NSi_4_3_2":{"doc_count":79}}},{"id":"NSi_4_4","format":"percentage","value":null,"formattedValue":"Not available","sourceData":{"NSi_4_4_1":{"doc_count":0},"NSi_4_4_2":{"doc_count":0}}}]}
+{
+	"id": "cad4f63a-2868-4116-b140-e2b324133207",
+	"sessionid": null,
+	"url": "",
+	"countrycode": "no",
+	"countryname": "Norway",
+	"dumpdate": null,
+	"indicators": [
+		{
+			"id": "DSi_1_1",
+			"format": "integer",
+			"value": 142,
+			"formattedValue": "142",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 142
+				}
+			}
+		},
+		{
+			"id": "DSi_1_2",
+			"format": "integer",
+			"value": 238,
+			"formattedValue": "238",
+			"sourceData": {
+				"DSi_1_2": {
+					"doc_count": 238
+				}
+			}
+		},
+		{
+			"id": "DSi_1_3",
+			"format": "integer",
+			"value": 14,
+			"formattedValue": "14",
+			"sourceData": {
+				"DSi_1_3": {
+					"doc_count": 14
+				}
+			}
+		},
+		{
+			"id": "DSi_1_4",
+			"format": "integer",
+			"value": 0,
+			"formattedValue": "0",
+			"sourceData": {
+				"DSi_1_4": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "DSi_1_5",
+			"format": "integer",
+			"value": 137,
+			"formattedValue": "137",
+			"sourceData": {
+				"DSi_1_5": {
+					"doc_count": 137
+				}
+			}
+		},
+		{
+			"id": "DSi_2_0",
+			"format": "percentage",
+			"value": 5.63,
+			"formattedValue": "6%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 142
+				},
+				"DSi_2_0_1": {
+					"doc_count": 8
+				}
+			}
+		},
+		{
+			"id": "DSi_2_1",
+			"format": "percentage",
+			"value": 12.50,
+			"formattedValue": "13%",
+			"sourceData": {
+				"DSi_2_1_1": {
+					"doc_count": 5
+				},
+				"DSi_2_1_2": {
+					"doc_count": 40
+				}
+			}
+		},
+		{
+			"id": "DSi_2_2",
+			"format": "percentage",
+			"value": 7.41,
+			"formattedValue": "7%",
+			"sourceData": {
+				"DSi_2_2_1": {
+					"doc_count": 2
+				},
+				"DSi_2_2_2": {
+					"doc_count": 27
+				}
+			}
+		},
+		{
+			"id": "DSi_2_3",
+			"format": "percentage",
+			"value": 1.14,
+			"formattedValue": "1%",
+			"sourceData": {
+				"DSi_2_3_1": {
+					"doc_count": 1
+				},
+				"DSi_2_3_2": {
+					"doc_count": 88
+				}
+			}
+		},
+		{
+			"id": "NSi_2_0",
+			"format": "percentage",
+			"value": 9.859154929577464,
+			"formattedValue": "10%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 142
+				},
+				"NSi_2_0_1": {
+					"doc_count": 14
+				}
+			}
+		},
+		{
+			"id": "NSi_2_1",
+			"format": "percentage",
+			"value": 15.492957746478873,
+			"formattedValue": "15%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 142
+				},
+				"NSi_2_1_1": {
+					"doc_count": 22
+				}
+			}
+		},
+		{
+			"id": "NSi_2_2",
+			"format": "percentage",
+			"value": 34.50704225352113,
+			"formattedValue": "35%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 142
+				},
+				"NSi_2_2_1": {
+					"doc_count": 49
+				}
+			}
+		},
+		{
+			"id": "NSi_4_0",
+			"format": "percentage",
+			"value": 3.36,
+			"formattedValue": "3%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 0
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				},
+				"NSi_4_2_1": {
+					"doc_count": 7
+				},
+				"NSi_4_2_2": {
+					"doc_count": 154
+				},
+				"NSi_4_3_1": {
+					"doc_count": 1
+				},
+				"NSi_4_3_2": {
+					"doc_count": 79
+				},
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "NSi_4_1",
+			"format": "percentage",
+			"value": 0.00,
+			"formattedValue": "0%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 0
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				}
+			}
+		},
+		{
+			"id": "NSi_4_2",
+			"format": "percentage",
+			"value": 4.55,
+			"formattedValue": "5%",
+			"sourceData": {
+				"NSi_4_2_1": {
+					"doc_count": 7
+				},
+				"NSi_4_2_2": {
+					"doc_count": 154
+				}
+			}
+		},
+		{
+			"id": "NSi_4_3",
+			"format": "percentage",
+			"value": 1.27,
+			"formattedValue": "1%",
+			"sourceData": {
+				"NSi_4_3_1": {
+					"doc_count": 1
+				},
+				"NSi_4_3_2": {
+					"doc_count": 79
+				}
+			}
+		},
+		{
+			"id": "NSi_4_4",
+			"format": "percentage",
+			"value": null,
+			"formattedValue": "Not available",
+			"sourceData": {
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		}
+	]
+}
