@@ -1,0 +1,3 @@
+UUID,URL Status,Identified Protocol,URL,Final URL,Final URL Response Status Code,HTTP Exception
+fileidentifier,indicator_linkresolves,protocol,rawurl,finalurl,linkhttpstatuscode,linkhttpexception
+Zero records processed with the simplification,,,,,,
