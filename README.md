@@ -1,6 +1,6 @@
 # INSPIRE Monitoring and Reporting Tools
 
-This repository includes some tools developed by the Joint Research Centre (JRC) to assist the INSPIRE Monitoring and Reporting (M&R) 2023 process.
+This repository includes some tools developed by the Joint Research Centre (JRC) to assist the INSPIRE Monitoring and Reporting (M&R) process.
 
 The tools can be used to calculate different families of Monitoring indicators, as defined in [Commission Implementing Decision (EU) 2019/1372](http://data.europa.eu/eli/dec_impl/2019/1372/oj):
 
