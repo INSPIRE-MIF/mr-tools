@@ -1,1 +1,0 @@
-UUID 78bcf587-3bd4-4c3f-bd96-838e3fe237a4: URL https://geoportal.hac.hr/inspire/tn-ro/wfs?service=WFS&request=GetCapabilities&version=2.0.0 failed - HTTPSConnectionPool(host='geoportal.hac.hr', port=443): Read timed out. (read timeout=10)

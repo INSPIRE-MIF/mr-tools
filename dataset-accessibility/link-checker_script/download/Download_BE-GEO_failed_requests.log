@@ -1,5 +1,0 @@
-UUID bmdc.be:dataset:2046: URL http://wms.ngi.be/inspire/rbins/service?version=2.0.0&service=WFS&request=GetCapabilities failed - URL responded with status code: 500
-UUID bmdc.be:dataset:2102: URL http://wms.ngi.be/inspire/rbins/service?version=2.0.0&service=WFS&request=GetCapabilities failed - URL responded with status code: 500
-UUID bmdc.be:dataset:2026: URL http://wms.ngi.be/inspire/rbins/service?version=2.0.0&service=WFS&request=GetCapabilities failed - URL responded with status code: 500
-UUID bmdc.be:dataset:2036: URL http://wms.ngi.be/inspire/rbins/service?version=2.0.0&service=WFS&request=GetCapabilities failed - URL responded with status code: 500
-UUID bmdc.be:dataset:2033: URL http://wms.ngi.be/inspire/rbins/service?version=2.0.0&service=WFS&request=GetCapabilities failed - URL responded with status code: 500

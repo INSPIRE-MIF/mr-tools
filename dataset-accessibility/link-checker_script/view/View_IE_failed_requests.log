@@ -1,4 +1,0 @@
-UUID {493D80DA-9603-47C5-A38B-C88DFA56E69C}: URL https://inspireservices.geohive.ie/data/rest/services/INSPIRE/ElevationGrid/MapServer/exts/InspireView/service?REQUEST=GetCapabilities&SERVICE=WMS failed - URL responded with status code: 401
-UUID {371C101B-E266-4F4B-B007-C52FA3455F1F}: URL https://inspireservices.geohive.ie/data/rest/services/INSPIRE/Buildings/MapServer/exts/InspireView/service?REQUEST=GetCapabilities&SERVICE=WMS failed - URL responded with status code: 401
-UUID {5F330F10-3B2F-41F1-9C53-B61FE4DCE5CE}: URL https://inspireservices.geohive.ie/data/rest/services/INSPIRE/Elevation/MapServer/exts/InspireView/service?REQUEST=GetCapabilities&SERVICE=WMS failed - URL responded with status code: 401
-UUID {5F03018E-BCA3-4173-A4F4-DCC784F19DFA}: URL https://inspireservices.geohive.ie/data/rest/services/INSPIRE/Orthos/MapServer/wmts?REQUEST=GetCapabilities&format=text/xml failed - URL responded with status code: 401

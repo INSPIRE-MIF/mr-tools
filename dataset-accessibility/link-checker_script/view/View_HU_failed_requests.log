@@ -1,4 +1,0 @@
-UUID 6aee6e40-4c4d-4734-8bbc-298960a0c1be: URL http://geoserver.inspire.fomi.hu/geoserver/BR/wms?request=getCapabilities failed - HTTPConnectionPool(host='ps-isp-usr.cec.eu.int', port=8012): Read timed out. (read timeout=5)
-UUID 6aee6e40-4c4d-4734-8bbc-298960a0c1be: URL http://geoserver.inspire.fomi.hu/geoserver/BR/wms failed - HTTPConnectionPool(host='ps-isp-usr.cec.eu.int', port=8012): Read timed out. (read timeout=5)
-UUID ISO_MAP_furaspont: URL http:///arcgis/services/public/map_furaspont_wm/MapServer/WMSServer failed - Invalid URL 'http:///arcgis/services/public/map_furaspont_wm/MapServer/WMSServer': No host supplied
-UUID 7d29a580-7ea4-4bb1-8aa5-c7159a4f8c32: URL http://loczy.mfgi.hu/arcgis/services/public/atlasz200/MapServer/WMSServer failed - HTTPConnectionPool(host='ps-isp-usr.cec.eu.int', port=8012): Read timed out. (read timeout=5)

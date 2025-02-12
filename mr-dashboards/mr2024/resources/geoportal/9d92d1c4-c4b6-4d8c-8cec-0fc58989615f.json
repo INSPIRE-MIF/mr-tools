@@ -1,0 +1,251 @@
+{
+	"id": "9d92d1c4-c4b6-4d8c-8cec-0fc58989615f",
+	"sessionid": null,
+	"url": "",
+	"countrycode": "md",
+	"countryname": "Moldova",
+	"dumpdate": null,
+	"indicators": [
+		{
+			"id": "DSi_1_1",
+			"format": "integer",
+			"value": 189,
+			"formattedValue": "189",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 189
+				}
+			}
+		},
+		{
+			"id": "DSi_1_2",
+			"format": "integer",
+			"value": 154,
+			"formattedValue": "154",
+			"sourceData": {
+				"DSi_1_2": {
+					"doc_count": 154
+				}
+			}
+		},
+		{
+			"id": "DSi_1_3",
+			"format": "integer",
+			"value": 64,
+			"formattedValue": "64",
+			"sourceData": {
+				"DSi_1_3": {
+					"doc_count": 64
+				}
+			}
+		},
+		{
+			"id": "DSi_1_4",
+			"format": "integer",
+			"value": 8,
+			"formattedValue": "8",
+			"sourceData": {
+				"DSi_1_4": {
+					"doc_count": 8
+				}
+			}
+		},
+		{
+			"id": "DSi_1_5",
+			"format": "integer",
+			"value": 43,
+			"formattedValue": "43",
+			"sourceData": {
+				"DSi_1_5": {
+					"doc_count": 43
+				}
+			}
+		},
+		{
+			"id": "DSi_2_0",
+			"format": "percentage",
+			"value": 23.81,
+			"formattedValue": "24%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 189
+				},
+				"DSi_2_0_1": {
+					"doc_count": 45
+				}
+			}
+		},
+		{
+			"id": "DSi_2_1",
+			"format": "percentage",
+			"value": 67.86,
+			"formattedValue": "68%",
+			"sourceData": {
+				"DSi_2_1_1": {
+					"doc_count": 38
+				},
+				"DSi_2_1_2": {
+					"doc_count": 56
+				}
+			}
+		},
+		{
+			"id": "DSi_2_2",
+			"format": "percentage",
+			"value": 2.38,
+			"formattedValue": "2%",
+			"sourceData": {
+				"DSi_2_2_1": {
+					"doc_count": 2
+				},
+				"DSi_2_2_2": {
+					"doc_count": 84
+				}
+			}
+		},
+		{
+			"id": "DSi_2_3",
+			"format": "percentage",
+			"value": 11.76,
+			"formattedValue": "12%",
+			"sourceData": {
+				"DSi_2_3_1": {
+					"doc_count": 6
+				},
+				"DSi_2_3_2": {
+					"doc_count": 51
+				}
+			}
+		},
+		{
+			"id": "NSi_2_0",
+			"format": "percentage",
+			"value": 1.5873015873015873,
+			"formattedValue": "2%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 189
+				},
+				"NSi_2_0_1": {
+					"doc_count": 3
+				}
+			}
+		},
+		{
+			"id": "NSi_2_1",
+			"format": "percentage",
+			"value": 50.264550264550269,
+			"formattedValue": "50%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 189
+				},
+				"NSi_2_1_1": {
+					"doc_count": 95
+				}
+			}
+		},
+		{
+			"id": "NSi_2_2",
+			"format": "percentage",
+			"value": 2.1164021164021165,
+			"formattedValue": "2%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 189
+				},
+				"NSi_2_2_1": {
+					"doc_count": 4
+				}
+			}
+		},
+		{
+			"id": "NSi_4_0",
+			"format": "percentage",
+			"value": 41.56,
+			"formattedValue": "42%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 0
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				},
+				"NSi_4_2_1": {
+					"doc_count": 51
+				},
+				"NSi_4_2_2": {
+					"doc_count": 137
+				},
+				"NSi_4_3_1": {
+					"doc_count": 13
+				},
+				"NSi_4_3_2": {
+					"doc_count": 16
+				},
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		},
+		{
+			"id": "NSi_4_1",
+			"format": "percentage",
+			"value": 0.00,
+			"formattedValue": "0%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 0
+				},
+				"NSi_4_1_2": {
+					"doc_count": 1
+				}
+			}
+		},
+		{
+			"id": "NSi_4_2",
+			"format": "percentage",
+			"value": 37.23,
+			"formattedValue": "37%",
+			"sourceData": {
+				"NSi_4_2_1": {
+					"doc_count": 51
+				},
+				"NSi_4_2_2": {
+					"doc_count": 137
+				}
+			}
+		},
+		{
+			"id": "NSi_4_3",
+			"format": "percentage",
+			"value": 81.25,
+			"formattedValue": "81%",
+			"sourceData": {
+				"NSi_4_3_1": {
+					"doc_count": 13
+				},
+				"NSi_4_3_2": {
+					"doc_count": 16
+				}
+			}
+		},
+		{
+			"id": "NSi_4_4",
+			"format": "percentage",
+			"value": null,
+			"formattedValue": "Not available",
+			"sourceData": {
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 0
+				}
+			}
+		}
+	]
+}

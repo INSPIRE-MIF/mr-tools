@@ -1,0 +1,251 @@
+{
+	"id": "1bae6e77-8e8e-480c-be6b-d9f47f31371b",
+	"sessionid": null,
+	"url": "",
+	"countrycode": "it",
+	"countryname": "Italy",
+	"dumpdate": null,
+	"indicators": [
+		{
+			"id": "DSi_1_1",
+			"format": "integer",
+			"value": 8519,
+			"formattedValue": "8519",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 8519
+				}
+			}
+		},
+		{
+			"id": "DSi_1_2",
+			"format": "integer",
+			"value": 2537,
+			"formattedValue": "2537",
+			"sourceData": {
+				"DSi_1_2": {
+					"doc_count": 2537
+				}
+			}
+		},
+		{
+			"id": "DSi_1_3",
+			"format": "integer",
+			"value": 833,
+			"formattedValue": "833",
+			"sourceData": {
+				"DSi_1_3": {
+					"doc_count": 833
+				}
+			}
+		},
+		{
+			"id": "DSi_1_4",
+			"format": "integer",
+			"value": 4621,
+			"formattedValue": "4621",
+			"sourceData": {
+				"DSi_1_4": {
+					"doc_count": 4621
+				}
+			}
+		},
+		{
+			"id": "DSi_1_5",
+			"format": "integer",
+			"value": 1003,
+			"formattedValue": "1003",
+			"sourceData": {
+				"DSi_1_5": {
+					"doc_count": 1003
+				}
+			}
+		},
+		{
+			"id": "DSi_2_0",
+			"format": "percentage",
+			"value": 24.06,
+			"formattedValue": "24%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 8519
+				},
+				"DSi_2_0_1": {
+					"doc_count": 2050
+				}
+			}
+		},
+		{
+			"id": "DSi_2_1",
+			"format": "percentage",
+			"value": 20.46,
+			"formattedValue": "20%",
+			"sourceData": {
+				"DSi_2_1_1": {
+					"doc_count": 496
+				},
+				"DSi_2_1_2": {
+					"doc_count": 2424
+				}
+			}
+		},
+		{
+			"id": "DSi_2_2",
+			"format": "percentage",
+			"value": 17.40,
+			"formattedValue": "17%",
+			"sourceData": {
+				"DSi_2_2_1": {
+					"doc_count": 352
+				},
+				"DSi_2_2_2": {
+					"doc_count": 2023
+				}
+			}
+		},
+		{
+			"id": "DSi_2_3",
+			"format": "percentage",
+			"value": 23.53,
+			"formattedValue": "24%",
+			"sourceData": {
+				"DSi_2_3_1": {
+					"doc_count": 1278
+				},
+				"DSi_2_3_2": {
+					"doc_count": 5431
+				}
+			}
+		},
+		{
+			"id": "NSi_2_0",
+			"format": "percentage",
+			"value": 32.65641507219157,
+			"formattedValue": "33%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 8519
+				},
+				"NSi_2_0_1": {
+					"doc_count": 2782
+				}
+			}
+		},
+		{
+			"id": "NSi_2_1",
+			"format": "percentage",
+			"value": 53.327855382087097,
+			"formattedValue": "53%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 8519
+				},
+				"NSi_2_1_1": {
+					"doc_count": 4543
+				}
+			}
+		},
+		{
+			"id": "NSi_2_2",
+			"format": "percentage",
+			"value": 34.02981570606879,
+			"formattedValue": "34%",
+			"sourceData": {
+				"DSi_1_1": {
+					"doc_count": 8519
+				},
+				"NSi_2_2_1": {
+					"doc_count": 2899
+				}
+			}
+		},
+		{
+			"id": "NSi_4_0",
+			"format": "percentage",
+			"value": 4.45,
+			"formattedValue": "4%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 1
+				},
+				"NSi_4_1_2": {
+					"doc_count": 8
+				},
+				"NSi_4_2_1": {
+					"doc_count": 87
+				},
+				"NSi_4_2_2": {
+					"doc_count": 1551
+				},
+				"NSi_4_3_1": {
+					"doc_count": 25
+				},
+				"NSi_4_3_2": {
+					"doc_count": 975
+				},
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 2
+				}
+			}
+		},
+		{
+			"id": "NSi_4_1",
+			"format": "percentage",
+			"value": 12.50,
+			"formattedValue": "13%",
+			"sourceData": {
+				"NSi_4_1_1": {
+					"doc_count": 1
+				},
+				"NSi_4_1_2": {
+					"doc_count": 8
+				}
+			}
+		},
+		{
+			"id": "NSi_4_2",
+			"format": "percentage",
+			"value": 5.61,
+			"formattedValue": "6%",
+			"sourceData": {
+				"NSi_4_2_1": {
+					"doc_count": 87
+				},
+				"NSi_4_2_2": {
+					"doc_count": 1551
+				}
+			}
+		},
+		{
+			"id": "NSi_4_3",
+			"format": "percentage",
+			"value": 2.56,
+			"formattedValue": "3%",
+			"sourceData": {
+				"NSi_4_3_1": {
+					"doc_count": 25
+				},
+				"NSi_4_3_2": {
+					"doc_count": 975
+				}
+			}
+		},
+		{
+			"id": "NSi_4_4",
+			"format": "percentage",
+			"value": 0.00,
+			"formattedValue": "0%",
+			"sourceData": {
+				"NSi_4_4_1": {
+					"doc_count": 0
+				},
+				"NSi_4_4_2": {
+					"doc_count": 2
+				}
+			}
+		}
+	]
+}

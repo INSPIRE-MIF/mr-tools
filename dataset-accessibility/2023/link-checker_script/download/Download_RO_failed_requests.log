@@ -1,0 +1,3 @@
+UUID {DFB2E605-0AC9-4364-B4A7-C8624B57FE06}: URL http://geodata.rosa.ro/arcgis/services/Lccs03/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetCapabilities failed - HTTPConnectionPool(host='ps-isp-usr.cec.eu.int', port=8012): Read timed out. (read timeout=10)
+UUID {1A7DA612-B279-432C-8F46-BD6DB4E5FF66}: URL http://gis.anpm.ro/services/services/AQD/AQD_Zones_Agglomerations/MapServer/WFSServer?request=GetCapabilities&service=WFS failed - URL responded with status code: 400
+UUID {3E996DE5-8B66-4EDB-B3F8-E00EB97CCDD1}: URL http://www.transgaz.ro/Downloads/inspire/transgazdownloadservice.atom.en.xml failed - URL responded with status code: 403

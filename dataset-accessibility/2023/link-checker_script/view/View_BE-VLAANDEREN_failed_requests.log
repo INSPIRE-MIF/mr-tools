@@ -1,0 +1,1 @@
+UUID b5b1fa36-1b2b-4863-ad3b-de8526d04833: URL https://vrisp4a.flaris.be/vrisgis/services/VisuaQueryOnlyExt/Waterways/MapServer/WMSServer?service=WMS&request=GetCapabilities failed - HTTPSConnectionPool(host='vrisp4a.flaris.be', port=443): Read timed out. (read timeout=5)

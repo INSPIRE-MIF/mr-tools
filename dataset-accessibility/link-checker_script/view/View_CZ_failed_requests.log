@@ -1,3 +1,0 @@
-UUID a8b1c110-34df-486d-83cb-587f196a7223: URL https://geoportal.mzcr.cz/server/services/VerejneAplikace/KoupaciVody/MapServer/WMSServer?request=GetCapabilities&service=WMS failed - URL responded with status code: 404
-UUID 58c019da-b14c-4325-937e-0149c0a80138: URL https://mapy.kr-kralovehradecky.cz/mapywms/isapi.dll?service=WMS&request=GetCapabilities failed - URL responded with status code: 503
-UUID {9AF3DF58-E157-4641-8D81-A1E525F0B47D}: URL https://geoportal.npu.cz/arcgis/services/INSPIRE/ProtectedSites/MapServer/WMSServer?service=WMS&request=GetCapabilities failed - HTTPSConnectionPool(host='geoportal.npu.cz', port=443): Read timed out. (read timeout=5)

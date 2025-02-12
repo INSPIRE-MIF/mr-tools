@@ -1,0 +1,37 @@
+file_id;md_id;type;error_count;errors
+101-200/11.iso19139;md_ideeu_wms_agricultura_es;service;1;3.4
+101-200/14.iso19139;md_ideeu_orto_costa_2019_es;dataset;1;1.7
+101-200/13.iso19139;md_ideeu_ortofoto_1991_es;dataset;1;1.7
+101-200/16.iso19139;md_ideeu_euskadi_bta5_es;dataset;2;C.19 1.7
+101-200/27.iso19139;spaignapi_maps_ign;service;1;3.6
+101-200/3.iso19139;md_ideeu_wms_ingurumena_es;service;2;3.4 3.6
+101-200/5.iso19139;md_ideeu_wmts_topo_es;service;1;3.4
+101-200/57.iso19139;spaignwmts_ocupacion-suelo;service;1;C.1
+101-200/6.iso19139;md_ideeu_wms_cartografia_es;service;1;3.4
+101-200/10.iso19139;md_ideeu_wmts_gris_es;service;1;3.4
+101-200/12.iso19139;md_ideeu_ortofoto_2007_es;dataset;1;1.7
+101-200/8.iso19139;md_ideeu_wmts_carto_es;service;1;3.4
+101-200/85.iso19139;AU_alava_viewservice;service;1;C.17
+101-200/84.iso19139;AU_alava_downloadservice;service;1;C.17
+101-200/29.iso19139;spaignwms_igr_transporte;service;1;C.1
+101-200/9.iso19139;md_ideeu_wms_ura_es;service;2;3.4 3.6
+101-200/92.iso19139;md_ideeu_wcs_cartografia_es;service;1;3.4
+101-200/4.iso19139;md_ideeu_wmts_hibrido_es;service;1;3.4
+101-200/53.iso19139;ES_SDGC_CP_WFS;service;1;3.6
+101-200/7.iso19139;md_ideeu_wms_kultura_es;service;1;3.4
+201-300/3.iso19139;6f91ae1d-3ed8-4129-a1b3-1a900042138c_100007_es;service;1;3.6
+101-200/89.iso19139;md_ideeu_orto_urbana_2017_es;dataset;1;1.7
+201-300/77.iso19139;BU_alava_downloadservice;service;1;C.17
+201-300/93.iso19139;cb9b4592-7ccc-49e9-8976-c3f1798f8986;service;1;3.6
+301-400/88.iso19139;md_ideeu_ortofoto_2022_es;dataset;1;1.7
+301-400/40.iso19139;900df0de-be87-11e0-8e37-00261812f484_NGA;dataset;1;C.18
+401-500/21.iso19139;md_ideeu_ortofoto_capita_2005_es;dataset;1;1.7
+401-500/35.iso19139;md_ideeu_wms_plangintza_es;service;1;3.4
+401-500/49.iso19139;086DEA60-3BF1-4DC6-8ACA-8D54BD20FACE_1200011_es;dataset;1;M.1
+301-400/89.iso19139;md_ideeu_ortofoto_urbana_2008_es;dataset;1;1.7
+401-500/33.iso19139;md_ideeu_wmts_orto_es;service;1;3.4
+401-500/34.iso19139;md_ideeu_wms_ortoargazkiak_es;service;1;3.4
+401-500/37.iso19139;md_ideeu_ortofoto_2001_es;dataset;1;1.7
+401-500/53.iso19139;spaign_cartociudad_addresses;dataset;1;C.1
+601-700/73.iso19139;ES.GFA.CP.MD;dataset;1;C.1
+601-700/74.iso19139;engSITNAINSPIRE_ATOM_ES_RRTN_AD;service;1;3.6

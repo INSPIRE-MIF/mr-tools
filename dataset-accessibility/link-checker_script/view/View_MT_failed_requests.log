@@ -1,2 +1,0 @@
-UUID 90b4e2d2-2b5a-4329-a74d-4dde3ac19d9f: URL http://msdi.data.gov.mt/geoserver/MITA_WMS/wms?service=WMS&version=1.3.0&request=GetCapabilities failed - HTTPConnectionPool(host='ps-isp-usr.cec.eu.int', port=8012): Read timed out. (read timeout=5)
-UUID 9732ab25-9577-4b4f-b375-ba2fe053cf73: URL https://msdi2.data.gov.mt/deegree/services/wms?service=WMS&request=GetCapabilities failed - HTTPSConnectionPool(host='msdi2.data.gov.mt', port=443): Read timed out. (read timeout=5)

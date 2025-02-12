@@ -1,4 +1,0 @@
-UUID {CC77E50C-A326-4E75-A893-9BCAF125B911}: URL http://gis.ust.is/geoserver/wms?SERVICE=WFS failed - URL responded with status code: 400
-UUID {CA9E0748-7B39-4651-9B5F-157792F019D8}: URL https://gis.is/geoserver/skograektin/wms?service=wms&request=getcapabilities failed - URL responded with status code: 404
-UUID {005FFDAD-69A1-4385-B16F-FD31B960FE33}: URL https://gis.ni.is/arcgis/services/INSPIREwms/NI_J600v_JardfraedikortAfIslandi_Berggrunnur_brotaLi_WMS/MapServer/WMSServer?request=GetCapabilities&service=WMS failed - URL responded with status code: 404
-UUID {5AF2B0EC-47E7-4D88-8821-BF2462674862}: URL https://gis.is/geoserver/skograektin/wms?service=wms&request=getcapabilities failed - URL responded with status code: 404

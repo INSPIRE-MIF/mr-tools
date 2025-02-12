@@ -1,0 +1,32 @@
+{
+  "id": "cad4f63a-2868-4116-b140-e2b324133207",
+  "type_count": {
+    "dataset": 136,
+    "series": 6,
+    "service": 238,
+    "unknown": 0,
+    "missing": 0,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      ""
+    ],
+    "missing": [
+      ""
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 83,
+      "fail": 59
+    },
+    "services": {
+      "pass": 219,
+      "fail": 19
+    }
+  }
+}

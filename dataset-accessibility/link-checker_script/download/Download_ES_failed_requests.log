@@ -1,3 +1,0 @@
-UUID spamfomplaneamientourbanistico2015: URL https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC_SIU/MapServer/WFSServer?request=GetCapabilities&service=WFS failed - URL responded with status code: 499
-UUID ES.GFA.BU.MD: URL https://b5m.gipuzkoa.eus/inspire/wfs/gipuzkoa_wfs_bu?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0> failed - URL responded with status code: 400
-UUID 62c487b1-6816-4594-a800-218abe896994: URL http://ideadif.adif.es/services/wfs?service=WFS&request=GetCapabilities failed - HTTPConnectionPool(host='ps-isp-usr.cec.eu.int', port=8012): Read timed out. (read timeout=10)
