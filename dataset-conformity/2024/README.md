@@ -2,7 +2,7 @@
 
 This folder contains a set of SQL queries to automatically check the conformity of datasets reported by each Member State / EFTA Country as part of the Monitoring and Reporting (M&R) 2024 process. The metadata records are exploited directly from the INSPIRE Geoportal GeoNetwork Postgres database.
 
-The SQL queries extract the self-declared conformity to Commission Regulation (EU) No 1089/2010 on interoperability of spatial data sets, reported under the '/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/' path of the datasets metadata records, and count the results.
+The SQL queries extract the self-declared conformity to Commission Regulation (EU) No 1089/2010 on interoperability of spatial data sets, reported under the ```/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/``` path of the datasets metadata records, and count the results.
 
 A different filter may be applied each time to select only INSPIRE Annex I, Annex II or Annex III datasets as part of the evaluation.
 
