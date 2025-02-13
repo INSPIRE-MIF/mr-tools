@@ -17,3 +17,5 @@ The result is either:
 * the **Total of Non-Conformant Datasets** (Depending on the filter applied).
 
 depending on the SQL query and filter executed each time.
+
+The results for each endpoint were collected in an Excel spreasheet to use them as input for the calculation of the Monitoring and Reporting (M&R) 2024 Dataset Conformity indicators. 
