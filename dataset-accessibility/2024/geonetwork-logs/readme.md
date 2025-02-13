@@ -1,1 +1,1 @@
-## INSPIRE Monitoring 2024 - Folder to store the dataset accessibility logs obtained by the GeoNetwork Link-Checker ('v1.1.8' tag).
+## INSPIRE Monitoring and Reporting 2024 - Folder to store the dataset accessibility logs obtained using the GeoNetwork Link-Checker ([v1.1.8](https://github.com/geonetwork/geonetwork-remoteharvester/commits/v1.1.8) commit).
