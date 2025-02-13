@@ -2,7 +2,7 @@
 
 This folder contains a set of SQL queries to automatically check the conformity of services reported by each Member State / EFTA Country as part of the Monitoring and Reporting (M&R) 2024 process. The metadata records are exploited directly from the INSPIRE Geoportal GeoNetwork Postgres database.
 
-The SQL queries extract the self-declared conformity to Regulation (EC) No 976/2009 as regards the Network Services, reported under the '/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/' path of the service metadata records, and count the results.
+The SQL queries extract the self-declared conformity to Regulation (EC) No 976/2009 as regards the Network Services, reported under the ```/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/``` path of the service metadata records, and count the results.
 
 A different filter may be applied each time to select only Discovery, View, Download or Transformation services as part of the evaluation.
 
