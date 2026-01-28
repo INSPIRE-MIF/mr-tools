@@ -1,0 +1,7 @@
+file_id;md_id;type;error_count;errors
+1-100/20.iso19139;5e8bb6a3-126f-4e66-a17c-0a4abdacdcc5;dataset;1;C.17
+1-100/4.iso19139;aff857ae-9267-41ff-afa3-f55d378307fe;service;1;C.17
+1-100/68.iso19139;7d48451b-3024-41cb-9ad0-ae718f5c48c6;service;2;C.17 3.7
+1-100/73.iso19139;b3db515a-69b7-4053-b91f-7459d99d0d2b;service;1;C.17
+1-100/91.iso19139;b921e8e9-2674-442e-b097-d5b15dd38c09;service;2;C.17 3.7
+201-300/35.iso19139;4fa37226-c51f-475b-80ea-6e41a843c1bb;dataset;1;C.17

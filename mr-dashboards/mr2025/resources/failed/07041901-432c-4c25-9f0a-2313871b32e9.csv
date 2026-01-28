@@ -1,0 +1,45 @@
+file_id;md_id;type;error_count;errors
+1-100/13.iso19139;bmdc.be:dataset:2026;dataset;2;C.1 C.15
+1-100/14.iso19139;9f4131b6-7895-403a-a17e-6bb33befaf16;dataset;2;C.1 C.15
+1-100/15.iso19139;f432b696-ac1a-4971-acc8-184bc79e9b7f;dataset;2;C.1 C.15
+1-100/18.iso19139;bmdc.be:dataset:2011;dataset;2;C.1 C.15
+1-100/19.iso19139;f5606457-7084-41e3-b095-7730bc6adf10;dataset;2;C.1 C.15
+1-100/21.iso19139;bmdc.be:dataset:2035;dataset;2;C.1 C.15
+1-100/22.iso19139;e2aaecaf-b555-405e-ae77-dfe1b07e0f17;dataset;2;C.1 C.15
+1-100/23.iso19139;bmdc.be:dataset:2044;dataset;2;C.1 C.15
+1-100/25.iso19139;bmdc.be:dataset:2031;dataset;2;C.1 C.15
+1-100/26.iso19139;bmdc.be:dataset:2046;dataset;2;C.1 C.15
+1-100/27.iso19139;54d2f666-7aee-4463-b60e-3583f84ffce2;dataset;2;C.1 C.15
+1-100/37.iso19139;bmdc.be:dataset:2101;dataset;2;C.1 C.15
+1-100/39.iso19139;30896e82-9347-4f82-8871-f3a58ce2be58;dataset;2;C.1 C.15
+1-100/45.iso19139;bmdc.be:dataset:2034;dataset;2;C.1 C.15
+1-100/46.iso19139;4c174e41-373c-4107-897b-06c40a01080d;dataset;3;C.1 C.15 1.11
+1-100/48.iso19139;a2780436-e65b-47a8-8f93-212e600717be;dataset;2;C.1 C.15
+1-100/50.iso19139;a76c83e8-e09b-4b80-a264-b060ef4b36aa;dataset;2;C.1 C.15
+1-100/51.iso19139;bmdc.be:dataset:2100;dataset;2;C.1 C.15
+1-100/52.iso19139;bmdc.be:dataset:2023;dataset;2;C.1 C.15
+1-100/53.iso19139;f98d0d0f-cb75-4055-b8e4-d3c31cb96d34;dataset;2;C.1 C.15
+1-100/54.iso19139;894c754b-29fd-477b-827f-0be505143c2a;dataset;2;C.1 C.15
+1-100/55.iso19139;8b317fed-fd7e-4374-a378-4831ff458c09;dataset;2;C.1 C.15
+1-100/65.iso19139;bmdc.be:dataset:2420;dataset;2;C.1 C.15
+1-100/73.iso19139;bmdc.be:dataset:2030;dataset;2;C.1 C.15
+1-100/74.iso19139;133548fd-2653-dca7-8b79-2b969c20e300;dataset;1;1.4
+1-100/75.iso19139;bmdc.be:dataset:2620;dataset;2;C.1 C.15
+1-100/76.iso19139;bmdc.be:dataset:2027;dataset;2;C.1 C.15
+1-100/77.iso19139;bmdc.be:dataset:2940;dataset;3;C.1 C.15 C.16
+1-100/79.iso19139;c5f1f8a0-3626-4396-9795-ad07d98e8bdb;dataset;2;C.1 C.15
+1-100/80.iso19139;9d7b365a-faa8-4179-a385-fa7540c2b8a1;dataset;2;C.1 C.15
+1-100/81.iso19139;d409cd5d-3a54-4722-b255-2b4d4374d8ae;dataset;2;C.1 C.15
+1-100/83.iso19139;bmdc.be:dataset:2039;dataset;2;C.1 C.15
+1-100/84.iso19139;9146c015-4edc-4d2c-8e2b-56b90ca30167;dataset;2;C.1 C.15
+1-100/86.iso19139;bmdc.be:dataset:2015;dataset;2;C.1 C.15
+101-200/15.iso19139;aed06813-f5f4-4469-a1fe-1ebf461c3999;dataset;2;C.1 C.15
+101-200/16.iso19139;bmdc.be:dataset:2022;dataset;2;C.1 C.15
+101-200/17.iso19139;bmdc.be:dataset:2102;dataset;2;C.1 C.15
+101-200/19.iso19139;29f40b0d-2a3e-49a8-870a-e9b4acd4d1e3;dataset;2;C.1 C.15
+101-200/21.iso19139;bmdc.be:dataset:2032;dataset;2;C.1 C.15
+101-200/22.iso19139;bmdc.be:dataset:2033;dataset;2;C.1 C.15
+101-200/23.iso19139;bmdc.be:dataset:2036;dataset;2;C.1 C.15
+101-200/26.iso19139;bmdc.be:dataset:2029;dataset;2;C.1 C.15
+101-200/28.iso19139;bmdc.be:dataset:2014;dataset;2;C.1 C.15
+101-200/29.iso19139;9c445e18-005e-478b-987c-39326b4a0d88;dataset;2;C.1 C.15
