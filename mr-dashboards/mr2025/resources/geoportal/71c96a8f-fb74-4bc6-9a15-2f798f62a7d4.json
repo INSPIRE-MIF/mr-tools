@@ -1,1 +1,251 @@
-{"id":"71c96a8f-fb74-4bc6-9a15-2f798f62a7d4","sessionid":null,"url":"","countrycode":"li","countryname":"Liechtenstein","dumpdate":null,"indicators":[{"id":"DSi_1_1","format":"integer","value":87,"formattedValue":"87","sourceData":{"DSi_1_1":{"doc_count":87}}},{"id":"DSi_1_2","format":"integer","value":5,"formattedValue":"5","sourceData":{"DSi_1_2":{"doc_count":5}}},{"id":"DSi_1_3","format":"integer","value":0,"formattedValue":"0","sourceData":{"DSi_1_3":{"doc_count":0}}},{"id":"DSi_1_4","format":"integer","value":0,"formattedValue":"0","sourceData":{"DSi_1_4":{"doc_count":0}}},{"id":"DSi_1_5","format":"integer","value":67,"formattedValue":"67","sourceData":{"DSi_1_5":{"doc_count":67}}},{"id":"DSi_2_0","format":"percentage","value":11.494252873563218,"formattedValue":"11%","sourceData":{"DSi_1_1":{"doc_count":87},"DSi_2_0_1":{"doc_count":10}}},{"id":"DSi_2_1","format":"percentage","value":6.976744186046512,"formattedValue":"7%","sourceData":{"DSi_2_1_1":{"doc_count":3},"DSi_2_1_2":{"doc_count":43}}},{"id":"DSi_2_2","format":"percentage","value":12.3456790123457,"formattedValue":"12%","sourceData":{"DSi_2_2_1":{"doc_count":4},"DSi_2_2_2":{"doc_count":30}}},{"id":"DSi_2_3","format":"percentage","value":8.823529411764707,"formattedValue":"9%","sourceData":{"DSi_2_3_1":{"doc_count":3},"DSi_2_3_2":{"doc_count":34}}},{"id":"NSi_2_0","format":"percentage","value":35.63218390804598,"formattedValue":"36%","sourceData":{"DSi_1_1":{"doc_count":87},"NSi_2_0_1":{"doc_count":31}}},{"id":"NSi_2_1","format":"percentage","value":60.91954022988506,"formattedValue":"61%","sourceData":{"DSi_1_1":{"doc_count":87},"NSi_2_1_1":{"doc_count":53}}},{"id":"NSi_2_2","format":"percentage","value":40.229885057471265,"formattedValue":"40%","sourceData":{"DSi_1_1":{"doc_count":87},"NSi_2_2_1":{"doc_count":35}}},{"id":"NSi_4_0","format":"percentage","value":40,"formattedValue":"40%","sourceData":{"NSi_4_1_1":{"doc_count":0},"NSi_4_1_2":{"doc_count":0},"NSi_4_2_1":{"doc_count":1},"NSi_4_2_2":{"doc_count":1},"NSi_4_3_1":{"doc_count":1},"NSi_4_3_2":{"doc_count":2},"NSi_4_4_1":{"doc_count":0},"NSi_4_4_2":{"doc_count":0}}},{"id":"NSi_4_1","format":"percentage","value":null,"formattedValue":"Not available","sourceData":{"NSi_4_1_1":{"doc_count":0},"NSi_4_1_2":{"doc_count":0}}},{"id":"NSi_4_2","format":"percentage","value":100,"formattedValue":"100%","sourceData":{"NSi_4_2_1":{"doc_count":1},"NSi_4_2_2":{"doc_count":1}}},{"id":"NSi_4_3","format":"percentage","value":50,"formattedValue":"50%","sourceData":{"NSi_4_3_1":{"doc_count":1},"NSi_4_3_2":{"doc_count":2}}},{"id":"NSi_4_4","format":"percentage","value":null,"formattedValue":"Not available","sourceData":{"NSi_4_4_1":{"doc_count":0},"NSi_4_4_2":{"doc_count":0}}}]}
+{
+  "id": "71c96a8f-fb74-4bc6-9a15-2f798f62a7d4",
+  "sessionid": null,
+  "url": "",
+  "countrycode": "li",
+  "countryname": "Liechtenstein",
+  "dumpdate": null,
+  "indicators": [
+    {
+      "id": "DSi_1_1",
+      "format": "integer",
+      "value": 87,
+      "formattedValue": "87",
+      "sourceData": {
+        "DSi_1_1": {
+          "doc_count": 87
+        }
+      }
+    },
+    {
+      "id": "DSi_1_2",
+      "format": "integer",
+      "value": 5,
+      "formattedValue": "5",
+      "sourceData": {
+        "DSi_1_2": {
+          "doc_count": 5
+        }
+      }
+    },
+    {
+      "id": "DSi_1_3",
+      "format": "integer",
+      "value": 0,
+      "formattedValue": "0",
+      "sourceData": {
+        "DSi_1_3": {
+          "doc_count": 0
+        }
+      }
+    },
+    {
+      "id": "DSi_1_4",
+      "format": "integer",
+      "value": 0,
+      "formattedValue": "0",
+      "sourceData": {
+        "DSi_1_4": {
+          "doc_count": 0
+        }
+      }
+    },
+    {
+      "id": "DSi_1_5",
+      "format": "integer",
+      "value": 67,
+      "formattedValue": "67",
+      "sourceData": {
+        "DSi_1_5": {
+          "doc_count": 67
+        }
+      }
+    },
+    {
+      "id": "DSi_2_0",
+      "format": "percentage",
+      "value": 11.494252873563218,
+      "formattedValue": "11%",
+      "sourceData": {
+        "DSi_1_1": {
+          "doc_count": 87
+        },
+        "DSi_2_0_1": {
+          "doc_count": 10
+        }
+      }
+    },
+    {
+      "id": "DSi_2_1",
+      "format": "percentage",
+      "value": 6.976744186046512,
+      "formattedValue": "7%",
+      "sourceData": {
+        "DSi_2_1_1": {
+          "doc_count": 3
+        },
+        "DSi_2_1_2": {
+          "doc_count": 43
+        }
+      }
+    },
+    {
+      "id": "DSi_2_2",
+      "format": "percentage",
+      "value": 12.3456790123457,
+      "formattedValue": "12%",
+      "sourceData": {
+        "DSi_2_2_1": {
+          "doc_count": 10
+        },
+        "DSi_2_2_2": {
+          "doc_count": 81
+        }
+      }
+    },
+    {
+      "id": "DSi_2_3",
+      "format": "percentage",
+      "value": 8.823529411764707,
+      "formattedValue": "9%",
+      "sourceData": {
+        "DSi_2_3_1": {
+          "doc_count": 3
+        },
+        "DSi_2_3_2": {
+          "doc_count": 34
+        }
+      }
+    },
+    {
+      "id": "NSi_2_0",
+      "format": "percentage",
+      "value": 35.63218390804598,
+      "formattedValue": "36%",
+      "sourceData": {
+        "DSi_1_1": {
+          "doc_count": 87
+        },
+        "NSi_2_0_1": {
+          "doc_count": 31
+        }
+      }
+    },
+    {
+      "id": "NSi_2_1",
+      "format": "percentage",
+      "value": 60.91954022988506,
+      "formattedValue": "61%",
+      "sourceData": {
+        "DSi_1_1": {
+          "doc_count": 87
+        },
+        "NSi_2_1_1": {
+          "doc_count": 53
+        }
+      }
+    },
+    {
+      "id": "NSi_2_2",
+      "format": "percentage",
+      "value": 40.229885057471265,
+      "formattedValue": "40%",
+      "sourceData": {
+        "DSi_1_1": {
+          "doc_count": 87
+        },
+        "NSi_2_2_1": {
+          "doc_count": 35
+        }
+      }
+    },
+    {
+      "id": "NSi_4_0",
+      "format": "percentage",
+      "value": 40,
+      "formattedValue": "40%",
+      "sourceData": {
+        "NSi_4_1_1": {
+          "doc_count": 0
+        },
+        "NSi_4_1_2": {
+          "doc_count": 0
+        },
+        "NSi_4_2_1": {
+          "doc_count": 1
+        },
+        "NSi_4_2_2": {
+          "doc_count": 1
+        },
+        "NSi_4_3_1": {
+          "doc_count": 1
+        },
+        "NSi_4_3_2": {
+          "doc_count": 2
+        },
+        "NSi_4_4_1": {
+          "doc_count": 0
+        },
+        "NSi_4_4_2": {
+          "doc_count": 0
+        }
+      }
+    },
+    {
+      "id": "NSi_4_1",
+      "format": "percentage",
+      "value": null,
+      "formattedValue": "Not available",
+      "sourceData": {
+        "NSi_4_1_1": {
+          "doc_count": 0
+        },
+        "NSi_4_1_2": {
+          "doc_count": 0
+        }
+      }
+    },
+    {
+      "id": "NSi_4_2",
+      "format": "percentage",
+      "value": 100,
+      "formattedValue": "100%",
+      "sourceData": {
+        "NSi_4_2_1": {
+          "doc_count": 1
+        },
+        "NSi_4_2_2": {
+          "doc_count": 1
+        }
+      }
+    },
+    {
+      "id": "NSi_4_3",
+      "format": "percentage",
+      "value": 50,
+      "formattedValue": "50%",
+      "sourceData": {
+        "NSi_4_3_1": {
+          "doc_count": 1
+        },
+        "NSi_4_3_2": {
+          "doc_count": 2
+        }
+      }
+    },
+    {
+      "id": "NSi_4_4",
+      "format": "percentage",
+      "value": null,
+      "formattedValue": "Not available",
+      "sourceData": {
+        "NSi_4_4_1": {
+          "doc_count": 0
+        },
+        "NSi_4_4_2": {
+          "doc_count": 0
+        }
+      }
+    }
+  ]
+}
