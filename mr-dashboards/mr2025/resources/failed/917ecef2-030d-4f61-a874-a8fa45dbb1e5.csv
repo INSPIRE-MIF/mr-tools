@@ -1,0 +1,123 @@
+file_id;md_id;type;error_count;errors
+1-100/15.iso19139;spaihmwms_regionesmarinas_costa;service;1;3.6
+1-100/14.iso19139;engSITNAINSPIRE_WFS_ES_RRTN_BU;service;1;3.6
+1-100/19.iso19139;ES_SDGC_AD_WFS;service;1;3.6
+1-100/21.iso19139;3ebb2066-89c0-4cf9-96ff-b8f5da9b7df2_100053_es;service;1;3.6
+1-100/2.iso19139;ES.GFA.ATOM;service;1;3.6
+1-100/20.iso19139;spaINE_wfsSecciones;service;1;3.6
+1-100/26.iso19139;spaMINETADcatminerowfs;service;1;3.6
+1-100/25.iso19139;md_ideeu_wmts_carto_es;service;2;3.4 3.6
+1-100/24.iso19139;spawfs_puertos_estado;service;1;3.6
+1-100/30.iso19139;md_ideeu_wms_ingurumena_es;service;2;3.4 3.6
+1-100/33.iso19139;md_ideeu_wms_cartografia_es;service;2;3.4 3.6
+1-100/3.iso19139;md_ideeu_ortofoto_capita_2005_es;dataset;1;1.7
+1-100/35.iso19139;ESPIGMEMDSERVICIODESCARGAATOM;service;1;3.6
+1-100/38.iso19139;md_ideeu_wmts_topo_es;service;2;3.4 3.6
+1-100/32.iso19139;spaignapi_coverages_scne;service;1;3.6
+1-100/34.iso19139;md_ideeu_ortofoto_1991_es;dataset;1;1.7
+1-100/37.iso19139;engSITNAINSPIRE_WMS_ES_RRTN_BU;service;1;3.6
+1-100/39.iso19139;ESIEOWMSISOBATAS;service;1;3.6
+1-100/41.iso19139;md_ideeu_wms_kultura_es;service;1;3.4
+1-100/4.iso19139;md_ideeu_ortofoto_2022_es;dataset;1;1.7
+1-100/48.iso19139;8d185f60-78f3-4355-8aa3-153757cdb663;service;1;3.6
+1-100/49.iso19139;engSITNAINSPIRE_ATOM_ES_RRTN_CP;service;1;3.6
+1-100/52.iso19139;md_ideeu_wcs_cartografia_es;service;1;3.4
+1-100/50.iso19139;spaidearagonrca_wms_NGA;service;2;C.18 3.6
+1-100/57.iso19139;acea8668-8e1f-420e-81a3-87d33d3a2da3;service;2;C.1 C.11
+1-100/6.iso19139;md_ideeu_orto_urbana_2017_es;dataset;1;1.7
+1-100/7.iso19139;spaLocalizacionGasolinerasWMS;service;1;3.6
+1-100/8.iso19139;md_ideeu_wmts_hibrido_es;service;2;3.4 3.6
+101-200/87.iso19139;0b7052e8-e2f1-4d71-a948-ec82556dd9ee;service;2;C.1 C.11
+301-400/30.iso19139;md_ideeu_wmts_gris_es;service;2;3.4 3.6
+301-400/24.iso19139;spaicvwms_NomenclatorCV;service;1;3.6
+301-400/62.iso19139;md_ideeu_ortofoto_2001_es;dataset;1;1.7
+301-400/64.iso19139;spaihmwfs_regionesmarinas_costa;service;1;3.6
+301-400/48.iso19139;spaignwfs_Hidrografia_aguasfisicas;service;1;3.6
+301-400/51.iso19139;md_ideeu_ortofoto_2007_es;dataset;1;1.7
+301-400/71.iso19139;spaignapi_processes;service;1;3.6
+301-400/60.iso19139;md_ideeu_wmts_orto_es;service;1;3.4
+301-400/87.iso19139;e86de3f4-57e5-486b-8e9d-3cf6d95699ce;service;1;C.1
+301-400/97.iso19139;ES.GFA.BU.WFS;service;1;3.6
+401-500/30.iso19139;ES_SDGC_AD_ATOM;service;1;3.6
+401-500/53.iso19139;spaignatom_download_service;service;1;3.6
+401-500/34.iso19139;engSITNAINSPIRE_WFS_ES_SITNA_AD;service;1;3.6
+401-500/71.iso19139;ES.GFA.AU.WFS;service;1;3.6
+401-500/48.iso19139;md_ideeu_orto_costa_2019_es;dataset;1;1.7
+401-500/42.iso19139;spaignwms_ngbe;service;5;C.1 C.20 C.21 C.22 3.6
+401-500/80.iso19139;spaicvwfs_NomenclatorCV;service;1;3.6
+401-500/69.iso19139;da94d917-b248-4f8b-a91b-42bc6bed1682;service;1;3.6
+401-500/51.iso19139;spaignapi_features_scne;service;1;3.6
+401-500/56.iso19139;spaJEXWMSUrbanismo;service;1;3.6
+401-500/61.iso19139;cp_alava_viewservice;service;1;3.6
+401-500/70.iso19139;cp_alava_downloadservice;service;1;3.6
+501-600/26.iso19139;spaignwmts_ocupacion-suelo;service;2;C.1 3.6
+401-500/79.iso19139;spaignapi_maps_ign;service;1;3.6
+401-500/91.iso19139;ES_SDGC_BU_ATOM;service;1;3.6
+501-600/44.iso19139;spaMINETADcatminerowms;service;1;3.6
+501-600/58.iso19139;spaignwcs_mdt;service;1;3.6
+501-600/94.iso19139;spaignwmts_mdt;service;1;3.6
+501-600/34.iso19139;spaihmwfs_unidadesmaritimas;service;1;3.6
+501-600/99.iso19139;spaignwmts_pnoa-ma;service;1;3.6
+501-600/47.iso19139;spaidearagonrca_wfs_NGA;service;2;C.18 3.6
+501-600/28.iso19139;6f91ae1d-3ed8-4129-a1b3-1a900042138c_100007_es;service;1;3.6
+601-700/21.iso19139;191574be-5eca-4315-b4b4-756dc50ac553;service;1;3.6
+501-600/7.iso19139;spaignwms_addresses_ccpp;service;1;3.6
+501-600/66.iso19139;spawms_puertos_estado;service;1;3.6
+501-600/88.iso19139;ESPIGMESERVICIOGEOLOGICO1000EDICION19952011021426047;service;1;3.6
+501-600/92.iso19139;spaignwfs_cartociudad_address;service;1;3.6
+501-600/97.iso19139;engSITNAINSPIRE_WFS_ES_RRTN_CP;service;1;3.6
+501-600/55.iso19139;ES_SDGC_CP_WFS;service;1;3.6
+601-700/67.iso19139;ES.BFA.CP.AD.BU.ATOM.MD;service;1;3.6
+601-700/15.iso19139;spaignwms_ortoimagenes;service;1;3.6
+501-600/69.iso19139;spaignwfs_IGR_Transporte;service;1;3.6
+601-700/71.iso19139;ES.BFA.BU.WMS.MD;service;1;3.6
+601-700/24.iso19139;spaINE_wmsSecciones;service;1;3.6
+601-700/76.iso19139;ES.GFA.WMS;service;1;3.6
+601-700/29.iso19139;engSITNAINSPIRE_WMS_ES_SITNA_AD;service;1;3.6
+601-700/85.iso19139;spaPermisosysondeosWMS;service;1;3.6
+501-600/82.iso19139;md_ideeu_ortofoto_urbana_2008_es;dataset;1;1.7
+501-600/87.iso19139;ES-Extremadura-WMS-BIC;service;1;3.6
+601-700/42.iso19139;ES_SDGC_BU_WFS;service;1;3.6
+601-700/23.iso19139;spaignwms_mdt;service;1;3.6
+601-700/65.iso19139;md_ideeu_wms_ura_es;service;2;3.4 3.6
+601-700/28.iso19139;spacar_atom_inspire;service;1;3.6
+601-700/74.iso19139;378f7b33-2f6d-4d02-bece-af701cec824b_100038_es;service;1;3.6
+601-700/37.iso19139;spaihmwms_unidadesmaritimas;service;1;3.6
+601-700/79.iso19139;md_ideeu_wms_agricultura_es;service;1;3.4
+601-700/70.iso19139;engSITNAINSPIRE_ATOM_ES_RRTN_AD;service;1;3.6
+601-700/75.iso19139;spaINEapi_features;service;5;C.1 C.11 3.5 3.6 4.1
+601-700/8.iso19139;ESPIGMESERVICIOHIDROGEOLOGICO200CONTINUODIGITAL20110221637843;service;1;3.6
+601-700/55.iso19139;spaignwfs_ocupacion-suelo;service;1;3.6
+601-700/92.iso19139;8a7936fc-aee7-4f06-9fcd-a98e81b5d178;service;1;3.6
+601-700/84.iso19139;ESIEOWMSIEONATURALEZAFONDOMARINO;service;1;3.6
+601-700/89.iso19139;md_ideeu_wms_plangintza_es;service;2;3.4 3.6
+601-700/64.iso19139;ES.BFA.BU.WFS.MD;service;1;3.6
+601-700/69.iso19139;engSITNAINSPIRE_ATOM_ES_RRTN_BU;service;1;3.6
+601-700/73.iso19139;ES_SDGC_WMS;service;1;3.6
+601-700/78.iso19139;ES.BFA.AD.CP.WMS.MD;service;1;3.6
+601-700/87.iso19139;ES.GFA.AD.WFS;service;1;3.6
+901-1000/16.iso19139;spaignwms_unidades_administrativas;service;1;3.6
+901-1000/10.iso19139;spaignwfs_unidades-administrativas;service;1;3.6
+1-100/13.iso19139;spacar_wfs_inspire;service;1;3.6
+1-100/18.iso19139;spaignwfs_ngbe;service;1;3.6
+1-100/22.iso19139;{84D508C1-50E5-48DB-B593-FFA46E3A1423};service;1;3.6
+1-100/31.iso19139;ES.GFA.GN.WFS;service;1;3.6
+1-100/36.iso19139;ES.GFA.CP.WFS;service;1;3.6
+401-500/45.iso19139;spaihmwfs_hidrografia_costa;service;1;3.6
+401-500/59.iso19139;spaignapi_features_ign;service;3;3.5 3.6 4.1
+401-500/86.iso19139;900df0de-be87-11e0-8e37-00261812f484_NGA;dataset;1;C.18
+401-500/90.iso19139;spaignrest_cartociudad_address;service;1;3.6
+501-600/13.iso19139;spaignwms_OcupacionSuelo;service;1;3.6
+501-600/18.iso19139;71f8384a-2714-444d-915e-e35281565350;service;1;3.6
+501-600/27.iso19139;spaignwms_igr_transporte;service;2;C.1 3.6
+501-600/5.iso19139;cdb6c215-42a6-4a2a-821d-407f818efd08_100039_es;service;1;3.6
+501-600/68.iso19139;spaignwms_hidrografia;service;1;3.6
+601-700/13.iso19139;spacar_wms_inspire;service;1;3.6
+601-700/27.iso19139;spaihmwms_hidrografia_costa;service;1;3.6
+601-700/72.iso19139;ES_SDGC_CP_ATOM;service;1;3.6
+601-700/77.iso19139;md_ideeu_wms_ortoargazkiak_es;service;1;3.4
+601-700/81.iso19139;md_ideeu_euskadi_bta5_es;dataset;2;C.19 1.7
+601-700/86.iso19139;engSITNAINSPIRE_WMS_ES_RRTN_CP;service;1;3.6
+601-700/90.iso19139;spaignapi_maps_scne;service;1;3.6
+701-800/27.iso19139;cb9b4592-7ccc-49e9-8976-c3f1798f8986;service;1;3.6
+601-700/68.iso19139;ES.BFA.AD.CP.WFS.MD;service;1;3.6

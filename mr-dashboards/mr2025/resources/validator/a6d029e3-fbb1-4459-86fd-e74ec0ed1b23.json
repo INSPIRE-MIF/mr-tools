@@ -1,0 +1,32 @@
+{
+  "id": "a6d029e3-fbb1-4459-86fd-e74ec0ed1b23",
+  "type_count": {
+    "dataset": 152,
+    "series": 0,
+    "service": 257,
+    "unknown": 1,
+    "missing": 0,
+    "duplicate": 0
+  },
+  "type_ids": {
+    "unknown": [
+      "https://data.gov.sk/set/data/gmd/da7e4479-b343-4ce9-8da2-2e926417854c"
+    ],
+    "missing": [
+      ""
+    ],
+    "duplicate": [
+      ""
+    ]
+  },
+  "validation": {
+    "dataset": {
+      "pass": 148,
+      "fail": 4
+    },
+    "services": {
+      "pass": 236,
+      "fail": 21
+    }
+  }
+}
