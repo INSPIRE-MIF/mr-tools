@@ -25,8 +25,8 @@
       "fail": 2
     },
     "services": {
-      "pass": 23,
-      "fail": 185
+      "pass": 205,
+      "fail": 3
     }
   }
 }
