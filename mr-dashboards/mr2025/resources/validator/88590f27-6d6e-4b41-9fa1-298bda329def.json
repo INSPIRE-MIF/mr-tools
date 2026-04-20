@@ -1,7 +1,7 @@
 {
-  "id": "29f5dbeb-474e-42a3-94bc-1b76952299ad",
+  "id": "88590f27-6d6e-4b41-9fa1-298bda329def",
   "type_count": {
-    "dataset": 303,
+    "dataset": 331,
     "series": 0,
     "service": 59,
     "unknown": 0,
@@ -21,12 +21,12 @@
   },
   "validation": {
     "dataset": {
-      "pass": 303,
+      "pass": 331,
       "fail": 0
     },
     "services": {
-      "pass": 54,
-      "fail": 5
+      "pass": 59,
+      "fail": 0
     }
   }
 }
